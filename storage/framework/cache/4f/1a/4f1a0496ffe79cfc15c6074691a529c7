@@ -1,0 +1,16 @@
+1466791386s:554:"a:6:{s:5:"mtime";i:1466783224;s:7:"content";s:180:"title = "Our Partners"
+url = "/partners"
+layout = "page"
+is_hidden = 0
+meta_title = "Our Partners"
+==
+<section>
+	<div class="container">
+		<h1>Our Partners</h1>
+	</div>
+</section>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:12:"Our Partners";s:3:"url";s:9:"/partners";s:6:"layout";s:4:"page";s:9:"is_hidden";s:1:"0";s:10:"meta_title";s:12:"Our Partners";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:77:"<section>
+	<div class="container">
+		<h1>Our Partners</h1>
+	</div>
+</section>";}";

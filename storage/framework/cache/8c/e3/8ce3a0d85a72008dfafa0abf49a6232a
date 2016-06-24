@@ -1,0 +1,70 @@
+1466687265s:3887:"a:6:{s:5:"mtime";i:1466686568;s:7:"content";s:1863:"description = "Homepage layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ this.page.title }} &middot; Brian Jacobs Golf</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="Brian Jacobs Golf">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+
+        <!--<link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        {% styles %}
+        <link href="{{ [
+            'assets/styles/theme.min.css'
+        ]|theme }}" rel="stylesheet">
+
+        <!-- High pixel density displays -->
+	    <link rel="stylesheet" href="{{ ['assets/styles/hidpi2x.min.css']|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">
+		<link rel="stylesheet" href="{{ ['assets/styles/hidpi3x.min.css']|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min-device-pixel-ratio: 3)">
+    </head>
+    <body>
+        {% partial "header-home" %}
+
+        <main>
+            {% page %}
+        </main>
+
+        {% partial "footer" %}
+    </body>
+</html>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:15:"Homepage layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1826:"<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ this.page.title }} &middot; Brian Jacobs Golf</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="Brian Jacobs Golf">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+
+        <!--<link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        {% styles %}
+        <link href="{{ [
+            'assets/styles/theme.min.css'
+        ]|theme }}" rel="stylesheet">
+
+        <!-- High pixel density displays -->
+	    <link rel="stylesheet" href="{{ ['assets/styles/hidpi2x.min.css']|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">
+		<link rel="stylesheet" href="{{ ['assets/styles/hidpi3x.min.css']|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min-device-pixel-ratio: 3)">
+    </head>
+    <body>
+        {% partial "header-home" %}
+
+        <main>
+            {% page %}
+        </main>
+
+        {% partial "footer" %}
+    </body>
+</html>";}";

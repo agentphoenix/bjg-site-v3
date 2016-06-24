@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,WAAS,CACR,gBAAgB,CAAE,4BAA4B,CAC9C,eAAe,CAAE,YAAY",
+"sources": ["hidpi2x.scss"],
+"names": [],
+"file": "hidpi2x.min.css"
+}

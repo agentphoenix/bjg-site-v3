@@ -1,0 +1,46 @@
+1466791386s:2079:"a:6:{s:5:"mtime";i:1466712651;s:7:"content";s:963:"<div class="visible-xs">
+	<nav>
+		<div class="nav__item"><a href="{{ 'home'|page }}" class="brand"></a></div>
+		<div class="nav__item">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+	</nav>
+</div>
+
+<div class="visible-sm visible-md visible-lg">
+	<nav>
+		<div class="nav__item"><a href="{{ 'home'|page }}">Home</a></div>
+		<div class="nav__item"><a href="{{ 'instruction'|page }}">Instruction</a></div>
+		<div class="nav__item"><a href="{{ 'home'|page }}" class="brand"></a></div>
+		<div class="nav__item"><a href="{{ 'youth-golf'|page }}">Youth Golf</a></div>
+		<div class="nav__item"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></div>
+	</nav>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:962:"<div class="visible-xs">
+	<nav>
+		<div class="nav__item"><a href="{{ 'home'|page }}" class="brand"></a></div>
+		<div class="nav__item">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+	</nav>
+</div>
+
+<div class="visible-sm visible-md visible-lg">
+	<nav>
+		<div class="nav__item"><a href="{{ 'home'|page }}">Home</a></div>
+		<div class="nav__item"><a href="{{ 'instruction'|page }}">Instruction</a></div>
+		<div class="nav__item"><a href="{{ 'home'|page }}" class="brand"></a></div>
+		<div class="nav__item"><a href="{{ 'youth-golf'|page }}">Youth Golf</a></div>
+		<div class="nav__item"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></div>
+	</nav>
+</div>";}";

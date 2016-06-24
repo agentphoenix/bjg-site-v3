@@ -1,0 +1,70 @@
+1466791385s:3052:"a:6:{s:5:"mtime";i:1466783270;s:7:"content";s:1428:"title = "About Us"
+url = "/about-us"
+layout = "page"
+is_hidden = 0
+meta_title = "About Brian Jacobs Golf"
+==
+<section>
+	<div class="container">
+		<h1>About Brian Jacobs Golf</h1>
+
+		<h2>Our Philosophy</h2>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Foster a Relationship</h4>
+					<p>We want to have a relationship with our students. What happens off the course very often impacts what happens on the course. We want to understand who our students are as people and athletes, how they learn best, and what their goals for golf and life are.</p>
+				</div>
+
+				<div class="col-md-4">
+					<h4>Develop a Plan</h4>
+					<p>When we know our students and what their goals are, we can develop a <em>tailored plan</em> for improvement and sustained success. We don't give lessons, we provide <em>coaching</em>. We want to identify areas of improvement and work together with students' toward their goals.</p>
+				</div>
+
+				<div class="col-md-4">
+					<h4>Reinforce Instruction</h4>
+					<p>Anyone can stand on a range and hit good shots, but can you hit those same shots when you're on the course? We believe in taking our instruction off the range and onto the course as much as possible to reinforce what we're teaching students.</p>
+				</div>
+			</div>
+		</div>
+
+		<h2>How We Teach</h2>
+
+		<h2>Meet Brian Jacobs</h2>
+
+		<h2>Partners with the Golf Channel Academy</h2>
+	</div>
+</section>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:8:"About Us";s:3:"url";s:9:"/about-us";s:6:"layout";s:4:"page";s:9:"is_hidden";s:1:"0";s:10:"meta_title";s:23:"About Brian Jacobs Golf";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1318:"<section>
+	<div class="container">
+		<h1>About Brian Jacobs Golf</h1>
+
+		<h2>Our Philosophy</h2>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Foster a Relationship</h4>
+					<p>We want to have a relationship with our students. What happens off the course very often impacts what happens on the course. We want to understand who our students are as people and athletes, how they learn best, and what their goals for golf and life are.</p>
+				</div>
+
+				<div class="col-md-4">
+					<h4>Develop a Plan</h4>
+					<p>When we know our students and what their goals are, we can develop a <em>tailored plan</em> for improvement and sustained success. We don't give lessons, we provide <em>coaching</em>. We want to identify areas of improvement and work together with students' toward their goals.</p>
+				</div>
+
+				<div class="col-md-4">
+					<h4>Reinforce Instruction</h4>
+					<p>Anyone can stand on a range and hit good shots, but can you hit those same shots when you're on the course? We believe in taking our instruction off the range and onto the course as much as possible to reinforce what we're teaching students.</p>
+				</div>
+			</div>
+		</div>
+
+		<h2>How We Teach</h2>
+
+		<h2>Meet Brian Jacobs</h2>
+
+		<h2>Partners with the Golf Channel Academy</h2>
+	</div>
+</section>";}";
