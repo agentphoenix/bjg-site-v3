@@ -43,7 +43,7 @@ header {
 
 				font-family: $font-condensed;
 				font-weight: 400;
-				font-size: 1.8rem;
+				font-size: 2rem;
 				color: rgba(255, 255, 255, 0.7);
 				letter-spacing: 0.1rem;
 				text-transform: uppercase;
@@ -69,6 +69,7 @@ header {
 					background-repeat: no-repeat;
 					background-position: center center;
 					background-image: url(../images/logo-formal-new.png);
+					/*background-image: url(../images/logo-1.png);*/
 					background-size: 10rem 10rem;
 					background-clip: content-box;
 				}
@@ -173,6 +174,7 @@ main {
 		}
 
 		.section__content {
+			margin: $spacing-lg 0 0 0;
 			padding: $spacing-lg;
 
 			background-color: #fafafa;
@@ -210,13 +212,9 @@ footer {
 	ul {
 		li {
 			a {
-				padding-bottom: 0.1rem;
-
-				color: darken($color-brand-secondary-bright, 10%);
-				border-bottom: 0.1rem dotted $color-brand-secondary-dark;
+				color: darken($color-brand-secondary-bright, 30%);
 
 				&:hover {
-					border-bottom-style: solid;
 					color: $color-brand-secondary-bright;
 					text-decoration: none;
 				}
@@ -360,6 +358,7 @@ footer {
 			@include border-radius(0, $border-radius, $border-radius, 0);
 
 			.callout__image {
+				background-position: top center;
 				background-image: url(../images/teaching.jpg);
 			}
 		}
@@ -464,6 +463,7 @@ footer {
 .event {
 	display: flex;
 	align-items: flex-start;
+	width: 100%;
 	padding: $spacing-lg 0;
 
 	&.reverse {
@@ -476,9 +476,13 @@ footer {
 
 	.event__image {
 		flex-grow: 2;
+		flex-shrink: 0;
 		padding: 0 $spacing-lg 0 0;
 
 		img {
+			display: block;
+			width: 100%;
+
 			border: 0.5rem solid #fff;
 
 			@include rounded($border-radius-sm);
@@ -487,6 +491,9 @@ footer {
 	}
 
 	.event__block {
+		flex-grow: 1;
+		flex-shrink: 1;
+
 		.event__title {
 			margin-top: 0;
 		}

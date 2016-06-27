@@ -3,55 +3,69 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-7">
 				<h4 class="footer__title">About</h4>
 
 				<p>We believe that the true joy for any student of the game comes from the passion to learn more about the subject, the commitment to practice and develop their golf game and the challenge to continually improve their golf and themselves. Make a commitment to yourself to get better and visit us to take your game inside the ropes.</p>
 
-				<a href="{{ 'gca'|page }}" class="gca gca-sm"></a>
+				<h4 class="footer__title">Locations</h4>
+
+				<div class="row">
+					<div class="col-md-6">
+						<p>
+							<strong>Ridgemont Country Club</strong><br>
+							3717 Ridge Road West<br>
+							Rochester, NY 14626
+						</p>
+					</div>
+					<div class="col-md-6">
+						<p>
+							<strong>Avid Indoor Golf &amp; Fitness</strong><br>
+							3655 Ridge Road West<br>
+							Rochester, NY 14626
+						</p>
+					</div>
+				</div>
 			</div>
 
 			<div class="col-md-3">
-				<h4 class="footer__title">Locations</h4>
-
-				<p>
-					<strong>Ridgemont Country Club</strong><br>
-					3717 Ridge Road West<br>
-					Rochester, NY 14626<br>
-					585-225-7650
-				</p>
-
-				<p>
-					<strong>Avid Indoor Golf &amp; Fitness</strong><br>
-					3655 Ridge Road West<br>
-					Rochester, NY 14626
-				</p>
+				<div class="row">
+					<div class="col-xs-6 col-md-12">
+						<h4 class="footer__title">Main</h4>
+						<ul class="list-unstyled">
+							<li><a href="{{ 'home'|page }}">Home</a></li>
+							<li><a href="{{ 'about-us'|page }}">About Us</a></li>
+							<li><a href="{{ 'our-partners'|page }}">Our Partners</a></li>
+							<li><a href="{{ 'privacy-policy'|page }}">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-md-12">
+						<h4 class="footer__title">Learning</h4>
+						<ul class="list-unstyled">
+							<li><a href="{{ 'instruction'|page }}">Instruction</a></li>
+							<li><a href="{{ 'youth-golf'|page }}">Youth Golf</a></li>
+							<li><a href="{{ 'gca'|page }}">Golf Channel Academy</a></li>
+							<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 
 			<div class="col-md-2">
 				<h4 class="footer__title">Connect</h4>
-
 				<ul class="list-unstyled">
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Email Us</a></li>
+					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a></li>
+					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+					<li><a href="#"><i class="fa fa-envelope fa-fw"></i> Email Us</a></li>
 				</ul>
 			</div>
+		</div>
 
-			<div class="col-md-3">
-				<h4>&nbsp;</h4>
-				<ul class="list-unstyled">
-					<li><a href="{{ 'home'|page }}">Home</a></li>
-					<li><a href="{{ 'about-us'|page }}">About Us</a></li>
-					<li><a href="{{ 'instruction'|page }}">Instruction</a></li>
-					<li><a href="{{ 'youth-golf'|page }}">Youth Golf</a></li>
-					<li><a href="{{ 'our-partners'|page }}">Our Partners</a></li>
-					<li><a href="{{ 'gca'|page }}">Golf Channel Academy</a></li>
-					<li><a href="{{ 'privacy-policy'|page }}">Privacy Policy</a></li>
-
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
-				</ul>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="{{ 'gca'|page }}" class="gca gca-sm"></a>
+				<p class="copyright">&copy; {{ "now"|date("Y") }} Brian Jacobs Golf
 			</div>
 		</div>
 	</div>
