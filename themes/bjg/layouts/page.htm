@@ -21,8 +21,8 @@ description = "Page layout"
         {% styles %}
 
         <!-- High pixel density displays -->
-	    <link rel="stylesheet" href="{{ ['assets/styles/hidpi2x.min.css']|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">
-		<link rel="stylesheet" href="{{ ['assets/styles/hidpi3x.min.css']|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min-device-pixel-ratio: 3)">
+	    <link rel="stylesheet" href="{{ 'assets/styles/hidpi2x.min.css'|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">
+		<link rel="stylesheet" href="{{ 'assets/styles/hidpi3x.min.css'|theme }}" media="only screen and (-moz-min-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min-device-pixel-ratio: 3)">
     </head>
     <body>
         {% if this.page.title == "Home" %}
