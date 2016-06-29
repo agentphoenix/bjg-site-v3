@@ -2,12 +2,20 @@
 	<nav>
 		<div class="nav__item"><a href="{{ 'home'|page }}" class="brand"></a></div>
 		<div class="nav__item">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+			<div class="dropdown">
+				<button type="button" class="navbar-toggle" data-toggle="dropdown">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="{{ 'home'|page }}">Home</a></li>
+					<li><a href="{{ 'instruction'|page }}">Instruction</a></li>
+					<li><a href="{{ 'youth-golf'|page }}">Youth Golf</a></li>
+					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 </div>
