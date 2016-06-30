@@ -133,6 +133,7 @@ main {
 
 		dd {
 			margin: 0 0 $spacing $spacing;
+			line-height: 1.75;
 
 			font-size: $font-size;
 		}
@@ -214,7 +215,7 @@ footer {
 			a {
 				color: darken($color-brand-secondary-bright, 30%);
 
-				&:hover {
+				&:hover, &:active, &:focus {
 					color: $color-brand-secondary-bright;
 					text-decoration: none;
 				}
@@ -263,6 +264,14 @@ footer {
 	color: darken($color-brand-secondary-bright, 25%);
 }
 
+.text-sm {
+	font-size: $font-size-sm;
+}
+
+.lead {
+	font-size: $font-size-lg;
+}
+
 .gca {
 	display: block;
 	margin: 2.5rem 0;
@@ -279,7 +288,11 @@ footer {
 	}
 
 	&.gca-lg {
-		background-image: url(../images/gca-lg.png);
+		height: 11rem;
+		width: 100%;
+
+		background-image: url(../images/Academy_Stacked_Render_RGB.png);
+		background-size: cover;
 	}
 }
 
@@ -299,9 +312,14 @@ footer {
 		min-height: 45rem;
 
 		background-color: #fafafa;
+		border-top: 0.5rem solid $color-brand-secondary-dark;
 		border-bottom: 0.5rem solid $color-brand-secondary-dark;
 
 		@include box-shadow(0 0.25rem 1rem rgba(0, 0, 0, 0.25));
+
+		&.white-border {
+			border-top-color: white !important;
+		}
 
 		.callout__image {
 			height: 18rem;
@@ -311,9 +329,6 @@ footer {
 			background-repeat: no-repeat;
 			background-position: center center;
 			background-size: cover;
-			border-top: 0.5rem solid white;
-
-			@include border-radius($border-radius, $border-radius, 0, 0);
 		}
 
 		.callout__body {
@@ -379,7 +394,7 @@ footer {
 			min-height: 55rem;
 
 			background-color: #fff;
-			border-bottom-color: $color-brand-primary;
+			border-color: $color-brand-primary;
 
 			@include rounded($border-radius);
 			@include box-shadow(0 0.5rem 2rem rgba(0, 0, 0, 0.5));
@@ -474,9 +489,12 @@ footer {
 		}
 	}
 
+	&.centered {
+		align-items: center;
+	}
+
 	.event__image {
-		flex-grow: 2;
-		flex-shrink: 0;
+		flex: 2 0 50%;
 		padding: 0 $spacing-lg 0 0;
 
 		img {
@@ -488,16 +506,37 @@ footer {
 			@include rounded($border-radius-sm);
 			@include box-shadow(0 0.25rem 1rem rgba(0, 0, 0, 0.25));
 		}
+
+		&.md {
+			flex: 2 0 35%;
+		}
+
+		&.sm {
+			flex: 2 0 25%;
+		}
+
+		&.no-decoration {
+			img {
+				border: none;
+
+				@include rounded(0rem);
+				@include clear-box-shadow;
+			}
+		}
 	}
 
 	.event__block {
-		flex-grow: 1;
-		flex-shrink: 1;
+		flex: 1 1 auto;
+		/*flex-grow: 1;
+		flex-shrink: 1;*/
 
 		.event__title {
 			margin-top: 0;
 		}
-
-		.event__subtitle {}
 	}
+}
+
+.partner-img {
+	display: block;
+	margin: 0 auto;
 }
