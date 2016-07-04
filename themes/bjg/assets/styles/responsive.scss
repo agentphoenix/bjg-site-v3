@@ -160,6 +160,14 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+	header {
+		nav {
+			.nav__section {
+				flex-direction: column;
+			}
+		}
+	}
+
 	.event {
 		.event__image {
 			flex: 2 0 35%;
@@ -172,7 +180,23 @@
 }
 
 /* md */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+	header {
+		nav {
+			.nav__section {
+				.nav__item {
+					a {
+						&.brand {
+							width: 32.5rem;
+
+							background-size: 32.5rem auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 /* lg */
 @media (min-width: 1200px) {}

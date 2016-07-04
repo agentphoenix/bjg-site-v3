@@ -32,46 +32,62 @@ header {
 		justify-content: space-between;
 		padding: 3rem 0;
 
-		.nav__item {
+		.nav__section {
 			display: flex;
-			flex: 1 1 20%;
+			flex: 1 1 auto;
 			align-items: center;
 
-			a {
-				display: block;
-				margin: 0 auto;
+			&:first-child {
+				flex: 1 1 25%;
+			}
 
-				font-family: $font-condensed;
-				font-weight: 400;
-				font-size: 2rem;
-				color: rgba(255, 255, 255, 0.7);
-				letter-spacing: 0.1rem;
-				text-transform: uppercase;
-				text-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.4);
+			.nav__item {
+				display: flex;
+				flex: 1 1 auto;
+				align-items: center;
 
-				&:hover {
-					color: white;
-					text-decoration: none;
-				}
-
-				&:active, &:focus {
-					color: rgba(255, 255, 255, 0.7);
-					text-decoration: none;
-				}
-
-				&.brand {
+				a {
 					display: block;
-					margin: 0 auto;
-					height: 10rem;
-					width: 10rem;
+					margin: 0 0 0 auto;
 
-					background-color: transparent;
-					background-repeat: no-repeat;
-					background-position: center center;
-					background-image: url(../images/logo-formal-new.png);
-					/*background-image: url(../images/logo-1.png);*/
-					background-size: 10rem 10rem;
-					background-clip: content-box;
+					font-family: $font-condensed;
+					font-weight: 400;
+					font-size: $font-size;
+					color: rgba(255, 255, 255, 0.7);
+					letter-spacing: 0.1rem;
+					text-transform: uppercase;
+					text-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.4);
+					/*color: $color-brand-secondary-dark;*/
+
+					&:hover {
+						color: white;
+						text-decoration: none;
+
+						/*color: $color-brand-primary;*/
+					}
+
+					&:active, &:focus {
+						color: rgba(255, 255, 255, 0.7);
+						text-decoration: none;
+
+						/*color: $color-brand-secondary-dark;*/
+					}
+
+					&.brand {
+						display: block;
+						margin: 0;
+						height: 8rem;
+						width: 35rem;
+
+						background-color: transparent;
+						background-repeat: no-repeat;
+						background-position: center center;
+						/*background-image: url(../images/logo-formal-new.png);*/
+						/*background-image: url(../images/logo-1.png);*/
+						background-image: url(../images/logo-oneline.png);
+						background-size: 35rem auto;
+						background-clip: content-box;
+					}
 				}
 			}
 		}
@@ -272,6 +288,11 @@ footer {
 	font-size: $font-size-lg;
 }
 
+.partner-img {
+	display: block;
+	margin: 0 auto;
+}
+
 .gca {
 	display: block;
 	margin: 2.5rem 0;
@@ -331,14 +352,14 @@ footer {
 			background-size: cover;
 		}
 
-		.callout__body {
+		.callout__block {
 			display: flex;
 			flex: 1 1 auto;
 			flex-direction: column;
 			justify-content: space-between;
 
 			.callout__content {
-				padding: $spacing;
+				padding: $spacing $spacing-lg;
 
 				.callout__title {
 					margin: 0 0 $spacing 0;
@@ -391,7 +412,7 @@ footer {
 		&.highlight {
 			position: relative;
 			z-index: 1000;
-			min-height: 55rem;
+			min-height: 57.5rem;
 
 			background-color: #fff;
 			border-color: $color-brand-primary;
@@ -527,16 +548,9 @@ footer {
 
 	.event__block {
 		flex: 1 1 auto;
-		/*flex-grow: 1;
-		flex-shrink: 1;*/
 
 		.event__title {
 			margin-top: 0;
 		}
 	}
-}
-
-.partner-img {
-	display: block;
-	margin: 0 auto;
 }
