@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Aleo";
+	src: local (Aleo-Regular), url('../fonts/Aleo-Regular-webfont.eot');
+    src: url('../fonts/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Regular-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Regular-webfont.svg#aleoitalic') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aleo";
+	src: local (Aleo-Light), url('../fonts/Aleo-Light-webfont.eot');
+    src: url('../fonts/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Light-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Light-webfont.svg#aleoitalic') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aleo";
+	src: local (Aleo-Bold), url('../fonts/Aleo-Bold-webfont.eot');
+    src: url('../fonts/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Bold-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Bold-webfont.svg#aleoitalic') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aleo";
+	src: local (Aleo-Black), url('../fonts/Aleo-Black-webfont.eot');
+    src: url('../fonts/Aleo-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Black-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Black-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Black-webfont.svg#aleoitalic') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}

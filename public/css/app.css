@@ -1,0 +1,695 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+
+@font-face {
+  font-family: "Aleo";
+  src: local Aleo-Regular, url("../fonts/Aleo-Regular-webfont.eot");
+  src: url("../fonts/Aleo-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Regular-webfont.woff") format("woff"), url("../fonts/Aleo-Regular-webfont.ttf") format("truetype"), url("../fonts/Aleo-Regular-webfont.svg#aleoitalic") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: local Aleo-Light, url("../fonts/Aleo-Light-webfont.eot");
+  src: url("../fonts/Aleo-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Light-webfont.woff") format("woff"), url("../fonts/Aleo-Light-webfont.ttf") format("truetype"), url("../fonts/Aleo-Light-webfont.svg#aleoitalic") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: local Aleo-Bold, url("../fonts/Aleo-Bold-webfont.eot");
+  src: url("../fonts/Aleo-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Bold-webfont.woff") format("woff"), url("../fonts/Aleo-Bold-webfont.ttf") format("truetype"), url("../fonts/Aleo-Bold-webfont.svg#aleoitalic") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: local Aleo-Black, url("../fonts/Aleo-Black-webfont.eot");
+  src: url("../fonts/Aleo-Black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Black-webfont.woff") format("woff"), url("../fonts/Aleo-Black-webfont.ttf") format("truetype"), url("../fonts/Aleo-Black-webfont.svg#aleoitalic") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+body {
+  line-height: 1.75;
+  font-size: 1.7rem;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+}
+
+header {
+  background-color: transparent;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-image: url(../images/bgd2b.jpg);
+  background-size: cover;
+  color: #44932b;
+}
+
+header .logo-masthead {
+  height: 20rem;
+  width: 75%;
+  margin: 1rem auto;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../images/logo-oneline-new.png);
+  background-size: contain;
+}
+
+header.home {
+  height: 55rem;
+}
+
+header.page {
+  height: 30rem;
+}
+
+header.page .logo-masthead {
+  height: 10rem;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem 0;
+}
+
+header nav .nav__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*&:first-child {
+				flex: 1 1 25%;
+			}*/
+}
+
+header nav .nav__section .nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav__section .nav__item a {
+  display: block;
+  margin: 0 auto;
+  font-family: "Roboto Condensed", "Roboto", helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #5a6272;
+}
+
+header nav .nav__section .nav__item a:hover {
+  text-decoration: none;
+  color: #44932b;
+}
+
+header nav .nav__section .nav__item a:active, header nav .nav__section .nav__item a:focus {
+  color: #3b7f25;
+  text-decoration: none;
+}
+
+header nav .nav__section .nav__item a.brand {
+  display: block;
+  margin: 0;
+  height: 8rem;
+  width: 35rem;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-image: url(../images/logo-formal-new.png);*/
+  /*background-image: url(../images/logo-1.png);*/
+  background-image: url(../images/logo-oneline.png);
+  background-size: 35rem auto;
+  background-clip: content-box;
+}
+
+aside {
+  position: relative;
+  margin: -20rem 0 5rem 0;
+}
+
+main {
+  position: relative;
+  margin: -5rem 0 0 0;
+}
+
+main h1, main h2, main h3, main h4 {
+  margin-bottom: 1.5rem;
+  font-family: "Aleo", georgia, times, serif;
+}
+
+main h1 {
+  margin: 0 0 3rem 0;
+  font-weight: 300;
+  font-size: 5.4rem;
+  color: #44932b;
+}
+
+main h2 {
+  font-weight: 400;
+  font-size: 4rem;
+  color: #5a6272;
+}
+
+main h3 {
+  font-weight: 300;
+  font-size: 3rem;
+  color: #2d3139;
+}
+
+main h4 {
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: #888b8f;
+}
+
+main p {
+  margin: 0 0 1.5rem 0;
+}
+
+main dl dt {
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+main dl dd {
+  margin: 0 0 1.5rem 1.5rem;
+  line-height: 1.75;
+  font-size: 1.7rem;
+}
+
+main a {
+  color: #44932b;
+}
+
+main a:hover {
+  color: #51af33;
+}
+
+main section {
+  padding: 3rem 0;
+}
+
+main section:first-child {
+  padding-top: 0;
+}
+
+main section.meet-brian {
+  background-color: transparent;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-image: url(../images/DSC_4158.jpg);
+  background-size: cover;
+}
+
+main section.events {
+  background-color: #eaeaea;
+}
+
+main section.tour-experience-morning {
+  background-color: transparent;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-image: url(../images/tour1.jpg);
+  background-size: cover;
+}
+
+main section.tour-experience-afternoon {
+  background-color: transparent;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-image: url(../images/tour2.jpg);
+  background-size: cover;
+}
+
+main section.instruction-philosophy {
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../images/DSC_3854.jpg);
+  background-size: cover;
+}
+
+main section .section__content {
+  margin: 3rem 0 0 0;
+  padding: 3rem;
+  background-color: #fafafa;
+  border-bottom: 0.5rem solid #44932b;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.75rem rgba(0, 0, 0, 0.4);
+}
+
+main section .section__content h2, main section .section__content h3 {
+  margin-top: 0;
+}
+
+footer {
+  padding: 3rem 0;
+  line-height: 1.65;
+  background-color: #2d3139;
+  color: #96989b;
+}
+
+footer .footer__title {
+  font-family: "Roboto Condensed", "Roboto", helvetica, arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  color: #cacbcd;
+  font-size: 2rem;
+}
+
+footer p, footer li {
+  font-size: 1.4rem;
+}
+
+footer ul li a {
+  color: #7b7e83;
+}
+
+footer ul li a:hover, footer ul li a:active, footer ul li a:focus {
+  color: #cacbcd;
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background-color: #44932b;
+  border-color: #44932b;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active {
+  background-color: #3d8326;
+  border-color: #357322;
+}
+
+.btn.btn-primary.disabled, .btn.btn-primary.disabled:hover, .btn.btn-primary.disabled:focus, .btn.btn-primary.disabled:active, .btn.btn-primary.disabled.active, .btn.btn-primary[disabled], .btn.btn-primary[disabled]:hover, .btn.btn-primary[disabled]:focus, .btn.btn-primary[disabled]:active, .btn.btn-primary[disabled].active,
+fieldset[disabled] .btn.btn-primary,
+fieldset[disabled] .btn.btn-primary:hover,
+fieldset[disabled] .btn.btn-primary:focus,
+fieldset[disabled] .btn.btn-primary:active,
+fieldset[disabled] .btn.btn-primary.active {
+  background-color: #44932b;
+  border-color: #44932b;
+}
+
+.btn.btn-default {
+  color: #5a6272;
+  background-color: #d4d5d7;
+  border-color: #d4d5d7;
+}
+
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-default.active {
+  background-color: #cacbcd;
+  border-color: #c0c1c3;
+}
+
+.btn.btn-default.disabled, .btn.btn-default.disabled:hover, .btn.btn-default.disabled:focus, .btn.btn-default.disabled:active, .btn.btn-default.disabled.active, .btn.btn-default[disabled], .btn.btn-default[disabled]:hover, .btn.btn-default[disabled]:focus, .btn.btn-default[disabled]:active, .btn.btn-default[disabled].active,
+fieldset[disabled] .btn.btn-default,
+fieldset[disabled] .btn.btn-default:hover,
+fieldset[disabled] .btn.btn-default:focus,
+fieldset[disabled] .btn.btn-default:active,
+fieldset[disabled] .btn.btn-default.active {
+  background-color: #d4d5d7;
+  border-color: #d4d5d7;
+}
+
+.btn.btn-inverse {
+  color: #fff;
+  background-color: #2d3139;
+  border-color: #2d3139;
+}
+
+.btn.btn-inverse:hover, .btn.btn-inverse:focus, .btn.btn-inverse:active, .btn.btn-inverse.active {
+  background-color: #24272e;
+  border-color: #1b1d22;
+}
+
+.btn.btn-inverse.disabled, .btn.btn-inverse.disabled:hover, .btn.btn-inverse.disabled:focus, .btn.btn-inverse.disabled:active, .btn.btn-inverse.disabled.active, .btn.btn-inverse[disabled], .btn.btn-inverse[disabled]:hover, .btn.btn-inverse[disabled]:focus, .btn.btn-inverse[disabled]:active, .btn.btn-inverse[disabled].active,
+fieldset[disabled] .btn.btn-inverse,
+fieldset[disabled] .btn.btn-inverse:hover,
+fieldset[disabled] .btn.btn-inverse:focus,
+fieldset[disabled] .btn.btn-inverse:active,
+fieldset[disabled] .btn.btn-inverse.active {
+  background-color: #2d3139;
+  border-color: #2d3139;
+}
+
+.btn.btn-link {
+  color: #44932b;
+}
+
+.btn.btn-link.btn-link-warning {
+  color: #ff6f00;
+}
+
+.text-muted {
+  color: #888b8f;
+}
+
+.text-sm {
+  font-size: 1.4rem;
+}
+
+.lead {
+  font-size: 2.8rem;
+}
+
+.partner-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gca {
+  display: block;
+  margin: 2.5rem 0;
+  height: 1.8rem;
+  width: 20rem;
+  background-color: transparent;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url(../images/gca.png);
+}
+
+.gca.gca-sm {
+  background-image: url(../images/gca-sm.png);
+}
+
+.gca.gca-lg {
+  height: 11rem;
+  width: 100%;
+  background-image: url(../images/Academy_Stacked_Render_RGB.png);
+  background-size: cover;
+}
+
+.callouts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0;
+}
+
+.callouts.callouts__cascade {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.callouts .callout__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 100;
+  min-height: 45rem;
+  background-color: #fafafa;
+  border-top: 0.5rem solid #5a6272;
+  border-bottom: 0.5rem solid #5a6272;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.callouts .callout__item.white-border {
+  border-top-color: white !important;
+}
+
+.callouts .callout__item .callout__image {
+  height: 18rem;
+  width: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.callouts .callout__item .callout__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.callouts .callout__item .callout__block .callout__content {
+  padding: 1.5rem 3rem;
+}
+
+.callouts .callout__item .callout__block .callout__content .callout__title {
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Aleo", georgia, times, serif;
+  font-size: 2.4rem;
+  color: #2d3139;
+}
+
+.callouts .callout__item .callout__block .callout__content a {
+  color: #44932b;
+}
+
+.callouts .callout__item .callout__block .callout__footer {
+  padding: 1.5rem;
+}
+
+.callouts .callout__item .callout__block .callout__footer small {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.callouts .callout__item.left {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.callouts .callout__item.left .callout__image {
+  background-position: bottom center;
+  background-image: url(../images/teaching-2.jpg);
+}
+
+.callouts .callout__item.right {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.callouts .callout__item.right .callout__image {
+  background-position: top center;
+  background-image: url(../images/DSC_3902.jpg);
+}
+
+.callouts .callout__item.center {
+  z-index: 150;
+  border-radius: 0;
+}
+
+.callouts .callout__item.center .callout__image {
+  background-position: top center;
+  background-image: url(../images/teaching-1d.jpg);
+  /*background-image: url(../images/nsa-banner.jpeg);*/
+}
+
+.callouts .callout__item.highlight {
+  position: relative;
+  z-index: 1000;
+  min-height: 57.5rem;
+  background-color: #fff;
+  border-color: #44932b;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.callouts .callout__item.highlight .callout__body .callout__content .callout__title {
+  font-size: 3.2rem;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0 3rem -1rem;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #fafafa;
+  border: 0.1rem solid #e4e5e6;
+  border-radius: 0.5rem;
+}
+
+.cards .card.card__plain {
+  background: transparent;
+  border-color: transparent;
+}
+
+.cards .card .card__image img {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.cards .card .card__block {
+  padding: 1.5rem;
+}
+
+.cards .card .card__block .card__title {
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Aleo", georgia, times, serif;
+  font-size: 2.2rem;
+  color: #2d3139;
+}
+
+.cards .card .card__footer {
+  padding: 1.5rem;
+}
+
+.cards .card .card__footer h3, .cards .card .card__footer h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.cards .card .card__footer h3 + a, .cards .card .card__footer h4 + a {
+  margin-top: 1.5rem;
+}
+
+.cards .card .card__footer small {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.cards .card .card__footer a {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.cards .card .card__footer a + a {
+  margin-left: 3rem;
+}
+
+.event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.event.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.event.reverse .event__image {
+  padding: 0 0 0 3rem !important;
+}
+
+.event.centered {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.event .event__image {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 0 50%;
+          flex: 2 0 50%;
+  padding: 0 3rem 0 0;
+}
+
+.event .event__image img {
+  display: block;
+  width: 100%;
+  border: 0.5rem solid #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.event .event__image.md {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 0 35%;
+          flex: 2 0 35%;
+}
+
+.event .event__image.sm {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 0 25%;
+          flex: 2 0 25%;
+}
+
+.event .event__image.no-decoration img {
+  border: none;
+  border-radius: 0rem;
+  box-shadow: none;
+}
+
+.event .event__block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.event .event__block .event__title {
+  margin-top: 0;
+}
+
+.text-subtle {
+  color: #5a6272;
+}
