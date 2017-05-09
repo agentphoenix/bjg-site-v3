@@ -1,0 +1,29 @@
+@import "_colors";
+
+$border-radius: 0.5rem;
+$border-radius-sm: $border-radius / 2;
+$border-radius-lg: $border-radius * 2;
+
+$spacing: 1.5rem;
+$spacing-sm: $spacing / 2;
+$spacing-lg: $spacing * 2;
+
+$font-primary: "Roboto", helvetica, arial, sans-serif;
+$font-condensed: "Roboto Condensed", $font-primary;
+$font-headings: "Aleo", georgia, times, serif;
+
+$font-size: 1.7rem;
+$font-size-xs: 1.2rem;
+$font-size-sm: 1.4rem;
+$font-size-md: 2rem;
+$font-size-lg: 2.8rem;
+
+$color-brand-primary: rgb(68, 147, 43);
+$color-brand-secondary: rgb(45, 49, 57);
+$color-brand-secondary-dark: rgb(90, 98, 114);
+$color-brand-secondary-bright: rgb(202, 203, 205);
+
+$color-warning: $color-amber-900;
+$color-danger: $color-red-500;;
+$color-info: $color-light-blue-500;
+$color-success: $color-green-500;
