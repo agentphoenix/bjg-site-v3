@@ -10,28 +10,35 @@
 			<div class="row">
 				<div class="col-md-7">
 					<h3>Send Us a Message</h3>
-					<div class="confirm-container"> <!--This will contain the confirmation when the email is successfully sent--> </div>
 
-
-						<div class="form-groups">
-						    <div class="form-group">
-						        <input type="text" class="form-control input-lg" value="" name="name" placeholder="Your Name">
-						    </div>
-
-						    <div class="form-group">
-						        <input type="text" class="form-control input-lg" value="" name="email" placeholder="Your Email Address">
-						    </div>
-
-						    <div class="form-group">
-						        <textarea class="form-control input-lg" value="" name="body" placeholder="Your Message" rows="8"></textarea>
-						    </div>
-
-							<div class="form-group">
-								<input type="hidden" name="subject" value="">
-								<button type="submit" class="btn btn-primary btn-lg disabled">Send Your Message</button>
-							</div>
+					@if (session()->has('flash'))
+						<div class="alert alert-success">
+							{{ session('flash') }}
 						</div>
+					@endif
 
+					<form method="POST" action="{{ route('contact.send') }}">
+						{{ csrf_field() }}
+
+						<div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+					        <input type="text" class="form-control input-lg" value="" name="name" placeholder="Your Name">
+							{!! $errors->first('name', '<p class="help-block">:message</p>') !!}
+					    </div>
+
+					    <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+					        <input type="email" class="form-control input-lg" value="" name="email" placeholder="Your Email Address">
+							{!! $errors->first('email', '<p class="help-block">:message</p>') !!}
+					    </div>
+
+					    <div class="form-group{{ $errors->has('body') ? ' has-error' : '' }}">
+					        <textarea class="form-control input-lg" value="" name="body" placeholder="Your Message" rows="8"></textarea>
+							{!! $errors->first('body', '<p class="help-block">:message</p>') !!}
+					    </div>
+
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary btn-lg">Send Your Message</button>
+						</div>
+					</form>
 				</div>
 				<div class="col-md-5">
 					<h3>Contact Information</h3>

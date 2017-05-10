@@ -29,7 +29,7 @@ class SiteController extends Controller
 			'body.required' => 'Please enter a message'
 		]);
 
-		Mail::to('david.vanscott@gmail.com')
+		Mail::to('brian@brianjacobsgolf.com')
 			->queue(new ContactSent($request->all()));
 
 		return back()
