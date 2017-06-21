@@ -40,21 +40,35 @@
 					<img src="{{ asset('images/DSC_4158 copy.jpg') }}">
 				</div>
 				<div class="event__block">
-					<h3 class="event__title">Game Improvement Practice Program</h3>
-					<h4 class="event__subtitle">Tuesdays, 6:15pm - 7:30pm</h4>
-					<h4 class="event__subtitle">May 2nd - August 29th</h4>
+					<h3 class="event__title">90-for-90 Golf-Tastic</h3>
+					<h4 class="event__subtitle">Fridays, 6:30pm - 8:00pm</h4>
+					<h4 class="event__subtitle">Ridgemont Country Club</h4>
 
-					<p>No matter what your skill level who doesn't need game improvement?</p>
+					<p>The 90 for 90 Golf-Tastic instructional series is designed to focus on 4 of the main areas to help golfers perform better on the course. Join us after work to learn what can be done to maximize your game, shoot lower scores, and have more fun!</p>
 
-					<p>The Game Improvement Practice Program is designed to assist you with your golf game in a group, fun format. Each week we will have a specific area of the game of golf to learn, practice, and improve in! Each session begins with a brief clinic by PGA and Golf Channel Lead Instructor Brian Jacobs to get you focused and ready to practice!</p>
+					<h3>$90 <small>per person per session</small></h3>
 
-					<p>All that is required is a one month commitment (we know you'll want to do more) and a positive attitude; all this for the low price of $125 per month per participant.</p>
+					<dl>
+						<dt>WedgeTastic!</dt>
+						<dd>June 30th</dd>
+						<dd>Learn about all of the wedge shots you'll need on the course, make solid contact anywhere from greenside to 50 yards, master your control and trajectory, and shoot lower scores!</dd>
 
-					<p>The program is open to RCC Members and Non-Members and is tailored for any level of player! Space is limited (If we overflow we will add more instructors) so call 585-415-9323 to reserve your spot today!</p>
+						<dt>DriveTastic!</dt>
+						<dd>July 21st</dd>
+						<dd>Cure that slice or hook forever, learn simple ways to ramp up your distance, and develop a plan and routine to keep your driver in play, all while having fun!</dd>
+
+						<dt>PuttTastic!</dt>
+						<dd>July 28th</dd>
+						<dd>Learn the critical elements of tour quality putting, put a tour style roll on your golf ball, train and enhance your perception of green break, and make more putts!</dd>
+
+						<dt>IronTastic!</dt>
+						<dd>August 4th</dd>
+						<dd>Learn to make more solid iron shots, take thin and fat shots out of the swing, limit the curve, develop an IronTastic routine, and play better golf!</dd>
+					</dl>
 
 					<div class="row">
 						<div class="col-md-4">
-							<a href="{{ route('contact') }}" class="btn btn-primary btn-lg btn-block">Enroll Today</a>
+							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" class="btn btn-primary btn-lg btn-block">Enroll Now</a>
 						</div>
 					</div>
 				</div>
