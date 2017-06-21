@@ -13,3 +13,4 @@ Route::get('events/{event}', 'SiteController@showEvent')->name('events.show');
 Route::get('partners', 'SiteController@partners')->name('partners');
 Route::get('privacy-policy', 'SiteController@privacy')->name('privacy');
 Route::get('media', 'SiteController@media')->name('media');
+Route::get('staff', 'SiteController@staff')->name('staff');

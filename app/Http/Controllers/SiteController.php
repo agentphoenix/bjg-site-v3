@@ -29,8 +29,23 @@ class SiteController extends Controller
 			'body.required' => 'Please enter a message'
 		]);
 
-		Mail::to('brian@brianjacobsgolf.com')
-			->queue(new ContactSent($request->all()));
+		$recipient = 'brian@brianjacobsgolf.com';
+
+		if ($request->has('sendTo')) {
+			switch ($request->get('sendTo')) {
+				case 'brian':
+				default:
+					$recipient = 'brian@brianjacobsgolf.com';
+					break;
+
+				case 'rob':
+					$recipient = 'robcomererpga@gmail.com';
+					break;
+			}
+		}
+
+		Mail::to($recipient)
+			->send(new ContactSent($request->all()));
 
 		return back()
 			->with('flash', 'Your message has been sent!');
@@ -84,5 +99,10 @@ class SiteController extends Controller
 	public function youthGolf()
 	{
 		return view('youth-golf');
+	}
+
+	public function staff()
+	{
+		return view('staff');
 	}
 }

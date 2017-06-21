@@ -192,6 +192,30 @@ main {
 			background-size: cover;
 		}
 
+		&.staff-brian {
+			background-color: transparent;
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-image: url(../images/Jacobs1.jpg);
+			background-size: cover;
+		}
+
+		&.staff-brian-alt {
+			background-color: transparent;
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-image: url(../images/Jacobs.jpg);
+			background-size: cover;
+		}
+
+		&.staff-rob {
+			background-color: transparent;
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-image: url(../images/Rob1.jpg);
+			background-size: cover;
+		}
+
 		&.events {
 			background-color: #eaeaea;
 		}
@@ -305,6 +329,15 @@ footer {
 		&.btn-link-warning {
 			color: $color-warning;
 		}
+	}
+
+	&.btn-circle {
+		padding: 9px 10px;
+
+		background: transparent;
+		border-width: 2px;
+		border-radius: 100px;
+		font-size: 18px;
 	}
 }
 
@@ -605,4 +638,10 @@ footer {
 
 .text-subtle {
 	color: $color-brand-secondary-dark;
+}
+
+.alert {
+	border-radius: 0;
+	border-left-width: 0;
+	border-right-width: 0;
 }

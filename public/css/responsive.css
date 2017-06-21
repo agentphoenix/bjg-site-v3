@@ -79,14 +79,14 @@
             order: 1;
   }
   .callouts .callout__item.left {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
-  .callouts .callout__item.right {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
+  }
+  .callouts .callout__item.right {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
   .callouts .callout__item.left, .callouts .callout__item.right {
     border-radius: 0.5rem;

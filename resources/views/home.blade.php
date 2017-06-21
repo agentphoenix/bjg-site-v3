@@ -3,16 +3,20 @@
 @section('title', 'Home')
 
 @section('content')
-	<section class="meet-brian">
+	<section class="staff-brian-alt">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-md-6">
 					<div class="section__content">
-						<h2>Meet Brian</h2>
+						<h2>Meet the Staff</h2>
 
-						<p>Over the last 15 years, Brian Jacobs has worked to empower golfers of all ages to find greater enjoyment from the game he loves so much. His dedication and passion for the game are infectious and have earned him Class A PGA credentials and recognition from the PGA Foundation for helping grow the game of golf.</p>
+						<p>At Brian Jacobs Golf, we're committed to putting the best instructors in front of our students. The relationships we develop are the most important part of what we do. To that end, we've brought together instructors that are highly respected within the industry, have an intense passion about the game of golf, and the drive to help our students succeed both on and off the course.</p>
 
-						<p>Drawing from his unique experience as an accomplished player, caddie, PGA Professional and golf instructor, Brian brings an invaluable "inside the ropes" perspective to his teaching. Whether you're looking for swing instruction, short game help, course management skills, learning how to manage yourself within a round of golf or preparing your youth golfer to play the game at a high level, Brian has the expertise to help you succeed.</p>
+						<a href="{{ route('staff') }}" class="btn btn-primary btn-lg">Meet the Staff</a>
+
+						{{-- <p>Over the last 15 years, Brian Jacobs has worked to empower golfers of all ages to find greater enjoyment from the game he loves so much. His dedication and passion for the game are infectious and have earned him Class A PGA credentials and recognition from the PGA Foundation for helping grow the game of golf.</p>
+
+						<p>Drawing from his unique experience as an accomplished player, caddie, PGA Professional and golf instructor, Brian brings an invaluable "inside the ropes" perspective to his teaching. Whether you're looking for swing instruction, short game help, course management skills, learning how to manage yourself within a round of golf or preparing your youth golfer to play the game at a high level, Brian has the expertise to help you succeed.</p> --}}
 					</div>
 				</div>
 			</div>
