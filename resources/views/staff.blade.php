@@ -16,7 +16,11 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="section__content">
-						<h2>Brian Jacobs <small>Lead Instructor</small></h2>
+						<div class="visible-xs visible-sm staff-title">
+							<img src="{{ asset('images/jacobs-avatar.jpg')}}" height="75" width="75" class="img-circle">
+							<h2>Brian Jacobs <small>Lead Instructor</small></h2>
+						</div>
+						<h2 class="hidden-xs hidden-sm">Brian Jacobs <small>Lead Instructor</small></h2>
 
 						<p>Over the last 15 years, Brian Jacobs has worked to empower golfers of all ages to find greater enjoyment from the game he loves so much. His dedication and passion for the game are infectious and have earned him Class A PGA credentials and recognition from the PGA Foundation for helping grow the game of golf. Brian possess an MS Ed in addition to PGA Class A credentials and is a Lead Instructor for Golf Channel Academy. He is a frequent Coach of the Week for Golf Channel and got his training leading golf schools for ESPN Golf Schools.</p>
 
@@ -42,7 +46,11 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="section__content">
-						<h2>Rob Comerer <small>Staff Instructor</small></h2>
+						<div class="visible-xs visible-sm staff-title">
+							<img src="{{ asset('images/rob-avatar.jpg')}}" height="75" width="75" class="img-circle">
+							<h2>Rob Comerer <small>Staff Instructor</small></h2>
+						</div>
+						<h2 class="hidden-xs hidden-sm">Rob Comerer <small>Staff Instructor</small></h2>
 
 						<p>Rob is a Class-A PGA Professional and Staff Instructor at Brian Jacobs Golf who has worked and taught at some of the country’s finest clubs, including: the Bucknell Golf Club, Ford’s Colony Country Club, Wilmington Country Club, and most recently, the Baltimore Country Club.</p>
 

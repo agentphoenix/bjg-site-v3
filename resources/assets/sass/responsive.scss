@@ -153,6 +153,27 @@
 			flex: 1 1 100%;
 		}
 	}
+
+	.staff-title {
+		display: flex !important;
+		align-items: center;
+		margin-bottom: 1em;
+
+		img {
+			margin-right: 1em;
+		}
+
+		h2 {
+			margin: 0;
+
+			font-size: 2em;
+
+			small {
+				display: block;
+				margin-top: 0.1em;
+			}
+		}
+	}
 }
 
 /* sm */
@@ -180,6 +201,27 @@
 
 		.event__block {
 			flex: 1 1 auto;
+		}
+	}
+
+	.staff-title {
+		display: flex !important;
+		align-items: center;
+		margin-bottom: 1em;
+
+		img {
+			margin-right: 1em;
+		}
+
+		h2 {
+			margin: 0;
+
+			font-size: 2em;
+
+			small {
+				display: block;
+				margin-top: 0.1em;
+			}
 		}
 	}
 }
