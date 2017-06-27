@@ -43,7 +43,7 @@
 					<li><a href="{{ route('home') }}">Home</a></li>
 					<li><a href="{{ route('staff') }}">Staff</a></li>
 					<li><a href="{{ route('events.all') }}">Events</a></li>
-					<!--<li><a href="{{ route('media') }}">Media Center</a></li>-->
+					<li><a href="{{ route('media') }}">Media</a></li>
 					<li><a href="{{ route('partners') }}">Our Partners</a></li>
 					<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
 				</ul>
@@ -116,7 +116,7 @@
 					<li><a href="{{ route('home') }}">Home</a></li>
 					<li><a href="{{ route('staff') }}">Staff</a></li>
 					<li><a href="{{ route('events.all') }}">Events</a></li>
-					<!--<li><a href="{{ route('media') }}">Media Center</a></li>-->
+					<li><a href="{{ route('media') }}">Media</a></li>
 					<li><a href="{{ route('partners') }}">Our Partners</a></li>
 					<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
 				</ul>
@@ -160,7 +160,7 @@
 							<li><a href="{{ route('home') }}">Home</a></li>
 							<li><a href="{{ route('staff') }}">Staff</a></li>
 							<li><a href="{{ route('events.all') }}">Events</a></li>
-							<!--<li><a href="{{ route('media') }}">Media Center</a></li>-->
+							<li><a href="{{ route('media') }}">Media</a></li>
 							<li><a href="{{ route('partners') }}">Our Partners</a></li>
 							<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
 						</ul>
