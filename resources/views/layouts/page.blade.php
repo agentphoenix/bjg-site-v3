@@ -25,7 +25,7 @@
         	</div>
         </header>
 
-        <main>
+        <main id="app">
             @if (session()->has('flash'))
                 <div class="alert alert-success">
                     <div class="container">
@@ -45,10 +45,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
                 crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/vue"></script>
         <script>
             $(function () {
                 $('[data-toggle="tooltip"]').tooltip()
             })
         </script>
+        @yield('js')
     </body>
 </html>

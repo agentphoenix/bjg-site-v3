@@ -645,3 +645,18 @@ footer {
 	border-left-width: 0;
 	border-right-width: 0;
 }
+
+video {
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	display: block;
+	margin: 1em auto;
+}
+
+video + .caption {
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin: 1em auto 2em auto;
+}

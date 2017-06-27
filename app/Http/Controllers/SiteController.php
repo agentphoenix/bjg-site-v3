@@ -73,7 +73,9 @@ class SiteController extends Controller
 
 	public function media()
 	{
-		//
+		$fileList = collect(json_decode(file_get_contents(storage_path('app/media.json')), true));
+
+		return view('media', compact('fileList'));
 	}
 
 	public function newStudents()
