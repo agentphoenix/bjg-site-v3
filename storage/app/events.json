@@ -1,0 +1,30 @@
+[
+	{
+		"name": "90-for-90 Golf-Tastic",
+		"location": "Ridgemont Country Club",
+		"date": "Fridays, 6:30pm - 8:00pm",
+		"summary": "The 90-for-90 Golf-Tastic instructional series is designed to focus on 4 of the main areas to help golfers perform better on the course. Join us after work to learn what can be done to maximize your game, shoot lower scores, and have more fun!",
+		"details": "WedgeTastic!
+June 30th
+Learn about all of the wedge shots you'll need on the course, make solid contact anywhere from greenside to 50 yards, master your control and trajectory, and shoot lower scores!
+DriveTastic!
+July 21st
+Cure that slice or hook forever, learn simple ways to ramp up your distance, and develop a plan and routine to keep your driver in play, all while having fun!
+PuttTastic!
+July 28th
+Learn the critical elements of tour quality putting, put a tour style roll on your golf ball, train and enhance your perception of green break, and make more putts!
+IronTastic!
+August 4th
+Learn to make more solid iron shots, take thin and fat shots out of the swing, limit the curve, develop an IronTastic routine, and play better golf!",
+		"pricing": "$90 <small>per person per session</small>",
+		"thumbnail": "",
+		"image": "",
+		"featured": true,
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "",
+			"bookingButtonText": "Enroll Now",
+			"bookingButtonLink": ""
+		}
+	}
+]
