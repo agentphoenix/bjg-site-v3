@@ -1,128 +1,191 @@
 [
 	{
 		"title": "Control Your Hands",
-		"summary": "Learn about keeping the golf club \"connected\" to your body for better shots.",
+		"summary": "Learn about how to keep the golf club \"connected\" to your body for better ball-striking with all your clubs.",
 		"file": "/media/golf-channel/2017/control-your-hands.mp4",
-		"preview": "/media/golf-channel/2017/control-your-hands-preview.png"
+		"preview": "/media/golf-channel/2017/control-your-hands-preview.png",
+		"categories": [
+			"Drill"
+		]
 	},
 	{
 		"title": "Create More Speed",
-		"summary": "Let's involve our hands and wrists to generate more club head speed.",
+		"summary": "Let's get our hands and wrists involved in our golf swing to help us generate more club head speed.",
 		"file": "/media/golf-channel/2017/create-more-speed.mp4",
-		"preview": "/media/golf-channel/2017/create-more-speed-preview.png"
+		"preview": "/media/golf-channel/2017/create-more-speed-preview.png",
+		"categories": [
+			"Drill"
+		]
 	},
 	{
 		"title": "Flush Your Wedges",
 		"summary": "With a small visual aid, we can create better contact and better wedge shots.",
 		"file": "/media/golf-channel/2017/flush-your-wedges.mp4",
-		"preview": "/media/golf-channel/2017/flush-your-wedges-preview.png"
+		"preview": "/media/golf-channel/2017/flush-your-wedges-preview.png",
+		"categories": [
+			"Drill", "Wedges"
+		]
 	},
 	{
 		"title": "Hit Crisper Irons",
 		"summary": "Use this simple drill to help you hit crisper, better iron shots on the course.",
 		"file": "/media/golf-channel/2017/hit-your-irons.mp4",
-		"preview": "/media/golf-channel/2017/hit-your-irons-preview.png"
+		"preview": "/media/golf-channel/2017/hit-your-irons-preview.png",
+		"categories": [
+			"Drill", "Irons"
+		]
 	},
 	{
 		"title": "Hybrid Hoax",
-		"summary": "Turn your hybrids into a powerhouse by hitting it more like an iron rather than driver.",
+		"summary": "Turn your hybrids into a powerhouse by hitting them more like your irons.",
 		"file": "/media/golf-channel/2017/hybrid-hoax.mp4",
-		"preview": "/media/golf-channel/2017/hybrid-hoax-preview.png"
+		"preview": "/media/golf-channel/2017/hybrid-hoax-preview.png",
+		"categories": [
+			"Tip", "Hybrids"
+		]
 	},
 	{
 		"title": "Putter Face Error",
 		"summary": "Like other clubs in our bag, we need to be able to control the face of our putter.",
 		"file": "/media/golf-channel/2017/putter-face-error.mp4",
-		"preview": "/media/golf-channel/2017/putter-face-error-preview.png"
+		"preview": "/media/golf-channel/2017/putter-face-error-preview.png",
+		"categories": [
+			"Drill", "Putting"
+		]
 	},
 	{
 		"title": "Putting Under Pressure",
 		"summary": "Less pressure on your putter grip is essential to being a better putter.",
 		"file": "/media/golf-channel/2017/putting-under-pressure.mp4",
-		"preview": "/media/golf-channel/2017/putting-under-pressure-preview.png"
+		"preview": "/media/golf-channel/2017/putting-under-pressure-preview.png",
+		"categories": [
+			"Tip", "Putting"
+		]
 	},
 	{
 		"title": "Roll the Dice",
-		"summary": "Let's make our practice fun with this putting game that can help us putt under pressure.",
+		"summary": "Let's make our practice fun with this game to help us putt under pressure.",
 		"file": "/media/golf-channel/2017/roll-the-dice.mp4",
-		"preview": "/media/golf-channel/2017/roll-the-dice-preview.png"
+		"preview": "/media/golf-channel/2017/roll-the-dice-preview.png",
+		"categories": [
+			"Tip", "Putting"
+		]
 	},
 	{
 		"title": "Trail Arm Key",
 		"summary": "This simple rehearsal will help with your trail arm and hitting better shots.",
 		"file": "/media/golf-channel/2017/trail-arm-key.mp4",
-		"preview": "/media/golf-channel/2017/trail-arm-key-preview.png"
+		"preview": "/media/golf-channel/2017/trail-arm-key-preview.png",
+		"categories": [
+			"Drill"
+		]
 	},
 	{
 		"title": "Impact",
 		"summary": "Learn about how to improve your ball-striking with these simple tips and drills.",
 		"file": "/media/golf-channel/2016/impact.mp4",
-		"preview": "/media/golf-channel/2016/impact-preview.png"
+		"preview": "/media/golf-channel/2016/impact-preview.png",
+		"categories": [
+			"Drill", "Tip"
+		]
 	},
 	{
 		"title": "Swing Fundamentals",
-		"summary": "Learn how you can improve with only a few minutes of practice a day.",
+		"summary": "Learn how you can improve your golf game with only a few minutes of practice a day.",
 		"file": "/media/golf-channel/2016/swing-fundamentals.mp4",
-		"preview": "/media/golf-channel/2016/swing-fundamentals-preview.png"
+		"preview": "/media/golf-channel/2016/swing-fundamentals-preview.png",
+		"categories": [
+			"Drill"
+		]
 	},
 	{
 		"title": "Load & Explode",
 		"summary": "With just a sleeping bag and a golf club, we can increase our power and distance.",
 		"file": "/media/golf-channel/2016/load-and-explode.mp4",
-		"preview": "/media/golf-channel/2016/load-and-explode-preview.png"
+		"preview": "/media/golf-channel/2016/load-and-explode-preview.png",
+		"categories": [
+			"Drill", "Irons"
+		]
 	},
 	{
 		"title": "Playing Under Pressure",
 		"summary": "Let's change how we practice to prepare for playing under pressure on the course.",
 		"file": "/media/golf-channel/2016/playing-under-pressure.mp4",
-		"preview": "/media/golf-channel/2016/playing-under-pressure-preview.png"
+		"preview": "/media/golf-channel/2016/playing-under-pressure-preview.png",
+		"categories": [
+			"Tip"
+		]
 	},
 	{
 		"title": "Hit Up On the Ball",
 		"summary": "With our driver in hand, let's work on hitting up on the ball for better tee shots.",
 		"file": "/media/golf-channel/2016/positive-attack-angle.mp4",
-		"preview": "/media/golf-channel/2016/positive-attack-angle-preview.png"
+		"preview": "/media/golf-channel/2016/positive-attack-angle-preview.png",
+		"categories": [
+			"Tip", "Driver"
+		]
 	},
 	{
 		"title": "Form & Perform",
 		"summary": "Pre-shot routine is critical to success on the golf course. Form a plan then perform it.",
 		"file": "/media/golf-channel/2016/form-and-perform.mp4",
-		"preview": "/media/golf-channel/2016/form-and-perform-preview.png"
+		"preview": "/media/golf-channel/2016/form-and-perform-preview.png",
+		"categories": [
+			"Tip"
+		]
 	},
 	{
 		"title": "Start at the Front",
 		"summary": "Learn the correct backswing position by focusing on the front of your golf swing.",
 		"file": "/media/golf-channel/2016/start-at-the-front.mp4",
-		"preview": "/media/golf-channel/2016/start-at-the-front-preview.png"
+		"preview": "/media/golf-channel/2016/start-at-the-front-preview.png",
+		"categories": [
+			"Tip"
+		]
 	},
 	{
 		"title": "The Lead Wrist",
 		"summary": "Taking the lead from Justin Rose, let's focus on better lead wrist position with our driver.",
 		"file": "/media/golf-channel/2016/the-lead-wrist.mp4",
-		"preview": "/media/golf-channel/2016/the-lead-wrist-preview.png"
+		"preview": "/media/golf-channel/2016/the-lead-wrist-preview.png",
+		"categories": [
+			"Tip"
+		]
 	},
 	{
 		"title": "Swing the Rope",
-		"summary": "Using a rope, we can work on speed and tempo for better ball-striking.",
+		"summary": "Using just a rope, we can work on speed and tempo for better ball-striking.",
 		"file": "/media/golf-channel/2016/swing-the-rope.mp4",
-		"preview": "/media/golf-channel/2016/swing-the-rope-preview.png"
+		"preview": "/media/golf-channel/2016/swing-the-rope-preview.png",
+		"categories": [
+			"Drill"
+		]
 	},
 	{
 		"title": "Two Club Drill",
 		"summary": "Using two clubs in our hands, we can practice better tempo and speed.",
 		"file": "/media/golf-channel/2016/two-club-drill.mp4",
-		"preview": "/media/golf-channel/2016/two-club-drill-preview.png"
+		"preview": "/media/golf-channel/2016/two-club-drill-preview.png",
+		"categories": [
+			"Drill"
+		]
 	},
 	{
 		"title": "Putting",
 		"summary": "With just 2 tees, we can improve the path of our putting stroke and make more putts.",
 		"file": "/media/golf-channel/2016/putting.mp4",
-		"preview": "/media/golf-channel/2016/putting-preview.png"
+		"preview": "/media/golf-channel/2016/putting-preview.png",
+		"categories": [
+			"Drill", "Putting"
+		]
 	},
 	{
 		"title": "Putting Tempo",
 		"summary": "Use this simple drill to improve your putting tempo and make more putts.",
 		"file": "/media/golf-channel/2016/putting-tempo.mp4",
-		"preview": "/media/golf-channel/2016/putting-tempo-preview.png"
+		"preview": "/media/golf-channel/2016/putting-tempo-preview.png",
+		"categories": [
+			"Drill", "Putting"
+		]
 	}
 ]

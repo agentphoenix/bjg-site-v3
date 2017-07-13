@@ -12,5 +12,8 @@ Route::get('events', 'SiteController@events')->name('events.all');
 Route::get('events/{event}', 'SiteController@showEvent')->name('events.show');
 Route::get('partners', 'SiteController@partners')->name('partners');
 Route::get('privacy-policy', 'SiteController@privacy')->name('privacy');
-Route::get('media-room', 'SiteController@media')->name('media');
 Route::get('staff', 'SiteController@staff')->name('staff');
+
+Route::get('media-room', 'MediaController@index')->name('media.index');
+Route::get('media-room/photos', 'MediaController@photos')->name('media.photos');
+Route::get('media-room/videos', 'MediaController@videos')->name('media.videos');
