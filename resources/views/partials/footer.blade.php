@@ -31,7 +31,7 @@
 					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a></li>
 					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
 					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
-					<li><a href="{{ route('contact') }}"><i class="fa fa-envelope fa-fw"></i> Email Us</a></li>
+					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -83,7 +83,7 @@
 					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a></li>
 					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
 					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
-					<li><a href="{{ route('contact') }}"><i class="fa fa-envelope fa-fw"></i> Email Us</a></li>
+					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -175,7 +175,7 @@
 					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a></li>
 					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
 					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
-					<li><a href="{{ route('contact') }}"><i class="fa fa-envelope fa-fw"></i> Email Us</a></li>
+					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
 				</ul>
 			</div>
 		</div>
