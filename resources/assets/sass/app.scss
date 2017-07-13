@@ -636,6 +636,10 @@ footer {
 	}
 }
 
+.text-liked {
+	color: $color-pink-500;
+}
+
 .text-subtle {
 	color: $color-brand-secondary-dark;
 }
@@ -661,8 +665,18 @@ video + .caption {
 	margin: 1em auto 2em auto;
 }
 
+.thumbnail {
+	video {
+		margin: 0;
+	}
+}
+
 a.thumbnail {
 	padding: 1.5rem;
+
+	video {
+		margin: 0;
+	}
 
 	&:hover {
 		text-decoration: none;
@@ -697,3 +711,11 @@ a.thumbnail {
 .mr-2 { margin-right: 0.5rem; }
 .mr-3 { margin-right: 1rem; }
 .mr-4 { margin-right: 1.5rem; }
+
+.d-flex {
+	display: flex !important;
+}
+
+.align-items-center {
+	align-items: center !important;
+}
