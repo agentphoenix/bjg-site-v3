@@ -75,7 +75,7 @@
 						<h2>Tour Group <small>11-13 years old</small></h2>
 						<ul class="list-unstyled">
 							<li>Mondays 5:00p-6:30p</li>
-							<li>Fridays 5:00p-6:00p</li>
+							<li>Fridays 5:00p-6:30p</li>
 						</ul>
 
 						<h3 class="text-center">$1,595 <small>per semester</small></h3>
