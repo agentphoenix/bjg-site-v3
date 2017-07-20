@@ -23,7 +23,7 @@
 				<div class="card">
 					<div class="card__block">
 						<h3 class="card__title"><i class="fa fa-users fa-3x text-subtle"></i></h3>
-						<p class="card__text">The goal will be to operate 4 age groups of 8 to 10 students. We intentionally keep these groups smaller to provide more one-on-one time with instructors. Space is limited, so make sure to enroll early!</p>
+						<p class="card__text">The goal will be to operate 4 groups of up to 12 students per group. We intentionally keep these groups smaller to provide more one-on- one time with instructors. Space is limited, so make sure to enroll early!</p>
 					</div>
 				</div>
 			</div>
@@ -52,11 +52,10 @@
 					<div class="section__content">
 						<h2>Champs Group <small>5-7 years old</small></h2>
 						<ul class="list-unstyled">
-							<li>50 yards</li>
 							<li>Saturdays 10:30a-11:30a</li>
 						</ul>
 
-						<h3 class="text-center">$1,099 <small>per semester</small></h3>
+						<h3 class="text-center">$1,199 <small>per semester</small></h3>
 					</div>
 				</div>
 
@@ -64,11 +63,10 @@
 					<div class="section__content">
 						<h2>Futures Group <small>8-10 years old</small></h2>
 						<ul class="list-unstyled">
-							<li>50-100 yards</li>
 							<li>Saturdays 9:15a-10:15a</li>
 						</ul>
 
-						<h3 class="text-center">$1,099 <small>per semester</small></h3>
+						<h3 class="text-center">$1,199 <small>per semester</small></h3>
 					</div>
 				</div>
 
@@ -76,13 +74,11 @@
 					<div class="section__content">
 						<h2>Tour Group <small>11-13 years old</small></h2>
 						<ul class="list-unstyled">
-							<li>50-200 yards</li>
-							<li>Tuesdays 5:00p-6:00p</li>
-							<li>Thursdays 5:00p-6:00p</li>
-							<li class="visible-md visible-lg">&nbsp;</li>
+							<li>Mondays 5:00p-6:30p</li>
+							<li>Fridays 5:00p-6:00p</li>
 						</ul>
 
-						<h3 class="text-center">$1,395 <small>per semester</small></h3>
+						<h3 class="text-center">$1,595 <small>per semester</small></h3>
 					</div>
 				</div>
 
@@ -90,10 +86,8 @@
 					<div class="section__content">
 						<h2>Elite Group <small>14-17 years old</small></h2>
 						<ul class="list-unstyled">
-							<li>50 yards to standard course length</li>
-							<li>Tuesdays 4:00p-5:00p</li>
-							<li>Thursdays 4:00p-5:00p</li>
-							<li>Saturdays 2:30p-3:30p</li>
+							<li>Tuesdays 4:00p-5:30p</li>
+							<li>Thursdays 4:00p-5:30p</li>
 						</ul>
 
 						<h3 class="text-center">$1,595 <small>per semester</small></h3>
