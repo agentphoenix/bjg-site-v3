@@ -12,6 +12,7 @@
 				<ul class="dropdown-menu">
 					<li><a href="{{ route('home') }}">Home</a></li>
 					<li><a href="{{ route('instruction') }}">Instruction</a></li>
+					<li><a href="{{ route('media.index') }}">Media</a></li>
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
 					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
 					<li><a href="{{ route('contact') }}">Contact Us</a></li>
@@ -30,7 +31,8 @@
 			<div class="nav__item"><a href="{{ route('home') }}">Home</a></div>
 			<div class="nav__item"><a href="{{ route('instruction') }}">Instruction</a></div>
 			<!--<div class="nav__item"><a href="{{ route('home') }}" class="brand"></a></div>-->
-			<div class="nav__item"><a href="{{ route('youth-golf') }}">Youth Golf</a></div>
+			{{-- <div class="nav__item"><a href="{{ route('youth-golf') }}">Youth Golf</a></div> --}}
+			<div class="nav__item"><a href="{{ route('media.index') }}">Media</a></div>
 			<div class="nav__item"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></div>
 			<div class="nav__item"><a href="{{ route('gca') }}">Golf Channel Academy</a></div>
 			<div class="nav__item"><a href="{{ route('contact') }}">Contact</a></div>

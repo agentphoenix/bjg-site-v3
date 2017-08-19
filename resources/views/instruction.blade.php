@@ -125,7 +125,7 @@
 
 			<h2>Other Services</h2>
 
-			<p>We offer a wide range of additional services including private lessons, on-course playing lessons, equipment evaluations, group clinics, Golf Channel Academy Golf Schools, and many <a href="{{ route('trackman') }}">TrackMan</a> swing and ball flight analysis services. <a href="{{ route('contact') }}">Contact us</a> for more information or <a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">book today</a>!</p>
+			<p>We offer a wide range of additional services including private lessons, on-course playing lessons, <a href="{{ route('youth-golf') }}">youth golf programs</a>, equipment evaluations, group clinics, Golf Channel Academy Golf Schools, and many <a href="{{ route('trackman') }}">TrackMan</a> swing and ball flight analysis services. <a href="{{ route('contact') }}">Contact us</a> for more information or <a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">book today</a>!</p>
 
 			<!--<div class="cards">
 				<div class="card">

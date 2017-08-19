@@ -43,6 +43,7 @@
 				.dropdown-menu {
 					right: 0;
 					left: auto;
+					z-index: 2000;
 
 					@include rounded($border-radius);
 
