@@ -16,7 +16,7 @@
 			<div class="cards">
 				<div class="card">
 					<div class="card__block">
-						<h3 class="card__title"><i class="fa fa-calendar fa-3x text-subtle"></i></h3>
+						<h3 class="card__title"><i class="far fa-calendar-alt fa-3x text-subtle"></i></h3>
 						<p class="card__text">There will be two semesters (running approximately 20 weeks each) through the year with a break between each semester. The winter semester runs from November until March. The spring/summer semester runs from May until October.</p>
 					</div>
 				</div>
@@ -31,7 +31,7 @@
 			<div class="cards">
 				<div class="card">
 					<div class="card__block">
-						<h3 class="card__title"><i class="fa fa-dot-circle-o fa-3x text-subtle"></i></h3>
+						<h3 class="card__title"><i class="far fa-bullseye fa-3x text-subtle"></i></h3>
 						<p class="card__text">Every month of the semester there will be a skills challenge to test students and allow them to achieve personal bests. Scores from these skills challenge will allow students to progress to a higher group.</p>
 					</div>
 				</div>

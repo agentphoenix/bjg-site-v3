@@ -773,7 +773,8 @@ a.thumbnail:hover h3 {
   color: #44932b;
 }
 
-a.thumbnail:hover i {
+a.thumbnail:hover i,
+a.thumbnail:hover .svg-inline--fa {
   color: #44932b;
 }
 

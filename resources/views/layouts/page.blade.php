@@ -6,8 +6,12 @@
         <meta name="author" content="Brian Jacobs Golf">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <script src="{{ asset('js/fontawesome.min.js') }}"></script>
+        <script src="{{ asset('js/packs/brands.min.js') }}"></script>
+        <script src="{{ asset('js/packs/solid.min.js') }}"></script>
+        <script src="{{ asset('js/packs/regular.min.js') }}"></script>
+
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
         @yield('styles')
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">

@@ -26,15 +26,13 @@
 
 						<p>Drawing from his unique experience as an accomplished player, caddie, PGA Professional, and golf instructor, Brian brings an invaluable "inside the ropes" perspective to his teaching. Whether you're looking for swing instruction, short game help, course management skills, learning how to manage yourself within a round of golf or preparing your youth golfer to play the game at a high level, Brian has the expertise to help you succeed.</p>
 
-						<a href="https://twitter.com/BrianJacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fa fa-fw fa-twitter"></i></a>
+						<a href="https://twitter.com/BrianJacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
 						&nbsp;
-						<a href="http://instagram.com/BrianJacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fa fa-fw fa-instagram"></i></a>
+						<a href="http://instagram.com/BrianJacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-instagram"></i></a>
 						&nbsp;
-						<a href="https://www.facebook.com/brianjacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fa fa-fw fa-facebook-official"></i></a>
+						<a href="https://www.facebook.com/brianjacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-facebook-square"></i></a>
 						&nbsp;
 						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#contactBrian"><i class="fa fa-fw fa-paper-plane"></i></a>
-
-						{{-- <p>Drawing from his unique experience as an accomplished player, caddie, PGA Professional and golf instructor, Brian brings an invaluable "inside the ropes" perspective to his teaching. Whether you're looking for swing instruction, short game help, course management skills, learning how to manage yourself within a round of golf or preparing your youth golfer to play the game at a high level, Brian has the expertise to help you succeed.</p> --}}
 					</div>
 				</div>
 			</div>
@@ -56,17 +54,11 @@
 
 						<p>Rob graduated from Penn State University with a Bachelor of Science Degree in Health and Human Development with PGA Golf Management as his focus. He's had the opportunity to study under some of the most respected individuals in the business. He focuses on analyzing, diagnosing, and fixing flaws in students’ games and has received numerous certifications including Trackman, Swing Catalyst, Eyeline Golf 4PE, Positive Coaching, and US Kids Golf. Rob has also been awarded the US Kids Golf Top 50 Honorable Mention Award.</p>
 
-						<a href="https://twitter.com/RobComererPGA" target="_blank" class="btn btn-default btn-circle"><i class="fa fa-fw fa-twitter"></i></a>
+						<a href="https://twitter.com/RobComererPGA" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
 						&nbsp;
-						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#ratesRob"><i class="fa fa-fw fa-usd"></i></a>
+						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#ratesRob"><i class="fa fa-fw fa-usd-square"></i></a>
 						&nbsp;
 						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#contactRob"><i class="fa fa-fw fa-paper-plane"></i></a>
-
-						{{-- <h3>In His Own Words...</h3>
-
-						<blockquote>
-							“I do not subscribe to one specific methodology of teaching.  I do believe in science and technology, and the use of this in varying hands-on ways to help my student’s progress towards their goals.  At Brian Jacobs Golf and the Golf Channel Academy, I am able to give each student a positive atmosphere and a plan for success. Having a fun and customized interactive practice is the best way to improve our golf games and work towards achieving our goals.”
-						</blockquote> --}}
 					</div>
 				</div>
 			</div>

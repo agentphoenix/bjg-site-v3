@@ -28,9 +28,9 @@
 			<div class="col-xs-6">
 				<h4 class="footer__title">Connect</h4>
 				<ul class="list-unstyled">
-					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a></li>
+					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fab fa-twitter fa-fw"></i> Twitter</a></li>
+					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fab fa-instagram fa-fw"></i> Instagram</a></li>
 					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
 				</ul>
 			</div>
@@ -80,9 +80,9 @@
 			<div class="col-sm-4">
 				<h4 class="footer__title">Connect</h4>
 				<ul class="list-unstyled">
-					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a></li>
+					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fab fa-twitter fa-fw"></i> Twitter</a></li>
+					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fab fa-instagram fa-fw"></i> Instagram</a></li>
 					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
 				</ul>
 			</div>
@@ -172,9 +172,9 @@
 			<div class="col-md-2">
 				<h4 class="footer__title">Connect</h4>
 				<ul class="list-unstyled">
-					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a></li>
+					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fab fa-twitter fa-fw"></i> Twitter</a></li>
+					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fab fa-instagram fa-fw"></i> Instagram</a></li>
 					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
 				</ul>
 			</div>

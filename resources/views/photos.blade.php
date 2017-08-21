@@ -12,7 +12,7 @@
 					<a href="{{ route('media.index') }}" class="btn btn-default"><i class="fa fa-arrow-circle-left fa-fw fa-2x"></i></a>
 				</div>
 				<div class="btn-group">
-					<a href="http://instagram.com/BrianJacobsgolf" target="_blank" class="btn btn-default"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+					<a href="http://instagram.com/BrianJacobsgolf" target="_blank" class="btn btn-default"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
 				</div>
 			</div>
 
@@ -37,11 +37,11 @@
 							<span class="text-subtle mr-4">{{ $m->likes->count }}</span>
 
 							@if ($m->comments->count > 0)
-								<i class="fa fa-comments fa-fw mr-1 text-subtle"></i>
+								<i class="fa fa-comment fa-fw mr-1 text-subtle"></i>
 								<span class="text-subtle mr-4">{{ $m->comments->count }}</span>
 							@endif
 
-							<i class="fa fa-clock-o fa-fw mr-1 text-subtle"></i>
+							<i class="fa fa-clock fa-fw mr-1 text-subtle"></i>
 							<span class="text-subtle mr-4">{{ Date::createFromTimestamp($m->created_time)->diffForHumans() }}</span>
 
 							<a href="{{ $m->link }}" target="_blank" class="btn btn-sm btn-default">More Info</a>

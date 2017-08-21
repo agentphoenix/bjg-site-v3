@@ -58,11 +58,11 @@
 					</p>
 
 					<p>
-						<a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fa fa-facebook-official fa-fw fa-2x"></i></a>
+						<a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fab fa-facebook-square fa-fw fa-2x"></i></a>
 						&nbsp;
-						<a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+						<a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fab fa-twitter fa-fw fa-2x"></i></a>
 						&nbsp;
-						<a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+						<a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
 					</p>
 				</div>
 			</div>
