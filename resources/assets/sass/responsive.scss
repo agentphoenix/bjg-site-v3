@@ -6,9 +6,11 @@
 		height: 25rem !important;
 
 		.logo-masthead {
+			background-image: url(../images/logo-oneline.svg);
+			display: none;
 			height: 7.5rem;
-			width: 90%;
 			margin: 1rem auto;
+			width: 90%;
 		}
 	}
 
@@ -17,27 +19,28 @@
 	}
 
 	nav {
+		align-items: center;
+
 		.nav__item {
 			width: 100%;
 
+			&:first-child {
+				padding-right: 5rem;
+			}
+
+			&:last-child {
+				flex: 0 0 0;
+			}
+
 			.dropdown {
-				margin: auto $spacing auto auto;
+				// margin: auto $spacing auto auto;
 
 				.navbar-toggle {
-					float: right;
-					margin: 0 !important;
-
-					border-color: rgba(0, 0, 0, 0.4);
-					background-color: rgba(0, 0, 0, 0.15);
-					text-align: right !important;
-
-					@include rounded($border-radius);
-
-					.icon-bar {
-						background-color: #fff;
-
-						@include rounded($border-radius);
-					}
+					border: none;
+					background-color: transparent;
+					float: none;
+					padding: 0 16px 0 0;
+					margin: 0;
 				}
 
 				.dropdown-menu {

@@ -1,13 +1,17 @@
 <div class="visible-xs">
 	<nav>
+		<div class="nav__item">
+			<img src="{{ asset('images/logo-oneline.svg') }}">
+		</div>
 		<!--<div class="nav__item"><a href="{{ route('home') }}" class="brand"></a></div>-->
 		<div class="nav__item">
 			<div class="dropdown">
 				<button type="button" class="navbar-toggle" data-toggle="dropdown">
-					<span class="sr-only">Toggle navigation</span>
+					{{-- <span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> --}}
+					<i class="fal fa-bars fa-fw fa-2x"></i>
 				</button>
 				<ul class="dropdown-menu">
 					<li><a href="{{ route('home') }}">Home</a></li>

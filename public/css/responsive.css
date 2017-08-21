@@ -4,30 +4,37 @@
     height: 25rem !important;
   }
   header .logo-masthead {
+    background-image: url(../images/logo-oneline.svg);
+    display: none;
     height: 7.5rem;
-    width: 90%;
     margin: 1rem auto;
+    width: 90%;
   }
   aside {
     margin: -5rem 0 3rem 0;
   }
+  nav {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   nav .nav__item {
     width: 100%;
   }
-  nav .nav__item .dropdown {
-    margin: auto 1.5rem auto auto;
+  nav .nav__item:first-child {
+    padding-right: 5rem;
+  }
+  nav .nav__item:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 0px;
+            flex: 0 0 0;
   }
   nav .nav__item .dropdown .navbar-toggle {
-    float: right;
-    margin: 0 !important;
-    border-color: rgba(0, 0, 0, 0.4);
-    background-color: rgba(0, 0, 0, 0.15);
-    text-align: right !important;
-    border-radius: 0.5rem;
-  }
-  nav .nav__item .dropdown .navbar-toggle .icon-bar {
-    background-color: #fff;
-    border-radius: 0.5rem;
+    border: none;
+    background-color: transparent;
+    float: none;
+    padding: 0 16px 0 0;
+    margin: 0;
   }
   nav .nav__item .dropdown .dropdown-menu {
     right: 0;
