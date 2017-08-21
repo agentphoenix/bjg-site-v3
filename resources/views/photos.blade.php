@@ -9,7 +9,7 @@
 
 			<div class="btn-toolbar">
 				<div class="btn-group">
-					<a href="{{ route('media.index') }}" class="btn btn-default"><i class="fa fa-arrow-circle-left fa-fw fa-2x"></i></a>
+					<a href="{{ route('media.index') }}" class="btn btn-default"><i class="fa fa-arrow-alt-circle-left fa-fw fa-2x"></i></a>
 				</div>
 				<div class="btn-group">
 					<a href="http://instagram.com/BrianJacobsgolf" target="_blank" class="btn btn-default"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
@@ -41,7 +41,7 @@
 								<span class="text-subtle mr-4">{{ $m->comments->count }}</span>
 							@endif
 
-							<i class="fa fa-clock fa-fw mr-1 text-subtle"></i>
+							<i class="far fa-clock fa-fw mr-1 text-subtle"></i>
 							<span class="text-subtle mr-4">{{ Date::createFromTimestamp($m->created_time)->diffForHumans() }}</span>
 
 							<a href="{{ $m->link }}" target="_blank" class="btn btn-sm btn-default">More Info</a>

@@ -27,12 +27,31 @@
 
 			<div class="col-xs-6">
 				<h4 class="footer__title">Connect</h4>
-				<ul class="list-unstyled">
-					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fab fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fab fa-instagram fa-fw"></i> Instagram</a></li>
-					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
-				</ul>
+
+				<div class="d-flex flex-direction-column">
+					<a href="https://www.facebook.com/brianjacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-facebook-square fa-fw mr-2"></i>
+						<small>Facebook</small>
+					</a>
+					<a href="https://twitter.com/BrianJacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-twitter fa-fw mr-2"></i>
+						<small>Twitter</small>
+					</a>
+					<a href="http://instagram.com/BrianJacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-instagram fa-fw mr-2"></i>
+						<small>Instagram</small>
+					</a>
+					<a href="{{ route('contact') }}" class="d-flex align-items-center">
+						<i class="fa fa-paper-plane fa-fw mr-2"></i>
+						<small>Contact Us</small>
+					</a>
+				</div>
 			</div>
 		</div>
 
@@ -79,12 +98,31 @@
 
 			<div class="col-sm-4">
 				<h4 class="footer__title">Connect</h4>
-				<ul class="list-unstyled">
-					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fab fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fab fa-instagram fa-fw"></i> Instagram</a></li>
-					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
-				</ul>
+
+				<div class="d-flex flex-direction-column">
+					<a href="https://www.facebook.com/brianjacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-facebook-square fa-fw mr-2"></i>
+						<small>Facebook</small>
+					</a>
+					<a href="https://twitter.com/BrianJacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-twitter fa-fw mr-2"></i>
+						<small>Twitter</small>
+					</a>
+					<a href="http://instagram.com/BrianJacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-instagram fa-fw mr-2"></i>
+						<small>Instagram</small>
+					</a>
+					<a href="{{ route('contact') }}" class="d-flex align-items-center">
+						<i class="fa fa-paper-plane fa-fw mr-2"></i>
+						<small>Contact Us</small>
+					</a>
+				</div>
 			</div>
 		</div>
 
@@ -171,12 +209,31 @@
 
 			<div class="col-md-2">
 				<h4 class="footer__title">Connect</h4>
-				<ul class="list-unstyled">
-					<li><a href="https://www.facebook.com/brianjacobsgolf" target="_blank"><i class="fab fa-facebook-square fa-fw"></i> Facebook</a></li>
-					<li><a href="https://twitter.com/BrianJacobsgolf" target="_blank"><i class="fab fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="http://instagram.com/BrianJacobsgolf" target="_blank"><i class="fab fa-instagram fa-fw"></i> Instagram</a></li>
-					<li><a href="{{ route('contact') }}"><i class="fa fa-paper-plane fa-fw"></i> Email Us</a></li>
-				</ul>
+
+				<div class="d-flex flex-direction-column">
+					<a href="https://www.facebook.com/brianjacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-facebook-square fa-fw mr-2"></i>
+						<small>Facebook</small>
+					</a>
+					<a href="https://twitter.com/BrianJacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-twitter fa-fw mr-2"></i>
+						<small>Twitter</small>
+					</a>
+					<a href="http://instagram.com/BrianJacobsgolf"
+					   target="_blank"
+					   class="d-flex align-items-center mb-2">
+						<i class="fab fa-instagram fa-fw mr-2"></i>
+						<small>Instagram</small>
+					</a>
+					<a href="{{ route('contact') }}" class="d-flex align-items-center">
+						<i class="fa fa-paper-plane fa-fw mr-2"></i>
+						<small>Contact Us</small>
+					</a>
+				</div>
 			</div>
 		</div>
 

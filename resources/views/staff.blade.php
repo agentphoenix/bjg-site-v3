@@ -56,7 +56,7 @@
 
 						<a href="https://twitter.com/RobComererPGA" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
 						&nbsp;
-						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#ratesRob"><i class="fa fa-fw fa-usd-square"></i></a>
+						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#ratesRob"><i class="far fa-fw fa-dollar-sign"></i></a>
 						&nbsp;
 						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#contactRob"><i class="fa fa-fw fa-paper-plane"></i></a>
 					</div>

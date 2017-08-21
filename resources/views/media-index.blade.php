@@ -17,7 +17,7 @@
 
 				<div class="col-sm-6">
 					<a href="{{ route('media.videos') }}" class="thumbnail align-center">
-						<i class="fa fa-video fa-fw fa-5x text-subtle"></i>
+						<i class="far fa-video fa-fw fa-5x text-subtle"></i>
 						<h3 class="mb-0">Videos</h3>
 					</a>
 				</div>

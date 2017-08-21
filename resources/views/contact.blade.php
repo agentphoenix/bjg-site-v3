@@ -43,7 +43,10 @@
 				<div class="col-md-5">
 					<h3>Contact Information</h3>
 
-					<p><i class="fa fa-phone fa-fw"></i> 585-415-9323</p>
+					<p class="d-flex align-items-center">
+						<i class="fa fa-phone fa-fw mr-2"></i>
+						<span>585-415-9323</span>
+					</p>
 
 					<p>
 						<strong>Ridgemont Country Club</strong><br>

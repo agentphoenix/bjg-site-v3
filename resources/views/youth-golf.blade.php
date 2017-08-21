@@ -16,13 +16,13 @@
 			<div class="cards">
 				<div class="card">
 					<div class="card__block">
-						<h3 class="card__title"><i class="far fa-calendar-alt fa-3x text-subtle"></i></h3>
+						<h3 class="card__title"><i class="fal fa-calendar-alt fa-5x text-subtle"></i></h3>
 						<p class="card__text">There will be two semesters (running approximately 20 weeks each) through the year with a break between each semester. The winter semester runs from November until March. The spring/summer semester runs from May until October.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card__block">
-						<h3 class="card__title"><i class="fa fa-users fa-3x text-subtle"></i></h3>
+						<h3 class="card__title"><i class="fa fa-users fa-5x text-subtle"></i></h3>
 						<p class="card__text">The goal will be to operate 4 groups of up to 12 students per group. We intentionally keep these groups smaller to provide more one-on- one time with instructors. Space is limited, so make sure to enroll early!</p>
 					</div>
 				</div>
@@ -31,13 +31,13 @@
 			<div class="cards">
 				<div class="card">
 					<div class="card__block">
-						<h3 class="card__title"><i class="far fa-bullseye fa-3x text-subtle"></i></h3>
-						<p class="card__text">Every month of the semester there will be a skills challenge to test students and allow them to achieve personal bests. Scores from these skills challenge will allow students to progress to a higher group.</p>
+						<h3 class="card__title"><i class="fal fa-bullseye fa-5x text-subtle"></i></h3>
+						<p class="card__text">Every month of the semester there will be a skills challenge to test students and allow them to achieve personal bests. Scores from these challenges will allow students to progress to higher groups.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card__block">
-						<h3 class="card__title"><i class="fa fa-graduation-cap fa-3x text-subtle"></i></h3>
+						<h3 class="card__title"><i class="fa fa-graduation-cap fa-5x text-subtle"></i></h3>
 						<p class="card__text">We will bring in experts in various fields such as sport psychology, nutrition for athletes, physical therapy, exercise physiology, and more to present and work with students.</p>
 					</div>
 				</div>

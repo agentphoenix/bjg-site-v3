@@ -9,7 +9,7 @@
 
 			<div class="btn-toolbar mb-4">
 				<div class="btn-group">
-					<a href="{{ route('media.index') }}" class="btn btn-default"><i class="fa fa-arrow-circle-left fa-fw fa-2x"></i></a>
+					<a href="{{ route('media.index') }}" class="btn btn-default"><i class="fa fa-arrow-alt-circle-left fa-fw fa-2x"></i></a>
 				</div>
 			</div>
 
@@ -48,7 +48,10 @@
 				<div class="col-md-3">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title">Find Videos</h3>
+							<h3 class="panel-title d-flex align-items-center">
+								<i class="far fa-search fa-fw mr-2"></i>
+								Find Videos
+							</h3>
 						</div>
 						<div class="panel-body">
 							<div class="radio">
