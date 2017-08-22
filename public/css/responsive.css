@@ -1,14 +1,22 @@
 /* xs */
 @media (max-width: 767px) {
   header {
-    height: 25rem !important;
+    height: auto;
+    padding-bottom: 6rem;
+  }
+  header.home {
+    height: auto;
+  }
+  header .btn.btn-primary {
+    background: rgba(255, 255, 255, 0.25);
+    border-width: 2px;
+    color: #44932b;
+  }
+  header .btn.btn-primary span {
+    font-size: 90%;
   }
   header .logo-masthead {
-    background-image: url(../images/logo-oneline.svg);
     display: none;
-    height: 7.5rem;
-    margin: 1rem auto;
-    width: 90%;
   }
   aside {
     margin: -5rem 0 3rem 0;
@@ -19,15 +27,8 @@
             align-items: center;
   }
   nav .nav__item {
+    padding: 0 1rem;
     width: 100%;
-  }
-  nav .nav__item:first-child {
-    padding-right: 5rem;
-  }
-  nav .nav__item:last-child {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 0px;
-            flex: 0 0 0;
   }
   nav .nav__item .dropdown .navbar-toggle {
     border: none;

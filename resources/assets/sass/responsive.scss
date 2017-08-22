@@ -3,14 +3,27 @@
 /* xs */
 @media (max-width: 767px) {
 	header {
-		height: 25rem !important;
+		height: auto;
+		padding-bottom: 6rem;
+
+		&.home {
+			height: auto;
+		}
+
+		.btn {
+			&.btn-primary {
+				background: rgba(255, 255, 255, .25);
+				border-width: 2px;
+				color: $color-brand-primary;
+
+				span {
+					font-size: 90%;
+				}
+			}
+		}
 
 		.logo-masthead {
-			background-image: url(../images/logo-oneline.svg);
 			display: none;
-			height: 7.5rem;
-			margin: 1rem auto;
-			width: 90%;
 		}
 	}
 
@@ -22,15 +35,16 @@
 		align-items: center;
 
 		.nav__item {
+			padding: 0 1rem;
 			width: 100%;
 
-			&:first-child {
-				padding-right: 5rem;
-			}
-
-			&:last-child {
-				flex: 0 0 0;
-			}
+			// &:first-child {
+			// 	padding-right: 5rem;
+			// }
+			//
+			// &:last-child {
+			// 	flex: 0 0 0;
+			// }
 
 			.dropdown {
 				// margin: auto $spacing auto auto;

@@ -943,3 +943,8 @@ a.thumbnail:hover .svg-inline--fa {
       -ms-flex-align: center !important;
           align-items: center !important;
 }
+
+.justify-content-around {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
