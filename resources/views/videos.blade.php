@@ -108,6 +108,15 @@
 									Putting
 								</label>
 							</div>
+							<div class="radio">
+								<label>
+									<input type="radio"
+										   name="searchCategories"
+										   value="Training"
+										   v-model="searchCategories">
+									Putting
+								</label>
+							</div>
 						</div>
 
 						<div class="panel-footer">
