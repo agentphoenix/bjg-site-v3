@@ -81,7 +81,7 @@
 
 			<div class="col-xs-12">
 				<a href="{{ route('gca') }}" class="gca gca-sm"></a>
-				<p class="copyright">&copy; {{ "now"|date("Y") }} Brian Jacobs Golf
+				<p class="copyright">&copy; {{ Carbon\Carbon::now()->format('Y') }} Brian Jacobs Golf
 			</div>
 		</div>
 	</div>
@@ -175,7 +175,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<a href="{{ route('gca') }}" class="gca gca-sm"></a>
-				<p class="copyright">&copy; {{ "now"|date("Y") }} Brian Jacobs Golf
+				<p class="copyright">&copy; {{ Carbon\Carbon::now()->format('Y') }} Brian Jacobs Golf
 			</div>
 		</div>
 	</div>
