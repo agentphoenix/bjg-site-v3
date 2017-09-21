@@ -1,5 +1,32 @@
 [
 	{
+		"title": "Sweet Roll",
+		"summary": "Learn about Eyeline's Sweet Roll putting aid and how it can help you roll pure putts every time.",
+		"file": "/media/eyeline/sweet-roll.mp4",
+		"preview": "/media/eyeline/sweet-roll-preview.png",
+		"categories": [
+			"Putting", "Training"
+		]
+	},
+	{
+		"title": "Pinpoint Laser",
+		"summary": "Learn about Eyeline's Pinpoint Laser putting aid and how it can train you align the putter face to your target better.",
+		"file": "/media/eyeline/pinpoint-laser.mp4",
+		"preview": "/media/eyeline/pinpoint-laser-preview.png",
+		"categories": [
+			"Putting", "Training"
+		]
+	},
+	{
+		"title": "My Roll Ball",
+		"summary": "Learn about Eyeline's My Roll golf ball and the advantages it has to showing you how your ball is rolling and rotating for better putts on the course.",
+		"file": "/media/eyeline/my-roll-ball.mp4",
+		"preview": "/media/eyeline/my-roll-ball-preview.png",
+		"categories": [
+			"Putting", "Training"
+		]
+	},
+	{
 		"title": "Control Your Hands",
 		"summary": "Learn about how to keep the golf club \"connected\" to your body for better ball-striking with all your clubs.",
 		"file": "/media/golf-channel/2017/control-your-hands.mp4",
