@@ -166,25 +166,16 @@
     display: block;
     margin-top: 0.1em;
   }
+  .flex-direction-column-xs {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-  /*header {
-		nav {
-			.nav__section {
-				flex-direction: column;
-
-				.nav__item {
-					margin-bottom: 0.75rem;
-
-					a {
-						font-size: $font-size-md;
-					}
-				}
-			}
-		}
-	}*/
   .event .event__image {
     -webkit-box-flex: 2;
         -ms-flex: 2 0 35%;

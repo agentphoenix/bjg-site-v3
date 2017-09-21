@@ -948,3 +948,9 @@ a.thumbnail:hover .svg-inline--fa {
   -ms-flex-pack: distribute !important;
       justify-content: space-around !important;
 }
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
