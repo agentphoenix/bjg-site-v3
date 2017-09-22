@@ -114,7 +114,7 @@
 										   name="searchCategories"
 										   value="Training"
 										   v-model="searchCategories">
-									Putting
+									Training
 								</label>
 							</div>
 						</div>
