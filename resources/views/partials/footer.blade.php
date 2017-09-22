@@ -61,7 +61,7 @@
 				<ul class="list-unstyled">
 					<li><a href="{{ route('home') }}">Home</a></li>
 					<li><a href="{{ route('staff') }}">Staff</a></li>
-					<li><a href="{{ route('events.all') }}">Events</a></li>
+					<li><a href="{{ route('events.index') }}">Events</a></li>
 					<li><a href="{{ route('media.index') }}">Media</a></li>
 					<li><a href="{{ route('partners') }}">Our Partners</a></li>
 					<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
@@ -153,7 +153,7 @@
 				<ul class="list-unstyled">
 					<li><a href="{{ route('home') }}">Home</a></li>
 					<li><a href="{{ route('staff') }}">Staff</a></li>
-					<li><a href="{{ route('events.all') }}">Events</a></li>
+					<li><a href="{{ route('events.index') }}">Events</a></li>
 					<li><a href="{{ route('media.index') }}">Media</a></li>
 					<li><a href="{{ route('partners') }}">Our Partners</a></li>
 					<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
@@ -197,7 +197,7 @@
 						<ul class="list-unstyled">
 							<li><a href="{{ route('home') }}">Home</a></li>
 							<li><a href="{{ route('staff') }}">Staff</a></li>
-							<li><a href="{{ route('events.all') }}">Events</a></li>
+							<li><a href="{{ route('events.index') }}">Events</a></li>
 							<li><a href="{{ route('media.index') }}">Media</a></li>
 							<li><a href="{{ route('partners') }}">Our Partners</a></li>
 							<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>

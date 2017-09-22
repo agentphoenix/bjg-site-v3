@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use Date;
 use Mail;
 use App\Mail\ContactSent;
 use Illuminate\Http\Request;
@@ -8,7 +9,19 @@ class SiteController extends Controller
 {
 	public function home()
 	{
-		return view('home');
+		$path = storage_path('app/events.json');
+		$contents = file_get_contents($path);
+		$json = json_decode($contents, true);
+
+		$events = collect($json)->filter(function ($e) {
+			return $e['featured'] === true;
+		})->filter(function ($e) {
+			$endDate = Date::createFromFormat('m/d/Y', $e['end_date']);
+
+			return $endDate->gte(Date::now()->startOfDay());
+		});
+
+		return view('home', compact('events'));
 	}
 
 	public function contact()

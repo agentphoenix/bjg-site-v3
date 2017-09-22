@@ -1,30 +1,46 @@
 [
 	{
-		"name": "90-for-90 Golf-Tastic",
-		"location": "Ridgemont Country Club",
-		"date": "Fridays, 6:30pm - 8:00pm",
-		"summary": "The 90-for-90 Golf-Tastic instructional series is designed to focus on 4 of the main areas to help golfers perform better on the course. Join us after work to learn what can be done to maximize your game, shoot lower scores, and have more fun!",
-		"details": "WedgeTastic!
-June 30th
-Learn about all of the wedge shots you'll need on the course, make solid contact anywhere from greenside to 50 yards, master your control and trajectory, and shoot lower scores!
-DriveTastic!
-July 21st
-Cure that slice or hook forever, learn simple ways to ramp up your distance, and develop a plan and routine to keep your driver in play, all while having fun!
-PuttTastic!
-July 28th
-Learn the critical elements of tour quality putting, put a tour style roll on your golf ball, train and enhance your perception of green break, and make more putts!
-IronTastic!
-August 4th
-Learn to make more solid iron shots, take thin and fat shots out of the swing, limit the curve, develop an IronTastic routine, and play better golf!",
-		"pricing": "$90 <small>per person per session</small>",
-		"thumbnail": "",
-		"image": "",
+		"name": "Learn & Play Getaway",
+		"location": "",
+		"schedule": "",
+		"start_date": "",
+		"end_date": "01/01/2019",
+		"slug": "learn-play-getaway-2018",
+		"summary": "There's no better way to get away from winter and improve your golf game than a Brian Jacobs Golf Learn-and-Play Getaway. We're planning a trip that will include 4 rounds of golf, accommodations, morning golf instruction before your round, and more! Stay tuned for details.",
+		"details": "<div class=\"alert alert-info\">More details coming soon!</div>",
+		"pricing": "",
 		"featured": true,
+		"images": {
+			"thumbnail": "DSC_3958.jpg",
+			"full": "DSC_3958.jpg"
+		},
 		"links": {
 			"infoButtonText":  "More Info",
-			"infoButtonLink": "",
+			"infoButtonLink": "/events/learn-play-getaway-2018",
 			"bookingButtonText": "Enroll Now",
 			"bookingButtonLink": ""
+		}
+	},
+	{
+		"name": "Project 10/10",
+		"location": "Avid Indoor Golf",
+		"schedule": "",
+		"start_date": "",
+		"end_date": "01/01/2019",
+		"slug": "project-10-10",
+		"summary": "At Brian Jacobs Golf, our goal is to give golfers the consistency they’ve always wanted. Why not let some of the best instructors in the area help you create a new tradition – lower scores and consistent play. We are offering you a limited time opportunity to not only learn how to play and practice, but also have supervised practice as you go!",
+		"details": "<p class=\"lead\">Start a New Tradition</p><p>Finally! Take a major step with your golf game. Add consistency to your game with Golf Channel Academy at Brian Jacobs Golf.</p><p>There are few great traditions in sports like the beginning of major season in golf. It leaves so many viewers with the passion to get back out to the course and play the game. Still, both casual and competitive golfers struggle to find their form when teeing it up after some time away from golf.</p><p>At Brian Jacobs Golf, our goal is to give golfers the consistency they’ve always wanted and that includes you. Why not let some of the best instructors in the area help you create a new tradition – lower scores and consistent play.</p><p>We are offering you a limited time opportunity to not only learn how to play and practice but also have supervised practice as you go!</p><p>Purchase our 10/10 program for only $2,850 and you receive ten 60 minute coaching sessions and ten 30 minute supervised practice sessions.</p><p class=\"lead\"><strong>Decide. Commit. Succeed.</strong></p><p class=\"text-muted text-sm\">*Balance must be used within 6 months of start date<br>**Coaching and supervised practice may conjoin or be separated<br>***Full payment is expected at outset of program</p>",
+		"pricing": "$2,850",
+		"featured": true,
+		"images": {
+			"thumbnail": "teaching4.jpg",
+			"full": "teaching4.jpg"
+		},
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "/events/project-10-10",
+			"bookingButtonText": "Enroll Now",
+			"bookingButtonLink": "http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx"
 		}
 	}
 ]

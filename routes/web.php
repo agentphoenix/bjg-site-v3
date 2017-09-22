@@ -8,8 +8,6 @@ Route::get('youth-golf', 'SiteController@youthGolf')->name('youth-golf');
 Route::get('golf-channel-academy', 'SiteController@gca')->name('gca');
 Route::get('contact', 'SiteController@contact')->name('contact');
 Route::post('contact', 'SiteController@sendContact')->name('contact.send');
-Route::get('events', 'SiteController@events')->name('events.all');
-Route::get('events/{event}', 'SiteController@showEvent')->name('events.show');
 Route::get('partners', 'SiteController@partners')->name('partners');
 Route::get('privacy-policy', 'SiteController@privacy')->name('privacy');
 Route::get('staff', 'SiteController@staff')->name('staff');
@@ -17,3 +15,6 @@ Route::get('staff', 'SiteController@staff')->name('staff');
 Route::get('media-room', 'MediaController@index')->name('media.index');
 Route::get('media-room/photos', 'MediaController@photos')->name('media.photos');
 Route::get('media-room/videos', 'MediaController@videos')->name('media.videos');
+
+Route::get('events', 'EventsController@index')->name('events.index');
+Route::get('events/{event}', 'EventsController@show')->name('events.show');
