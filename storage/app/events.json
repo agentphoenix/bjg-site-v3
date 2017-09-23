@@ -10,6 +10,7 @@
 		"details": "<div class=\"alert alert-info\">More details coming soon!</div>",
 		"pricing": "",
 		"featured": true,
+		"featuredSort": 1,
 		"images": {
 			"thumbnail": "DSC_3958.jpg",
 			"full": "DSC_3958.jpg"
@@ -23,7 +24,7 @@
 	},
 	{
 		"name": "Project 10/10",
-		"location": "Avid Indoor Golf",
+		"location": "Avid Indoor Golf & Fitness",
 		"schedule": "",
 		"start_date": "",
 		"end_date": "01/01/2019",
@@ -32,6 +33,7 @@
 		"details": "<p class=\"lead\">Start a New Tradition</p><p>Finally! Take a major step with your golf game. Add consistency to your game with Golf Channel Academy at Brian Jacobs Golf.</p><p>There are few great traditions in sports like the beginning of major season in golf. It leaves so many viewers with the passion to get back out to the course and play the game. Still, both casual and competitive golfers struggle to find their form when teeing it up after some time away from golf.</p><p>At Brian Jacobs Golf, our goal is to give golfers the consistency they’ve always wanted and that includes you. Why not let some of the best instructors in the area help you create a new tradition – lower scores and consistent play.</p><p>We are offering you a limited time opportunity to not only learn how to play and practice but also have supervised practice as you go!</p><p>Purchase our 10/10 program for only $2,850 and you receive ten 60 minute coaching sessions and ten 30 minute supervised practice sessions.</p><p class=\"lead\"><strong>Decide. Commit. Succeed.</strong></p><p class=\"text-muted text-sm\">*Balance must be used within 6 months of start date<br>**Coaching and supervised practice may conjoin or be separated<br>***Full payment is expected at outset of program</p>",
 		"pricing": "$2,850",
 		"featured": true,
+		"featuredSort": 3,
 		"images": {
 			"thumbnail": "teaching4.jpg",
 			"full": "teaching4.jpg"
@@ -41,6 +43,29 @@
 			"infoButtonLink": "/events/project-10-10",
 			"bookingButtonText": "Enroll Now",
 			"bookingButtonLink": "http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx"
+		}
+	},
+	{
+		"name": "Holiday Golf Camps",
+		"location": "Avid Indoor Golf & Fitness",
+		"schedule": "December 27th - January 5th from 9am to 12pm",
+		"start_date": "12/27/2017",
+		"end_date": "01/05/2018",
+		"slug": "junior-golf-camps-holiday-2017",
+		"summary": "These golf camps for students ages 6 to 13 follow a comprehensive junior golf curriculum developed specifically by the PGA of America. Camps are designed for boys and girls and emphasize skill development, including full swing, short game, rules and etiquette instruction, and fun by incorporating both off-course games and on-course play.",
+		"details": "<ul><li><strong>Session 1 (12/27 - 12/29)</strong><ul><li>1 Day &ndash; $80</li><li>2 Days &ndash; $140</li><li>3 Days &ndash; $195</li></ul></li><li><strong>Session 2 (01/02 - 01/05)</strong><ul><li>1 Day &ndash; $80</li><li>2 Days &ndash; $140</li><li>3 Days &ndash; $195</li></ul></li></ul><p>Be sure to act fast, as space is limited!</p>",
+		"pricing": "Starting at $80 <small>per student</small>",
+		"featured": true,
+		"featuredSort": 2,
+		"images": {
+			"thumbnail": "Camps - Putting.jpg",
+			"full": "Camps - Putting.jpg"
+		},
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "/events/junior-golf-camps-holiday-2017",
+			"bookingButtonText": "Enroll Now",
+			"bookingButtonLink": "http://pgajuniorgolfcamps.com/"
 		}
 	}
 ]

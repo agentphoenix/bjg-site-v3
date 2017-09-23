@@ -19,7 +19,7 @@ class SiteController extends Controller
 			$endDate = Date::createFromFormat('m/d/Y', $e['end_date']);
 
 			return $endDate->gte(Date::now()->startOfDay());
-		});
+		})->sortBy('featuredSort');
 
 		return view('home', compact('events'));
 	}
