@@ -242,4 +242,13 @@
 }
 
 /* lg */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+.section__content {
+	h2 {
+		small {
+			display: block;
+			margin-top: .25rem;
+		}
+	}
+}
+}

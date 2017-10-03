@@ -9,7 +9,9 @@
 
 			<p>At Brian Jacobs Golf, our experience has taught us that children learn best in social settings with like-minded participants. We believe that competition, administered correctly, is healthy for a child and learning how to compete will serve them well not only in golf, but in life. We exclusively teach within this philosophy and many of our students have evolved into champions at not only the junior golf and collegiate levels, but also in the classroom and their communities.</p>
 
-			<p>During each semester of the Youth Program we cover the rules, etiquette, and history of golf as well as nutrition, fitness, sport psychology, how to compete, and much more.</p>
+			<p>During each quarter of the Youth Program we cover the rules, etiquette, and history of golf as well as nutrition, fitness, sport psychology, how to compete, and much more.</p>
+
+			<p class="text-muted"><em>**Full payment is expected at the first meeting of each quarter.</em></p>
 
 			<h2>Details</h2>
 
@@ -17,13 +19,13 @@
 				<div class="card">
 					<div class="card__block">
 						<h3 class="card__title"><i class="fal fa-calendar-alt fa-5x text-subtle"></i></h3>
-						<p class="card__text">There will be two semesters (running approximately 20 weeks each) through the year with a break between each semester. The winter semester runs from November until March. The spring/summer semester runs from May until October.</p>
+						<p class="card__text">There will be four quarters of three months each. The winter quarter will run November through January. The spring quarter will run February through April. The summer quarter will run May through July. And the fall quarter will run August through October.</p>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card__block">
 						<h3 class="card__title"><i class="fa fa-users fa-5x text-subtle"></i></h3>
-						<p class="card__text">The goal will be to operate 4 groups of up to 12 students per group. We intentionally keep these groups smaller to provide more one-on- one time with instructors. Space is limited, so make sure to enroll early!</p>
+						<p class="card__text">The goal will be to operate 2-4 groups of up to 4 students per group. We intentionally keep these groups smaller to provide more one-on- one time with instructors. Space is limited, so make sure to enroll early!</p>
 					</div>
 				</div>
 			</div>
@@ -32,7 +34,7 @@
 				<div class="card">
 					<div class="card__block">
 						<h3 class="card__title"><i class="fal fa-bullseye fa-5x text-subtle"></i></h3>
-						<p class="card__text">Every month of the semester there will be a skills challenge to test students and allow them to achieve personal bests. Scores from these challenges will allow students to progress to higher groups.</p>
+						<p class="card__text">Every month of the quarter there will be a skills challenge to test students and allow them to achieve personal bests. Scores from these challenges will allow students to progress to higher groups.</p>
 					</div>
 				</div>
 				<div class="card">
@@ -48,41 +50,31 @@
 	<section class="instruction-philosophy">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-lg-4">
 					<div class="section__content">
-						<h2>Champs Group <small>5-7 years old</small></h2>
+						<h2>Futures Group <small>5-10 years old</small></h2>
 						<ul class="list-unstyled">
-							<li>Saturdays 10:30a-11:30a</li>
+							<li>Saturdays 9:30a-10:30a</li>
+							<li class="visible-lg">&nbsp;</li>
 						</ul>
 
-						<h3 class="text-center">$1,199 <small>per semester</small></h3>
+						<h3 class="text-center">$1,199 <small>per quarter</small></h3>
 					</div>
 				</div>
 
-				<div class="col-md-6">
-					<div class="section__content">
-						<h2>Futures Group <small>8-10 years old</small></h2>
-						<ul class="list-unstyled">
-							<li>Saturdays 9:15a-10:15a</li>
-						</ul>
-
-						<h3 class="text-center">$1,199 <small>per semester</small></h3>
-					</div>
-				</div>
-
-				<div class="col-md-6">
+				<div class="col-lg-4">
 					<div class="section__content">
 						<h2>Tour Group <small>11-13 years old</small></h2>
 						<ul class="list-unstyled">
-							<li>Mondays 5:00p-6:30p</li>
-							<li>Fridays 5:00p-6:30p</li>
+							<li>Mondays 4:00p-5:30p</li>
+							<li>Fridays 4:00p-5:30p</li>
 						</ul>
 
-						<h3 class="text-center">$1,595 <small>per semester</small></h3>
+						<h3 class="text-center">$1,395 <small>per quarter</small></h3>
 					</div>
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-lg-4">
 					<div class="section__content">
 						<h2>Elite Group <small>14-17 years old</small></h2>
 						<ul class="list-unstyled">
@@ -90,14 +82,14 @@
 							<li>Thursdays 4:00p-5:30p</li>
 						</ul>
 
-						<h3 class="text-center">$1,595 <small>per semester</small></h3>
+						<h3 class="text-center">$1,395 <small>per quarter</small></h3>
 					</div>
 				</div>
 			</div>
 	    </div>
 	</section>
 
-	<section>
+	{{-- <section>
 		<div class="container">
 			<h2>Youth Golf Association</h2>
 
@@ -125,5 +117,5 @@
 			<p class="text-muted"><em><sup>2</sup>Unless students request to work with an instructor together.</em></p>
 			<p class="text-muted"><em><sup>3</sup>All payments will be made via Brian Jacobs Golf payment gateway so a credit card can be kept on file. Each monthly payment will be deducted on the 1st of each month. Family discount available for families with more than 1 student in the program.</em></p>
 		</div>
-	</section>
+	</section> --}}
 @endsection
