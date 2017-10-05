@@ -54,6 +54,10 @@ class SiteController extends Controller
 				case 'rob':
 					$recipient = 'robcomererpga@gmail.com';
 					break;
+
+				case 'gonzalez':
+					$recipient = 'stephengonzalez@gmail.com';
+					break;
 			}
 		}
 

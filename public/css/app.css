@@ -251,6 +251,14 @@ main section.staff-rob {
   background-size: cover;
 }
 
+main section.staff-gonzalez {
+  background-color: transparent;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url(../images/Gonzalez1.jpg);
+  background-size: cover;
+}
+
 main section.events {
   background-color: #eaeaea;
 }

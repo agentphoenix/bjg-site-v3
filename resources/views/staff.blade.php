@@ -65,6 +65,34 @@
 		</div>
 	</section>
 
+	<section class="staff-gonzalez">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6">
+					<div class="section__content">
+						<div class="visible-xs visible-sm staff-title">
+							<img src="{{ asset('images/gonzalez-avatar.jpg')}}" height="75" width="75" class="img-circle">
+							<h2>Dr. Stephen P. Gonzalez <small>Mental Conditioning</small></h2>
+						</div>
+						<h2 class="hidden-xs hidden-sm">Dr. Stephen P. Gonzalez <small>Mental Conditioning</small></h2>
+
+						<p>Dr. Stephen P. Gonzalez is an expert in mental training, an Assistant Professor of Sport Psychology at The College at Brockport, and a consultant to organizations and teams. For the last decade, Dr. Gonzalez has worked with the U.S. Army, U.S. Air Force, professional athletes, collegiate athletes, high school athletes, performing artists, and weekend warriors with the ultimate goal of high performances and personal development. Dr. Gonzalez has extensive experience working with golfers to develop a mindset for high performance and brings his passion for helping people to Brian Jacobs Golf.</p>
+
+						<p>Dr. Gonzalez completed his Ph.D. in the Psycho-Social Aspects of Sport at the University of Utah, his M.S. in Sport Psychology from Georgia Southern University, and his B.S. in Psychology from the University of Pittsburgh where he was also an NCAA Division I runner. Additionally, Dr. Gonzalez serves as the Dr. Gonzalez is a Certified Mental Performance Coach (CMPC) through the Association for Applied Sport Psychology and is listed on the United States Olympic Committee’s (USOC) Sport Psychology and Mental Training Registry.</p>
+
+						<a href="https://twitter.com/StevePGonzalez" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
+						&nbsp;
+						<a href="https://www.facebook.com/stephenpgonzalez" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-facebook-square"></i></a>
+						&nbsp;
+						<a href="http://www.stephen-gonzalez.com/" target="_blank" class="btn btn-default btn-circle"><i class="far fa-fw fa-globe"></i></a>
+						&nbsp;
+						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#contactGonzalez"><i class="fa fa-fw fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<div class="modal fade" role="dialog" id="contactBrian">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -111,6 +139,42 @@
 				<form method="POST" action="{{ route('contact.send') }}">
 					{{ csrf_field() }}
 					<input type="hidden" name="sendTo" value="rob">
+
+					<div class="modal-body">
+						<div class="form-group">
+							<label class="control-label">Name</label>
+							<input type="text" name="name" class="form-control" required>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">Email Address</label>
+							<input type="email" name="email" class="form-control" required>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">Message</label>
+							<textarea name="body" class="form-control" rows="8" required></textarea>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" role="dialog" id="contactGonzalez">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Contact Dr. Gonzalez</h4>
+				</div>
+				<form method="POST" action="{{ route('contact.send') }}">
+					{{ csrf_field() }}
+					<input type="hidden" name="sendTo" value="gonzalez">
 
 					<div class="modal-body">
 						<div class="form-group">

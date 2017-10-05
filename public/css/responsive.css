@@ -4,7 +4,7 @@
     height: auto;
     padding-bottom: 6rem;
   }
-  header.home {
+  header.home, header.page {
     height: auto;
   }
   header .btn.btn-primary {
