@@ -15,7 +15,7 @@
 					<li><a href="{{ route('instruction') }}">Instruction</a></li>
 					<li><a href="{{ route('media.index') }}">Media</a></li>
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
+					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></li>
 					<li><a href="{{ route('contact') }}">Contact Us</a></li>
 				</ul>
 			</div>
@@ -24,7 +24,7 @@
 
 	<div class="row">
 		<div class="col-xs-12 mb-4">
-			<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" class="btn btn-primary btn-lg btn-block d-flex justify-content-around">
+			<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-primary btn-lg btn-block d-flex justify-content-around">
 				<div class="d-flex align-items-center">
 					<i class="far fa-calendar-alt fa-fw mr-2"></i>
 					<span>Book Now</span>
@@ -72,7 +72,7 @@
 			<div class="nav__item"><a href="{{ route('home') }}">Home</a></div>
 			<div class="nav__item"><a href="{{ route('instruction') }}">Instruction</a></div>
 			<div class="nav__item"><a href="{{ route('media.index') }}">Media</a></div>
-			<div class="nav__item"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></div>
+			<div class="nav__item"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></div>
 			<div class="nav__item"><a href="{{ route('gca') }}">Golf Channel Academy</a></div>
 			<div class="nav__item"><a href="{{ route('contact') }}">Contact</a></div>
 		</div>

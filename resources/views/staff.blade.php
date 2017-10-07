@@ -26,11 +26,11 @@
 
 						<p>Drawing from his unique experience as an accomplished player, caddie, PGA Professional, and golf instructor, Brian brings an invaluable "inside the ropes" perspective to his teaching. Whether you're looking for swing instruction, short game help, course management skills, learning how to manage yourself within a round of golf or preparing your youth golfer to play the game at a high level, Brian has the expertise to help you succeed.</p>
 
-						<a href="https://twitter.com/BrianJacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
+						<a href="https://twitter.com/BrianJacobsgolf" target="_blank" rel="noopener" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
 						&nbsp;
-						<a href="http://instagram.com/BrianJacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-instagram"></i></a>
+						<a href="http://instagram.com/BrianJacobsgolf" target="_blank" rel="noopener" class="btn btn-default btn-circle"><i class="fab fa-fw fa-instagram"></i></a>
 						&nbsp;
-						<a href="https://www.facebook.com/brianjacobsgolf" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-facebook-square"></i></a>
+						<a href="https://www.facebook.com/brianjacobsgolf" target="_blank" rel="noopener" class="btn btn-default btn-circle"><i class="fab fa-fw fa-facebook-square"></i></a>
 						&nbsp;
 						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#contactBrian"><i class="fa fa-fw fa-paper-plane"></i></a>
 					</div>
@@ -54,7 +54,7 @@
 
 						<p>Rob graduated from Penn State University with a Bachelor of Science Degree in Health and Human Development with PGA Golf Management as his focus. He's had the opportunity to study under some of the most respected individuals in the business. He focuses on analyzing, diagnosing, and fixing flaws in students’ games and has received numerous certifications including Trackman, Swing Catalyst, Eyeline Golf 4PE, Positive Coaching, and US Kids Golf. Rob has also been awarded the US Kids Golf Top 50 Honorable Mention Award.</p>
 
-						<a href="https://twitter.com/RobComererPGA" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
+						<a href="https://twitter.com/RobComererPGA" target="_blank" rel="noopener" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
 						&nbsp;
 						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#ratesRob"><i class="far fa-fw fa-dollar-sign"></i></a>
 						&nbsp;
@@ -80,11 +80,11 @@
 
 						<p>Dr. Gonzalez completed his Ph.D. in the Psycho-Social Aspects of Sport at the University of Utah, his M.S. in Sport Psychology from Georgia Southern University, and his B.S. in Psychology from the University of Pittsburgh where he was also an NCAA Division I runner. Additionally, Dr. Gonzalez serves as the Dr. Gonzalez is a Certified Mental Performance Coach (CMPC) through the Association for Applied Sport Psychology and is listed on the United States Olympic Committee’s (USOC) Sport Psychology and Mental Training Registry.</p>
 
-						<a href="https://twitter.com/StevePGonzalez" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
+						<a href="https://twitter.com/StevePGonzalez" target="_blank" rel="noopener" class="btn btn-default btn-circle"><i class="fab fa-fw fa-twitter"></i></a>
 						&nbsp;
-						<a href="https://www.facebook.com/stephenpgonzalez" target="_blank" class="btn btn-default btn-circle"><i class="fab fa-fw fa-facebook-square"></i></a>
+						<a href="https://www.facebook.com/stephenpgonzalez" target="_blank" rel="noopener" class="btn btn-default btn-circle"><i class="fab fa-fw fa-facebook-square"></i></a>
 						&nbsp;
-						<a href="http://www.stephen-gonzalez.com/" target="_blank" class="btn btn-default btn-circle"><i class="far fa-fw fa-globe"></i></a>
+						<a href="http://www.stephen-gonzalez.com/" target="_blank" rel="noopener" class="btn btn-default btn-circle"><i class="far fa-fw fa-globe"></i></a>
 						&nbsp;
 						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#contactGonzalez"><i class="fa fa-fw fa-paper-plane"></i></a>
 					</div>

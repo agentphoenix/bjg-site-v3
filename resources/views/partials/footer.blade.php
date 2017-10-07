@@ -31,18 +31,21 @@
 				<div class="d-flex flex-direction-column">
 					<a href="https://www.facebook.com/brianjacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-facebook-square fa-fw mr-2"></i>
 						<small>Facebook</small>
 					</a>
 					<a href="https://twitter.com/BrianJacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-twitter fa-fw mr-2"></i>
 						<small>Twitter</small>
 					</a>
 					<a href="http://instagram.com/BrianJacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-instagram fa-fw mr-2"></i>
 						<small>Instagram</small>
@@ -75,7 +78,7 @@
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
 					<li><a href="{{ route('gca') }}">Golf Channel Academy</a></li>
 					<li><a href="{{ route('trackman') }}">TrackMan</a></li>
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
+					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></li>
 				</ul>
 			</div>
 
@@ -102,18 +105,21 @@
 				<div class="d-flex flex-direction-column">
 					<a href="https://www.facebook.com/brianjacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-facebook-square fa-fw mr-2"></i>
 						<small>Facebook</small>
 					</a>
 					<a href="https://twitter.com/BrianJacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-twitter fa-fw mr-2"></i>
 						<small>Twitter</small>
 					</a>
 					<a href="http://instagram.com/BrianJacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-instagram fa-fw mr-2"></i>
 						<small>Instagram</small>
@@ -167,7 +173,7 @@
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
 					<li><a href="{{ route('gca') }}">Golf Channel Academy</a></li>
 					<li><a href="{{ route('trackman') }}">TrackMan</a></li>
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
+					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></li>
 				</ul>
 			</div>
 		</div>
@@ -213,18 +219,21 @@
 				<div class="d-flex flex-direction-column">
 					<a href="https://www.facebook.com/brianjacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-facebook-square fa-fw mr-2"></i>
 						<small>Facebook</small>
 					</a>
 					<a href="https://twitter.com/BrianJacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-twitter fa-fw mr-2"></i>
 						<small>Twitter</small>
 					</a>
 					<a href="http://instagram.com/BrianJacobsgolf"
 					   target="_blank"
+					   rel="noopener"
 					   class="d-flex align-items-center mb-2">
 						<i class="fab fa-instagram fa-fw mr-2"></i>
 						<small>Instagram</small>
@@ -265,7 +274,7 @@
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
 					<li><a href="{{ route('gca') }}">Golf Channel Academy</a></li>
 					<li><a href="{{ route('trackman') }}">TrackMan</a></li>
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank">Book Now</a></li>
+					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></li>
 				</ul>
 			</div>
 		</div>

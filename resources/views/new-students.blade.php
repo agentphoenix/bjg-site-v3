@@ -13,9 +13,9 @@
 
 	        <p>After your assessment, your Coach will outline possible programs that may align with your goals, available time, and resources. There's no pressure or obligation to "buy" or commit, but if you decide that Brian Jacobs Golf is for you, we can help you get started on your journey to better golf!</p>
 
-			<p class="visible-xs visible-sm"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" class="btn btn-primary btn-block btn-lg">Get Started Today!</a></p>
+			<p class="visible-xs visible-sm"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-primary btn-block btn-lg">Get Started Today!</a></p>
 
-			<p class="visible-md visible-lg"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" class="btn btn-primary btn-lg">Get Started Today!</a></p>
+			<p class="visible-md visible-lg"><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Get Started Today!</a></p>
 	    </div>
 	</section>
 @endsection
