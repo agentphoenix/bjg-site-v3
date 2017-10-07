@@ -5,6 +5,7 @@
         <title>@yield('title') &middot; Brian Jacobs Golf</title>
         <meta name="author" content="Brian Jacobs Golf">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="manifest" href="/manifest.json">
 
         <script src="{{ asset('js/fontawesome.min.js') }}"></script>
         <script src="{{ asset('js/packs/brands.min.js') }}"></script>
