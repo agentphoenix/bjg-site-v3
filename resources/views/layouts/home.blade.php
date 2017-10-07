@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <title>@yield('title') &middot; Brian Jacobs Golf</title>
         <meta name="author" content="Brian Jacobs Golf">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Brian Jacobs Golf is premier golf instruction academy based in Rochester, NY and part of the Golf Channel Academy network of golf instructors. Our passion is working with students to develop tailored coaching plans to help students improve, on and off the course.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="manifest" href="/manifest.json">
 
         <script src="{{ asset('js/fontawesome.min.js') }}"></script>
