@@ -106,7 +106,12 @@
 				</div>
 				<div class="col-md-6">
 					<h1 class="mt-6 mb-4">$100 <small>per month</small></h1>
-					<h1 class="my-0">$95 <small>per lesson</small></h1>
+					<h1 class="mt-0 mb-4">$95 <small>per lesson</small></h1>
+					<div class="row">
+						<div class="col-md-6">
+							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
