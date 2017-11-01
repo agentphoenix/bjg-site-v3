@@ -89,6 +89,29 @@
 	    </div>
 	</section>
 
+	<section>
+		<div class="container">
+			<h2>Golf Channel Academy Youth Club</h2>
+
+			<div class="row d-flex align-items-center">
+				<div class="col-md-6">
+					<div class="section__content">
+						<h3>Details</h3>
+						<ul>
+							<li>Schedule as many private lessons as you want per month</li>
+							<li>6 month commitment required</li>
+							<li>1 Brian Jacobs Golf Foot Joy solid color golf shirt</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h1 class="mt-6 mb-4">$100 <small>per month</small></h1>
+					<h1 class="my-0">$95 <small>per lesson</small></h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	{{-- <section>
 		<div class="container">
 			<h2>Youth Golf Association</h2>

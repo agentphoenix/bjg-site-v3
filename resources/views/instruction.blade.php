@@ -68,11 +68,12 @@
 							<h3 class="callout__title">Elite</h3>
 							<ul>
 								<li>4 60-minute private lessons per month (once a week)</li>
-								<li>1 year subscription to Shot-By-Shot round analysis</li>
+								<li>3 Brian Jacobs Golf Foot Joy golf shirts</li>
+								<li>1 pair of Foot Joy Pro/SL golf shoes</li>
 							</ul>
 						</div>
 						<div class="callout__footer">
-							<h3 class="text-center">$500 <small>per month</small></h3>
+							<h3 class="text-center">$700 <small>per month</small></h3>
 							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>
 						</div>
 					</div>
@@ -84,13 +85,13 @@
 							<h3 class="callout__title">Premium</h3>
 							<ul>
 								<li>2 60-minute private lessons per month (every other week)</li>
-								<li>3 month commitment available for $350 per month</li>
-								<li>6 month commitment available for $340 per month</li>
-								<li>Shot-By-Shot round analysis subscription available for additional cost and <em>highly recommended</em></li>
+								<li>3 month commitment available for $375 per month</li>
+								<li>6 month commitment available for $365 per month</li>
+								<li>1 Brian Jacobs Golf Foot Joy solid color golf shirt</li>
 							</ul>
 						</div>
 						<div class="callout__footer">
-							<h3 class="text-center">$330 <small>per month (12 months)</small></h3>
+							<h3 class="text-center">$355 <small>per month (12 months)</small></h3>
 							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-primary btn-lg btn-block">Book Now</a>
 						</div>
 					</div>
@@ -101,18 +102,18 @@
 						<div class="callout__content">
 							<h3 class="callout__title">Golf Channel Academy Club</h3>
 							<ul>
-								<li>Schedule as many lessons as you want per month</li>
-								<li>12 month commitment required</li>
-								<li>Shot-By-Shot round analysis subscription available for additional cost</li>
+								<li>Schedule as many private lessons as you want per month</li>
+								<li>6 month commitment required</li>
+								<li>1 Brian Jacobs Golf Foot Joy solid color golf shirt</li>
 							</ul>
 						</div>
 						<div class="callout__footer">
 							<div class="row">
 								<div class="col-md-6">
-									<h3 class="text-center">$100 <small>per month</small></h3>
+									<h3 class="text-center">$75 <small>per month</small></h3>
 								</div>
 								<div class="col-md-6">
-									<h3 class="text-center">$95 <small>per lesson</small></h3>
+									<h3 class="text-center">$125 <small>per lesson</small></h3>
 								</div>
 							</div>
 							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>

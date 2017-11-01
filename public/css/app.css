@@ -883,6 +883,14 @@ a.thumbnail:hover .svg-inline--fa {
   margin-top: 1.5rem;
 }
 
+.mt-5 {
+  margin-top: 2rem;
+}
+
+.mt-6 {
+  margin-top: 3rem;
+}
+
 .mx-0 {
   margin-left: 0;
   margin-right: 0;
