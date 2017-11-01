@@ -12,6 +12,14 @@
 				<div class="event__block">
 					<h1>{{ $ev['name'] }}</h1>
 
+					@if (! empty($ev['schedule']))
+						<h4 class="event__subtitle">{{ $ev['schedule'] }}</h4>
+					@endif
+
+					@if (! empty($ev['location']))
+						<h4 class="event__subtitle">{{ $ev['location'] }}</h4>
+					@endif
+
 					<p>{{ $ev['summary'] }}</p>
 
 					<h3>{!! $ev['pricing'] !!}</h3>
@@ -28,9 +36,11 @@
 				</div>
 			</div>
 
-			<h2>Details</h2>
+			@if (! empty($ev['details']))
+				<h2>Details</h2>
 
-			<p>{!! $ev['details'] !!}</p>
+				<p>{!! $ev['details'] !!}</p>
+			@endif
 		</div>
 	</section>
 @endsection

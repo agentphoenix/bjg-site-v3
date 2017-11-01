@@ -9,7 +9,7 @@
 		"summary": "There's no better way to get away from winter and improve your golf game than a Brian Jacobs Golf Learn-and-Play Getaway. We're planning a trip that will include 4 rounds of golf, accommodations, morning golf instruction before your round, and more! Stay tuned for details.",
 		"details": "<div class=\"alert alert-info\">More details coming soon!</div>",
 		"pricing": "",
-		"featured": true,
+		"featured": false,
 		"featuredSort": 1,
 		"images": {
 			"thumbnail": "DSC_3958.jpg",
@@ -66,6 +66,29 @@
 			"infoButtonLink": "/events/junior-golf-camps-holiday-2017",
 			"bookingButtonText": "Enroll Now",
 			"bookingButtonLink": "http://pgajuniorgolfcamps.com/"
+		}
+	},
+	{
+		"name": "Pints, Pitches, and Psych",
+		"location": "Avid Indoor Golf & Fitness",
+		"schedule": "November 17th, December 15th, January 19th from 6pm to 8pm",
+		"start_date": "11/17/2017",
+		"end_date": "01/19/2018",
+		"slug": "pints-pitches-psych",
+		"summary": "In this two hour premium clinic, we'll be coaching all participants on how to improve their wedge shots, specifically pitching. Additionally, an industry leading Mental Performance Consultant will be joining us to discuss the mental aspect of the game. Come on out, enjoy a pint, and learn how to improve your game!",
+		"details": "",
+		"pricing": "$90 <small>per session</small>",
+		"featured": true,
+		"featuredSort": 1,
+		"images": {
+			"thumbnail": "draftsanddrives1.jpg",
+			"full": "draftsanddrives1.jpg"
+		},
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "/events/pints-pitches-psych",
+			"bookingButtonText": "Enroll Now",
+			"bookingButtonLink": "http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx"
 		}
 	}
 ]
