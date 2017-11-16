@@ -1,5 +1,59 @@
 [
 	{
+		"title": "Alignment",
+		"summary": "Use this simple model to improve your alignment and hit better shots.",
+		"file": "/media/quick-tips/alignment.mp4",
+		"preview": "/media/quick-tips/alignment-preview.jpg",
+		"categories": [
+			"Training", "Drill"
+		]
+	},
+	{
+		"title": "Ground Contact",
+		"summary": "Use this gate drill to improve your ground contact and ball striking.",
+		"file": "/media/quick-tips/ground-contact.mp4",
+		"preview": "/media/quick-tips/ground-contact-preview.jpg",
+		"categories": [
+			"Irons", "Drill"
+		]
+	},
+	{
+		"title": "High Hands",
+		"summary": "Get your hands high for more consistent ball striking.",
+		"file": "/media/quick-tips/high-hands.mp4",
+		"preview": "/media/quick-tips/high-hands-preview.jpg",
+		"categories": [
+			"Training", "Drill"
+		]
+	},
+	{
+		"title": "Pitching & Ball Flight",
+		"summary": "Challenge yourself to hit different shots around the green with these tips.",
+		"file": "/media/quick-tips/pitching-and-ball-flight.mp4",
+		"preview": "/media/quick-tips/pitching-and-ball-flight-preview.jpg",
+		"categories": [
+			"Training", "Wedges"
+		]
+	},
+	{
+		"title": "Swing Plane",
+		"summary": "Let's talk about your swing plane and how you can swing on plane more consistently.",
+		"file": "/media/quick-tips/swing-plane.mp4",
+		"preview": "/media/quick-tips/swing-plane-preview.jpg",
+		"categories": [
+			"Training", "Drill"
+		]
+	},
+	{
+		"title": "Warm Up Feet Together",
+		"summary": "Use this simple drill during your warm up to improve your balance.",
+		"file": "/media/quick-tips/warm-up-feet-together.mp4",
+		"preview": "/media/quick-tips/warm-up-feet-together-preview.jpg",
+		"categories": [
+			"Training", "Drill"
+		]
+	},
+	{
 		"title": "Sweet Roll",
 		"summary": "Learn about Eyeline's Sweet Roll putting aid and how it can help you roll pure putts every time.",
 		"file": "/media/eyeline/sweet-roll.mp4",
