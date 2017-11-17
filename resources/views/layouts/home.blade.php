@@ -37,7 +37,7 @@
         		<div class="row">
         			<div class="col-md-12">
         				<div class="callouts callouts__cascade">
-        					<div class="callout__item white-border left">
+        					{{-- <div class="callout__item white-border left">
         						<div class="callout__image"></div>
         						<div class="callout__block">
         							<div class="callout__content">
@@ -46,6 +46,19 @@
         							</div>
         							<div class="callout__footer">
         								<a href="{{ route('instruction') }}" class="btn btn-default btn-lg btn-block">Learn More</a>
+        							</div>
+        						</div>
+        					</div> --}}
+
+                            <div class="callout__item white-border left">
+        						<div class="callout__image"></div>
+        						<div class="callout__block">
+        							<div class="callout__content">
+        								<h3 class="callout__title">&lsquo;Tis the Season</h3>
+        								<p>Give the gift of a better golf game this holiday season with gift certificates to Brian Jacobs Golf. Your loved ones can use them for lessons and more!</p>
+        							</div>
+        							<div class="callout__footer">
+        								<a href="https://clients.uschedule.com/brianjacobsgolf/Product/GiftCertDetail" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Buy Now</a>
         							</div>
         						</div>
         					</div>
@@ -68,7 +81,7 @@
         						<div class="callout__block">
         							<div class="callout__content">
         								<h3 class="callout__title">Start Learning Today!</h3>
-        								<p>The first step to improving is committing to change. Book a lesson or enroll in a program today to start down the path of better golf and more enjoyment from the game.</p>
+        								<p>The first step to improving is committing to change. Book a lesson today to start down the path of better golf and more enjoyment from the game.</p>
         							</div>
         							<div class="callout__footer">
         								<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>
