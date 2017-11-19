@@ -843,6 +843,10 @@ a.thumbnail:hover .svg-inline--fa {
   margin-right: 1.5rem;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
 .ml-0 {
   margin-left: 0;
 }
@@ -861,6 +865,10 @@ a.thumbnail:hover .svg-inline--fa {
 
 .ml-4 {
   margin-left: 1.5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .mt-0 {
@@ -969,4 +977,16 @@ a.thumbnail:hover .svg-inline--fa {
   -webkit-box-pack: justify !important;
       -ms-flex-pack: justify !important;
           justify-content: space-between !important;
+}
+
+.justify-content-start {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
 }

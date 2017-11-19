@@ -14,15 +14,26 @@ class MediaController extends Controller
 		$instagram = new Instagram;
 
 		$media = $instagram->get('brianjacobsgolf');
-		// dd($media);
 
 		return view('photos', compact('media'));
 	}
 
 	public function videos()
 	{
-		$fileList = collect(json_decode(file_get_contents(storage_path('app/media.json')), true));
+		$fileList = $this->getMedia();
 
 		return view('videos', compact('fileList'));
+	}
+
+	public function showVideo($code)
+	{
+		$video = $this->getMedia()->where('code', $code)->first();
+
+		return view('video', compact('video'));
+	}
+
+	protected function getMedia()
+	{
+		return collect(json_decode(file_get_contents(storage_path('app/media.json')), true));
 	}
 }

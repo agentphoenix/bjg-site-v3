@@ -15,6 +15,7 @@ Route::get('staff', 'SiteController@staff')->name('staff');
 Route::get('media-room', 'MediaController@index')->name('media.index');
 Route::get('media-room/photos', 'MediaController@photos')->name('media.photos');
 Route::get('media-room/videos', 'MediaController@videos')->name('media.videos');
+Route::get('v/{code}', 'MediaController@showVideo')->name('media.video');
 
 Route::get('events', 'EventsController@index')->name('events.index');
 Route::get('events/{event}', 'EventsController@show')->name('events.show');

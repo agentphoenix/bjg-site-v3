@@ -34,11 +34,18 @@
 								<div class="caption">
 									<h4>@{{ video.title }}</h4>
 									{{-- <p v-text="video.summary"></p> --}}
-									<a class="label label-default mr-2"
-									   v-for="category in video.categories"
-									   @click.prevent="searchCategories = category">
-										@{{ category }}
-									</a>
+									<div class="d-flex align-items-center justify-content-end">
+										<div>
+											<a class="label label-default mr-2"
+											   v-for="category in video.categories"
+											   @click.prevent="searchCategories = category">
+												@{{ category }}
+											</a>
+										</div>
+										<a href="#" class="ml-auto" @click.prevent="copyLink(video.code)">
+											<i class="far fa-fw fa-link"></i>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -153,6 +160,26 @@
 			},
 
 			methods: {
+				copyLink (code) {
+					// Create a "hidden" input
+					var aux = document.createElement("input");
+
+					// Assign it the value of the specified element
+					aux.setAttribute("value", "https://brianjacobsgolf.com/v/" + code);
+
+					// Append it to the body
+					document.body.appendChild(aux);
+
+					// Highlight its content
+					aux.select();
+
+					// Copy the highlighted text
+					document.execCommand("copy");
+
+					// Remove it from the body
+					document.body.removeChild(aux);
+				},
+
 				changeMedia (media) {
 					this.media = media
 
