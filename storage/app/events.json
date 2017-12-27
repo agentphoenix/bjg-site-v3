@@ -87,8 +87,8 @@
 		"links": {
 			"infoButtonText":  "More Info",
 			"infoButtonLink": "/events/pints-pitches-psych",
-			"bookingButtonText": "Enroll Now",
-			"bookingButtonLink": "http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx"
+			"bookingButtonText": "Contact Us to RSVP",
+			"bookingButtonLink": "https://brianjacobsgolf.com/contact"
 		}
 	}
 ]
