@@ -259,6 +259,10 @@ main section.staff-gonzalez {
   background-size: cover;
 }
 
+main section.staff-ross {
+  background-color: #eaeaea;
+}
+
 main section.events {
   background-color: #eaeaea;
 }
