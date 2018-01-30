@@ -779,6 +779,14 @@ a.thumbnail {
 	flex-direction: column !important;
 }
 
+.flex-direction-row {
+	flex-direction: row !important;
+}
+
+.flex-direction-row-reverse {
+	flex-direction: row-reverse !important;
+}
+
 .align-items-center {
 	align-items: center !important;
 }
@@ -797,4 +805,32 @@ a.thumbnail {
 
 .justify-content-end {
 	justify-content: flex-end !important;
+}
+
+.staff {
+	display: flex;
+	flex-direction: column;
+	margin: 4rem auto 2rem auto;
+
+	> .staff-item {
+		display: flex;
+		margin-bottom: 3rem;
+
+		div:first-child {
+			margin-right: 2rem;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+
+		&:nth-child(even) {
+			flex-direction: row-reverse;
+
+			div:first-child {
+				margin-left: 2rem;
+				margin-right: 0;
+			}
+		}
+	}
 }
