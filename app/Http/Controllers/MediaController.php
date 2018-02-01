@@ -11,9 +11,11 @@ class MediaController extends Controller
 
 	public function photos()
 	{
-		$instagram = new Instagram;
+		// TEST ACCOUNT
+		// $instagram = new Instagram('674894607.1677ed0.08617d87478244fe9c207be2aca7457f');
+		$instagram = new Instagram('497043006.1677ed0.d38a4f2dcb164575acce86259c2ba452');
 
-		$media = $instagram->get('brianjacobsgolf');
+		$media = $instagram->get();
 
 		return view('photos', compact('media'));
 	}
