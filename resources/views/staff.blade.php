@@ -80,7 +80,7 @@
 					</div>
 				</div>
 
-				<div class="staff-item">
+				{{-- <div class="staff-item">
 					<div><img src="{{ asset('images/gonzalez-avatar.jpg')}}" height="200" width="200" class="img-circle"></div>
 					<div>
 						<h2>Dr. Michael Hughes <small>Orthopedic Specialist</small></h2>
@@ -91,7 +91,7 @@
 
 						<a href="#" class="btn btn-default btn-circle" data-toggle="modal" data-target="#contactHughes"><i class="fa fa-fw fa-paper-plane"></i></a>
 					</div>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</section>
