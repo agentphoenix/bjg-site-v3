@@ -30,7 +30,9 @@
 						@endif
 					</div>
 					<div class="event__block">
-						<p class="lead">{{ $m->caption->text }}</p>
+						@if ($m->caption)
+							<p class="lead">{{ $m->caption->text }}</p>
+						@endif
 
 						<small class="d-flex align-items-center">
 							<i class="fa fa-heart fa-fw mr-1 text-liked"></i>
