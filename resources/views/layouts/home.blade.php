@@ -41,11 +41,22 @@
         						<div class="callout__image"></div>
         						<div class="callout__block">
         							<div class="callout__content">
-        								<h3 class="callout__title">About Us</h3>
-        								<p>We provide world-class golf coaching, partnering with <a href="{{ route('gca') }}">The Golf Channel Academy</a> and other <a href="{{ route('partners') }}">premier partners</a> to provide you with the best resources for your golf game.</p>
+        								{{-- <h3 class="callout__title">About Us</h3>
+        								<p>We provide world-class golf coaching, partnering with <a href="{{ route('gca') }}">The Golf Channel Academy</a> and other <a href="{{ route('partners') }}">premier partners</a> to provide you with the best resources for your golf game.</p> --}}
+                                        <h3 class="callout__title">The Takeaway</h3>
+                                        <p>Join Brian Jacobs Golf on <a href="https://www.facebook.com/brianjacobsgolf" target="_blank" rel="noopener">Facebook Live</a> every Tuesday at 2pm for a new golf instruction show that explores all things golf with plenty of guests, Q &amp; As, instruction, and lots of fun.</p>
         							</div>
         							<div class="callout__footer">
-        								<a href="{{ route('instruction') }}" class="btn btn-default btn-lg btn-block">Learn More</a>
+                                        @php($now = Date::now('America/New_York'))
+
+                                        @if ($now->dayOfWeek == Date::TUESDAY and $now->hour == 14)
+                                            <a href="https://www.facebook.com/brianjacobsgolf" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block d-flex align-items-center justify-content-center">
+                                                <svg id="logo" class="logo mr-3" data-name="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416.69 144" height="18"><title>fb-live-logo</title><rect id="Blue-2" data-name="Blue" x="159.09" width="257.6" height="144" rx="7.95" ry="7.95" style="fill:#ee4242"></rect><path d="M520.54,237.07H492V220h27v-8.87H492V194.93h28.57v-9.42H481.07v61h39.47v-9.42Zm-71.08,9.42,21.09-61H458.92l-15.21,48.26H443l-15.34-48.26h-12l21.3,61h12.55Zm-44.37,0v-61h-10.9v61h10.9Zm-22.65-9.55h-28V185.51h-10.9v61h38.88v-9.55Z" transform="translate(-144.15 -144)" style="fill:#fff;fill-rule:evenodd"></path></svg>
+                                                Watch Now
+                                            </a>
+                                        @else
+                                            <a href="https://www.facebook.com/brianjacobsgolf" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Learn More</a>
+                                        @endif
         							</div>
         						</div>
         					</div>

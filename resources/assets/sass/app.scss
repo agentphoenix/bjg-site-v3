@@ -483,8 +483,9 @@ footer {
 			@include border-radius($border-radius, 0, 0, $border-radius);
 
 			.callout__image {
-				background-position: bottom center;
-				background-image: url(../images/teaching-2.jpg);
+				background-position: top center;
+				// background-image: url(../images/teaching-2.jpg);
+				background-image: url(../images/takeaway-promo.jpg);
 				// background-image: url(../images/christmas.jpg);
 			}
 		}
@@ -805,6 +806,10 @@ a.thumbnail {
 
 .justify-content-end {
 	justify-content: flex-end !important;
+}
+
+.justify-content-center {
+	justify-content: center !important;
 }
 
 .staff {
