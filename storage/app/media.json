@@ -1,5 +1,86 @@
 [
 	{
+		"title": "Bar Stool Swing",
+		"summary": "Use this simple drill when sitting at a bar stool to improve your swing.",
+		"file": "/media/indoor-tips/bar-stool.mp4",
+		"preview": "/media/indoor-tips/bar-stool-preview.jpg",
+		"code": "7d151ac2",
+		"categories": [
+			"Drill"
+		]
+	},
+	{
+		"title": "Swing Your Beverage",
+		"summary": "Use this simple drill with a plastic cup to swing the club square.",
+		"file": "/media/indoor-tips/beverage.mp4",
+		"preview": "/media/indoor-tips/beverage-preview.jpg",
+		"code": "119df851",
+		"categories": [
+			"Drill"
+		]
+	},
+	{
+		"title": "Big Ball, Little Ball",
+		"summary": "Improve your putting with this simple drill you can do in your living room.",
+		"file": "/media/indoor-tips/big-ball-little-ball.mp4",
+		"preview": "/media/indoor-tips/big-ball-little-ball-preview.jpg",
+		"code": "a6387387",
+		"categories": [
+			"Drill", "Putting"
+		]
+	},
+	{
+		"title": "Bird Dog Club Balance",
+		"summary": "Improving your core is a surefire way to hit the ball longer.",
+		"file": "/media/indoor-tips/bird-dog-club-balance.mp4",
+		"preview": "/media/indoor-tips/bird-dog-club-balance-preview.jpg",
+		"code": "ae636dd4",
+		"categories": [
+			"Drill", "Training"
+		]
+	},
+	{
+		"title": "Broom Drill",
+		"summary": "Using a broom, you can work on your golf swing during the winter.",
+		"file": "/media/indoor-tips/broom.mp4",
+		"preview": "/media/indoor-tips/broom-preview.jpg",
+		"code": "0231b216",
+		"categories": [
+			"Drill"
+		]
+	},
+	{
+		"title": "Couch Cushion Backswing",
+		"summary": "With only a couch cushion, you can work on your balance while watching TV.",
+		"file": "/media/indoor-tips/couch-cushion.mp4",
+		"preview": "/media/indoor-tips/couch-cushion-preview.jpg",
+		"code": "a05ed0f4",
+		"categories": [
+			"Drill"
+		]
+	},
+	{
+		"title": "Masters Putting Game",
+		"summary": "Ever wonder what it's like putting at Augusta? Use this little game to find out.",
+		"file": "/media/indoor-tips/masters-putting-drill.mp4",
+		"preview": "/media/indoor-tips/masters-putting-drill-preview.jpg",
+		"code": "39e6ef9f",
+		"categories": [
+			"Drill", "Putting"
+		]
+	},
+	{
+		"title": "Swing It Like a Pizza Peel",
+		"summary": "If you have a pizza peel at home, you can work on a better golf swing this winter.",
+		"file": "/media/indoor-tips/pizza-peel.mp4",
+		"preview": "/media/indoor-tips/pizza-peel-preview.jpg",
+		"code": "d15d7d78",
+		"categories": [
+			"Drill"
+		]
+	},
+
+	{
 		"title": "Alignment",
 		"summary": "Use this simple model to improve your alignment and hit better shots.",
 		"file": "/media/quick-tips/alignment.mp4",
