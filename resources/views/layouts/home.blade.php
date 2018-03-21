@@ -82,7 +82,7 @@
         								<p>The first step to improving is committing to change. Book a lesson today to start down the path of better golf and more enjoyment from the game.</p>
         							</div>
         							<div class="callout__footer">
-        								<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>
+        								<a href="{{ route('book-now') }}" class="btn btn-default btn-lg btn-block">Book Now</a>
         							</div>
         						</div>
         					</div>

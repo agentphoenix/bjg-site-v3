@@ -109,7 +109,7 @@
 					<h1 class="mt-0 mb-4">$95 <small>per lesson</small></h1>
 					<div class="row">
 						<div class="col-md-6">
-							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>
+							<a href="{{ route('book-now') }}" class="btn btn-default btn-lg btn-block">Book Now</a>
 						</div>
 					</div>
 				</div>

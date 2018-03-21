@@ -126,7 +126,7 @@
 
 			<h2>Other Services</h2>
 
-			<p>We offer a wide range of additional services including private lessons, on-course playing lessons, <a href="{{ route('youth-golf') }}">youth golf programs</a>, equipment evaluations, group clinics, Golf Channel Academy Golf Schools, and many <a href="{{ route('trackman') }}">TrackMan</a> swing and ball flight analysis services. <a href="{{ route('contact') }}">Contact us</a> for more information or <a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">book today</a>!</p>
+			<p>We offer a wide range of additional services including private lessons, on-course playing lessons, <a href="{{ route('youth-golf') }}">youth golf programs</a>, equipment evaluations, group clinics, Golf Channel Academy Golf Schools, and many <a href="{{ route('trackman') }}">TrackMan</a> swing and ball flight analysis services. <a href="{{ route('contact') }}">Contact us</a> for more information or <a href="{{ route('book-now') }}">book today</a>!</p>
 
 			<!--<div class="cards">
 				<div class="card">
@@ -136,7 +136,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$175 <small>per hour</small></h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 
@@ -147,7 +147,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$350 <small>9 holes</small></h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 
@@ -158,7 +158,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$199 <small>per session</small></h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 
@@ -169,7 +169,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$199 <small>per session</small></h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -183,7 +183,7 @@
 					</div>
 					<div class="card__footer">
 						<a href="{{ route('new-students') }}">Learn More</a>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a>
+						<a href="{{ route('book-now') }}">Book Now</a>
 					</div>
 				</div>
 
@@ -208,7 +208,7 @@
 					</div>
 					<div class="card__footer">
 						<a href="#">Learn More</a>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a>
+						<a href="{{ route('book-now') }}">Book Now</a>
 					</div>
 				</div>
 
@@ -220,7 +220,7 @@
 					</div>
 					<div class="card__footer">
 						<a href="#">Learn More</a>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a>
+						<a href="{{ route('book-now') }}">Book Now</a>
 					</div>
 				</div>
 			</div>-->

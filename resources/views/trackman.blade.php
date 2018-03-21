@@ -30,7 +30,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$199</h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 
@@ -41,7 +41,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$175</h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 
@@ -52,7 +52,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$175</h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -65,7 +65,7 @@
 					</div>
 					<div class="card__footer">
 						<h3 class="text-center">$199</h3>
-						<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-link btn-block">Book Now</a>
+						<a href="{{ route('book-now') }}" class="btn btn-link btn-block">Book Now</a>
 					</div>
 				</div>
 

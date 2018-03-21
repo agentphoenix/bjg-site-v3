@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
-
-@font-face {
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);@font-face {
   font-family: "Aleo";
   src: local Aleo-Regular, url("../fonts/Aleo-Regular-webfont.eot");
   src: url("../fonts/Aleo-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aleo-Regular-webfont.woff") format("woff"), url("../fonts/Aleo-Regular-webfont.ttf") format("truetype"), url("../fonts/Aleo-Regular-webfont.svg#aleoitalic") format("svg");
@@ -117,7 +115,7 @@ header nav .nav__section .nav__item a {
   font-family: "Roboto Condensed", "Roboto", helvetica, arial, sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
   text-transform: uppercase;
   color: #5a6272;
 }
@@ -127,7 +125,8 @@ header nav .nav__section .nav__item a:hover {
   color: #44932b;
 }
 
-header nav .nav__section .nav__item a:active, header nav .nav__section .nav__item a:focus {
+header nav .nav__section .nav__item a:active,
+header nav .nav__section .nav__item a:focus {
   color: #3b7f25;
   text-decoration: none;
 }
@@ -140,8 +139,7 @@ header nav .nav__section .nav__item a.brand {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center center;
-  /*background-image: url(../images/logo-formal-new.png);*/
-  /*background-image: url(../images/logo-1.png);*/
+  /*background-image: url(../images/logo-formal-new.png);*//*background-image: url(../images/logo-1.png);*/
   background-image: url(../images/logo-oneline.png);
   background-size: 35rem auto;
   background-clip: content-box;
@@ -157,7 +155,10 @@ main {
   margin: -5rem 0 0 0;
 }
 
-main h1, main h2, main h3, main h4 {
+main h1,
+main h2,
+main h3,
+main h4 {
   margin-bottom: 1.5rem;
   font-family: "Aleo", georgia, times, serif;
 }
@@ -192,7 +193,7 @@ main p {
 }
 
 main dl dt {
-  margin-bottom: 0.75rem;
+  margin-bottom: .75rem;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -295,23 +296,25 @@ main section .section__content {
   margin: 3rem 0 0 0;
   padding: 3rem;
   background-color: #fafafa;
-  border-bottom: 0.5rem solid #44932b;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1.75rem rgba(0, 0, 0, 0.4);
+  border-bottom: .5rem solid #44932b;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0 .5rem 1.75rem rgba(0, 0, 0, .4);
+          box-shadow: 0 .5rem 1.75rem rgba(0, 0, 0, .4);
 }
 
-main section .section__content h2, main section .section__content h3 {
+main section .section__content h2,
+main section .section__content h3 {
   margin-top: 0;
 }
 
-footer {
+footer.footer {
   padding: 3rem 0;
   line-height: 1.65;
   background-color: #2d3139;
   color: #96989b;
 }
 
-footer .footer__title {
+footer.footer .footer__title {
   font-family: "Roboto Condensed", "Roboto", helvetica, arial, sans-serif;
   font-weight: 400;
   color: #fff;
@@ -319,31 +322,36 @@ footer .footer__title {
   font-size: 2rem;
 }
 
-footer p, footer li {
+footer.footer p,
+footer.footer li {
   font-size: 1.4rem;
 }
 
-footer ul li a {
+footer.footer ul li a {
   color: #7b7e83;
 }
 
-footer ul li a:hover, footer ul li a:active, footer ul li a:focus {
+footer.footer ul li a:hover,
+footer.footer ul li a:active,
+footer.footer ul li a:focus {
   color: #cacbcd;
   text-decoration: none;
 }
 
-footer a {
+footer.footer a {
   color: #7b7e83;
 }
 
-footer a:hover, footer a:active, footer a:focus {
+footer.footer a:hover,
+footer.footer a:active,
+footer.footer a:focus {
   color: #cacbcd;
   text-decoration: none;
 }
 
 .btn {
   font-weight: 400;
-  border-radius: 0.5rem;
+  border-radius: .5rem;
 }
 
 .btn.btn-primary {
@@ -352,12 +360,24 @@ footer a:hover, footer a:active, footer a:focus {
   border-color: #44932b;
 }
 
-.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active {
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
   background-color: #3d8326;
   border-color: #357322;
 }
 
-.btn.btn-primary.disabled, .btn.btn-primary.disabled:hover, .btn.btn-primary.disabled:focus, .btn.btn-primary.disabled:active, .btn.btn-primary.disabled.active, .btn.btn-primary[disabled], .btn.btn-primary[disabled]:hover, .btn.btn-primary[disabled]:focus, .btn.btn-primary[disabled]:active, .btn.btn-primary[disabled].active,
+.btn.btn-primary.disabled,
+.btn.btn-primary.disabled:hover,
+.btn.btn-primary.disabled:focus,
+.btn.btn-primary.disabled:active,
+.btn.btn-primary.disabled.active,
+.btn.btn-primary[disabled],
+.btn.btn-primary[disabled]:hover,
+.btn.btn-primary[disabled]:focus,
+.btn.btn-primary[disabled]:active,
+.btn.btn-primary[disabled].active,
 fieldset[disabled] .btn.btn-primary,
 fieldset[disabled] .btn.btn-primary:hover,
 fieldset[disabled] .btn.btn-primary:focus,
@@ -373,12 +393,24 @@ fieldset[disabled] .btn.btn-primary.active {
   border-color: #d4d5d7;
 }
 
-.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-default.active {
+.btn.btn-default:hover,
+.btn.btn-default:focus,
+.btn.btn-default:active,
+.btn.btn-default.active {
   background-color: #cacbcd;
   border-color: #c0c1c3;
 }
 
-.btn.btn-default.disabled, .btn.btn-default.disabled:hover, .btn.btn-default.disabled:focus, .btn.btn-default.disabled:active, .btn.btn-default.disabled.active, .btn.btn-default[disabled], .btn.btn-default[disabled]:hover, .btn.btn-default[disabled]:focus, .btn.btn-default[disabled]:active, .btn.btn-default[disabled].active,
+.btn.btn-default.disabled,
+.btn.btn-default.disabled:hover,
+.btn.btn-default.disabled:focus,
+.btn.btn-default.disabled:active,
+.btn.btn-default.disabled.active,
+.btn.btn-default[disabled],
+.btn.btn-default[disabled]:hover,
+.btn.btn-default[disabled]:focus,
+.btn.btn-default[disabled]:active,
+.btn.btn-default[disabled].active,
 fieldset[disabled] .btn.btn-default,
 fieldset[disabled] .btn.btn-default:hover,
 fieldset[disabled] .btn.btn-default:focus,
@@ -394,12 +426,24 @@ fieldset[disabled] .btn.btn-default.active {
   border-color: #2d3139;
 }
 
-.btn.btn-inverse:hover, .btn.btn-inverse:focus, .btn.btn-inverse:active, .btn.btn-inverse.active {
+.btn.btn-inverse:hover,
+.btn.btn-inverse:focus,
+.btn.btn-inverse:active,
+.btn.btn-inverse.active {
   background-color: #24272e;
   border-color: #1b1d22;
 }
 
-.btn.btn-inverse.disabled, .btn.btn-inverse.disabled:hover, .btn.btn-inverse.disabled:focus, .btn.btn-inverse.disabled:active, .btn.btn-inverse.disabled.active, .btn.btn-inverse[disabled], .btn.btn-inverse[disabled]:hover, .btn.btn-inverse[disabled]:focus, .btn.btn-inverse[disabled]:active, .btn.btn-inverse[disabled].active,
+.btn.btn-inverse.disabled,
+.btn.btn-inverse.disabled:hover,
+.btn.btn-inverse.disabled:focus,
+.btn.btn-inverse.disabled:active,
+.btn.btn-inverse.disabled.active,
+.btn.btn-inverse[disabled],
+.btn.btn-inverse[disabled]:hover,
+.btn.btn-inverse[disabled]:focus,
+.btn.btn-inverse[disabled]:active,
+.btn.btn-inverse[disabled].active,
 fieldset[disabled] .btn.btn-inverse,
 fieldset[disabled] .btn.btn-inverse:hover,
 fieldset[disabled] .btn.btn-inverse:focus,
@@ -491,9 +535,10 @@ fieldset[disabled] .btn.btn-inverse.active {
   z-index: 100;
   min-height: 45rem;
   background-color: #fafafa;
-  border-top: 0.5rem solid #5a6272;
-  border-bottom: 0.5rem solid #5a6272;
-  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+  border-top: .5rem solid #5a6272;
+  border-bottom: .5rem solid #5a6272;
+  -webkit-box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .25);
+          box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .25);
 }
 
 .callouts .callout__item.white-border {
@@ -548,11 +593,11 @@ fieldset[disabled] .btn.btn-inverse.active {
 
 .callouts .callout__item .callout__block .callout__footer small {
   display: block;
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 
 .callouts .callout__item.left {
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: .5rem 0 0 .5rem;
 }
 
 .callouts .callout__item.left .callout__image {
@@ -561,7 +606,7 @@ fieldset[disabled] .btn.btn-inverse.active {
 }
 
 .callouts .callout__item.right {
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 .5rem .5rem 0;
 }
 
 .callouts .callout__item.right .callout__image {
@@ -586,8 +631,9 @@ fieldset[disabled] .btn.btn-inverse.active {
   min-height: 57.5rem;
   background-color: #fff;
   border-color: #44932b;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5);
+  border-radius: .5rem;
+  -webkit-box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .5);
+          box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .5);
 }
 
 .callouts .callout__item.highlight .callout__body .callout__content .callout__title {
@@ -618,8 +664,8 @@ fieldset[disabled] .btn.btn-inverse.active {
   margin-left: 1rem;
   margin-right: 1rem;
   background-color: #fafafa;
-  border: 0.1rem solid #e4e5e6;
-  border-radius: 0.5rem;
+  border: .1rem solid #e4e5e6;
+  border-radius: .5rem;
 }
 
 .cards .card.card__plain {
@@ -628,7 +674,7 @@ fieldset[disabled] .btn.btn-inverse.active {
 }
 
 .cards .card .card__image img {
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: .5rem .5rem 0 0;
 }
 
 .cards .card .card__block {
@@ -648,18 +694,20 @@ fieldset[disabled] .btn.btn-inverse.active {
   padding: 1.5rem;
 }
 
-.cards .card .card__footer h3, .cards .card .card__footer h4 {
+.cards .card .card__footer h3,
+.cards .card .card__footer h4 {
   margin: 0;
   padding: 0;
 }
 
-.cards .card .card__footer h3 + a, .cards .card .card__footer h4 + a {
+.cards .card .card__footer h3 + a,
+.cards .card .card__footer h4 + a {
   margin-top: 1.5rem;
 }
 
 .cards .card .card__footer small {
   display: block;
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 
 .cards .card .card__footer a {
@@ -710,9 +758,10 @@ fieldset[disabled] .btn.btn-inverse.active {
 .event .event__image img {
   display: block;
   width: 100%;
-  border: 0.5rem solid #fff;
-  border-radius: 0.25rem;
-  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+  border: .5rem solid #fff;
+  border-radius: .25rem;
+  -webkit-box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .25);
+          box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .25);
 }
 
 .event .event__image.md {
@@ -729,8 +778,9 @@ fieldset[disabled] .btn.btn-inverse.active {
 
 .event .event__image.no-decoration img {
   border: none;
-  border-radius: 0rem;
-  box-shadow: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .event .event__block {

@@ -1,4 +1,4 @@
-<footer class="visible-xs">
+<footer class="footer visible-xs">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
@@ -78,7 +78,7 @@
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
 					<li><a href="{{ route('gca') }}">Golf Channel Academy</a></li>
 					<li><a href="{{ route('trackman') }}">TrackMan</a></li>
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></li>
+					<li><a href="{{ route('book-now') }}">Book Now</a></li>
 				</ul>
 			</div>
 
@@ -90,7 +90,7 @@
 	</div>
 </footer>
 
-<footer class="visible-sm">
+<footer class="footer visible-sm">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8">
@@ -173,7 +173,7 @@
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
 					<li><a href="{{ route('gca') }}">Golf Channel Academy</a></li>
 					<li><a href="{{ route('trackman') }}">TrackMan</a></li>
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></li>
+					<li><a href="{{ route('book-now') }}">Book Now</a></li>
 				</ul>
 			</div>
 		</div>
@@ -187,7 +187,7 @@
 	</div>
 </footer>
 
-<footer class="visible-md visible-lg">
+<footer class="footer visible-md visible-lg">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
@@ -274,7 +274,7 @@
 					<li><a href="{{ route('youth-golf') }}">Youth Golf</a></li>
 					<li><a href="{{ route('gca') }}">Golf Channel Academy</a></li>
 					<li><a href="{{ route('trackman') }}">TrackMan</a></li>
-					<li><a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener">Book Now</a></li>
+					<li><a href="{{ route('book-now') }}">Book Now</a></li>
 				</ul>
 			</div>
 		</div>
