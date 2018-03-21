@@ -24,11 +24,6 @@ class SiteController extends Controller
 		return view('home', compact('events'));
 	}
 
-	public function contact()
-	{
-		return view('contact');
-	}
-
 	public function sendContact(Request $request)
 	{
 		$this->validate($request, [
@@ -76,60 +71,10 @@ class SiteController extends Controller
 			->with('flash', 'Your message has been sent!');
 	}
 
-	public function events()
-	{
-		return view('events');
-	}
-
-	public function showEvent($event)
-	{
-		//return view('event');
-	}
-
-	public function gca()
-	{
-		return view('gca');
-	}
-
-	public function instruction()
-	{
-		return view('instruction');
-	}
-
 	public function media()
 	{
 		$fileList = collect(json_decode(file_get_contents(storage_path('app/media.json')), true));
 
 		return view('media', compact('fileList'));
-	}
-
-	public function newStudents()
-	{
-		return view('new-students');
-	}
-
-	public function partners()
-	{
-		return view('partners');
-	}
-
-	public function privacy()
-	{
-		return view('privacy-policy');
-	}
-
-	public function trackman()
-	{
-		return view('trackman');
-	}
-
-	public function youthGolf()
-	{
-		return view('youth-golf');
-	}
-
-	public function staff()
-	{
-		return view('staff');
 	}
 }

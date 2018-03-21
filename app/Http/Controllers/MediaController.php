@@ -4,11 +4,6 @@ use Vinkla\Instagram\Instagram;
 
 class MediaController extends Controller
 {
-	public function index()
-	{
-		return view('media-index');
-	}
-
 	public function photos()
 	{
 		// TEST ACCOUNT
