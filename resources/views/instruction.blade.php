@@ -61,7 +61,79 @@
 
 			<h2>Performance Coaching</h2>
 
-			<div class="callouts callouts__cascade">
+			<div class="tw-flex tw-flex-col tw-justify-between md:tw-flex-row">
+				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
+					<div class="tw-px-8 tw-py-6">
+						<h3 class="tw-font-medium tw-text-green-dark">Project 95</h3>
+						<ul class="tw-text-grey-darker">
+							<li>Full game assessment</li>
+							<li>2 60-minute private coaching sessions per month (every other week)</li>
+							<li>On-course time with your coach (subject to course availability)</li>
+							<li>Free Shot-by-Shot account for stat tracking</li>
+							<li>1 Foot Joy Brian Jacobs Golf staff golf shirt</li>
+							<li>Weekly gameplan to break 95</li>
+							<li>3 month commitment</li>
+						</ul>
+					</div>
+					<div class="tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around">
+						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$390 <small class="tw-text-grey-dark">per month</small></h3>
+					</div>
+				</div>
+
+				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-ml-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
+					<div class="tw-px-8 tw-py-6">
+						<h3 class="tw-font-medium tw-text-green-dark">Project 85</h3>
+						<ul class="tw-text-grey-darker">
+							<li>Full game assessment</li>
+							<li>2 60-minute private coaching sessions per month (every other week)</li>
+							<li>On-course time with your coach (subject to course availability)</li>
+							<li>Free Shot-by-Shot account for stat tracking</li>
+							<li>1 Foot Joy Brian Jacobs Golf staff golf shirt</li>
+							<li>Weekly gameplan to break 85</li>
+							<li>6 month commitment</li>
+						</ul>
+					</div>
+					<div class="tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around">
+						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$380 <small class="tw-text-grey-dark">per month</small></h3>
+					</div>
+				</div>
+			</div>
+
+			<div class="tw-flex tw-flex-col tw-justify-between md:tw-flex-row md:tw-mt-12">
+				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
+					<div class="tw-px-8 tw-py-6">
+						<h3 class="tw-font-medium tw-text-green-dark">Project 10/10</h3>
+						<ul class="tw-text-grey-darker">
+							<li>10 60-minute private coaching sessions</li>
+							<li>10 30-minute supervised practice sessions</li>
+						</ul>
+					</div>
+					<div class="tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around">
+						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$2,850</h3>
+					</div>
+				</div>
+
+				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-ml-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
+					<div class="tw-px-8 tw-py-6">
+						<h3 class="tw-font-medium tw-text-green-dark">Golf Channel Academy Club</h3>
+						<ul class="tw-text-grey-darker">
+							<li>Schedule as many private lessons as you want per month</li>
+							<li>6 month commitment required</li>
+							<li>1 Brian Jacobs Golf Foot Joy solid color golf shirt</li>
+						</ul>
+					</div>
+					<div class="tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around">
+						<div>
+							<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$75 <small class="tw-text-grey-dark">per month</small></h3>
+						</div>
+						<div>
+							<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$125 <small class="tw-text-grey-dark">per lesson</small></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{{-- <div class="callouts callouts__cascade">
 				<div class="callout__item left">
 					<div class="callout__block">
 						<div class="callout__content">
@@ -74,7 +146,7 @@
 						</div>
 						<div class="callout__footer">
 							<h3 class="text-center">$700 <small>per month</small></h3>
-							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>
+							<a href="{{ route('book-now') }}" class="btn btn-default btn-lg btn-block">Book Now</a>
 						</div>
 					</div>
 				</div>
@@ -92,7 +164,7 @@
 						</div>
 						<div class="callout__footer">
 							<h3 class="text-center">$355 <small>per month (12 months)</small></h3>
-							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-primary btn-lg btn-block">Book Now</a>
+							<a href="{{ route('book-now') }}" class="btn btn-primary btn-lg btn-block">Book Now</a>
 						</div>
 					</div>
 				</div>
@@ -116,13 +188,13 @@
 									<h3 class="text-center">$125 <small>per lesson</small></h3>
 								</div>
 							</div>
-							<a href="http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx" target="_blank" rel="noopener" class="btn btn-default btn-lg btn-block">Book Now</a>
+							<a href="{{ route('book-now') }}" class="btn btn-default btn-lg btn-block">Book Now</a>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> --}}
 
-			<p class="text-muted"><em>*All Performance Coaching series come with a 1 year subscription to the Golf Channel Academy digital magazine as well as discounts on premier equipment and soft goods.</em></p>
+			<p class="tw-text-grey-dark tw-mt-8"><em>*All Performance Coaching series come with a 1 year subscription to the Golf Channel Academy digital magazine as well as discounts on premier equipment and soft goods.</em></p>
 
 			<h2>Other Services</h2>
 
