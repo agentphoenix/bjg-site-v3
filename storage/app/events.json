@@ -19,7 +19,7 @@
 			"infoButtonText":  "More Info",
 			"infoButtonLink": "/events/night-out-with-michael-breed",
 			"bookingButtonText": "Enroll Now",
-			"bookingButtonLink": "http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx"
+			"bookingButtonLink": "/book-now"
 		}
 	},
 	{
@@ -65,7 +65,7 @@
 			"infoButtonText":  "More Info",
 			"infoButtonLink": "/events/project-10-10",
 			"bookingButtonText": "Enroll Now",
-			"bookingButtonLink": "http://brianjacobsgolf.uschedule.com/OnlineAppointments.aspx"
+			"bookingButtonLink": "/book-now"
 		}
 	},
 	{
