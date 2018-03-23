@@ -194,7 +194,7 @@
 				</div>
 			</div> --}}
 
-			<p class="tw-text-grey-dark tw-mt-8"><em>*All Performance Coaching series come with a 1 year subscription to the Golf Channel Academy digital magazine as well as discounts on premier equipment and soft goods.</em></p>
+			<p class="tw-text-grey-dark tw-mt-8"><em>*All Performance Coaching series come with discounts on premier equipment and soft goods.</em></p>
 
 			<h2>Other Services</h2>
 
