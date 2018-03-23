@@ -1084,6 +1084,8 @@ a.thumbnail:hover .svg-inline--fa {
 }
 
 .staff > .staff-item div:first-child {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   margin-right: 2rem;
 }
 
