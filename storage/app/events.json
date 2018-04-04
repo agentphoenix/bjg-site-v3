@@ -1,13 +1,36 @@
 [
 	{
+		"name": "PGA Junior Golf Camps",
+		"location": "Ridgemont Country Club",
+		"schedule": "Summer 2018",
+		"start_date": "06/25/2018",
+		"end_date": "08/11/2018",
+		"slug": "junior-golf-camps-summer-2018",
+		"summary": "With the unofficial start the golf season upon us, now is the time to register for a PGA Junior Golf Camp at Ridgemont Country Club, under the supervision of PGA Professional Brian Jacobs.</p><p>The comprehensive curriculum, developed by the PGA of America, teaches the fundamentals, including full swing, short game, rules and etiquette instruction. More importantly, camps emphasize skill development and fun by incorporating both on-course play and off-course games. We help your child fall in love with a game they will enjoy for a lifetime.",
+		"details": "<ul><li><strong>June 25th - 29th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>July 16th - 20th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>August 6th - 10th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li></ul><p>Be sure to act fast, as space is limited!</p>",
+		"pricing": "Starting at $65 <small>per student/day</small>",
+		"featured": true,
+		"featuredSort": 3,
+		"images": {
+			"thumbnail": "Camps - Putting.jpg",
+			"full": "Camps - Putting.jpg"
+		},
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "/events/junior-golf-camps-summer-2018",
+			"bookingButtonText": "Register Today",
+			"bookingButtonLink": "http://pgajuniorgolfcamps.com/"
+		}
+	},
+	{
 		"name": "A Night Out with Michael Breed",
 		"location": "Grand Ballroom, Ridgemont Country Club",
 		"schedule": "April 20th from 6:30pm to 8:30pm",
 		"start_date": "04/20/2018",
 		"end_date": "04/21/2018",
 		"slug": "night-out-with-michael-breed",
-		"summary": "Don't miss this one-time event with Brian Jacobs and Michael Breed for a night of fun and golf to benefit the WNYPGA Helping Our Patriots Everywhere (HOPE). Space is limited, so be sure to secure your spot today!",
-		"details": "<div class=\"alert alert-info\">More details coming soon!</div>",
+		"summary": "Don't miss this one-time event with Brian Jacobs and Michael Breed for a night of fun and golf to benefit the WNYPGA Helping Our Patriots Everywhere (HOPE). Space is limited, so be sure to secure your spot today!<div class=\"alert alert-info\">If you can't attend but would still like to donate to WNYPGA HOPE, you can do so by enrolling in <a href='https://www.golfmds.com/clinics/UafQJKdc/' class='alert-link' target='_blank'>this event</a>.</div>",
+		"details": "",
 		"pricing": "$100 <small>per person</small>",
 		"featured": true,
 		"featuredSort": 1,
