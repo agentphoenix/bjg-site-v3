@@ -15,7 +15,7 @@
 			<h4 class="event__subtitle">{{ $event['location'] }}</h4>
 		@endif
 
-		<p>{{ $event['summary'] }}</p>
+		<p>{!! $event['summary'] !!}</p>
 
 		@if (! empty($event['pricing']))
 			<h3>{!! $event['pricing'] !!}</h3>

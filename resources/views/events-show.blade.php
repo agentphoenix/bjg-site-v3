@@ -20,7 +20,7 @@
 						<h4 class="event__subtitle">{{ $ev['location'] }}</h4>
 					@endif
 
-					<p>{{ $ev['summary'] }}</p>
+					<p>{!! $ev['summary'] !!}</p>
 
 					<h3>{!! $ev['pricing'] !!}</h3>
 
