@@ -118,7 +118,7 @@
 						<h3 class="tw-font-medium tw-text-green-dark">Golf Channel Academy Club</h3>
 						<ul class="tw-text-grey-darker">
 							<li>Schedule as many private lessons as you want per month</li>
-							<li>6 month commitment required</li>
+							<li>12 month commitment required</li>
 							<li>1 Brian Jacobs Golf Foot Joy solid color golf shirt</li>
 						</ul>
 					</div>
