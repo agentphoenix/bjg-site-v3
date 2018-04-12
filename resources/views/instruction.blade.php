@@ -80,12 +80,13 @@
 					</div>
 				</div> --}}
 
+				<a name="project85"></a>
 				<div class="tw-mb-8 tw-flex-1 md:tw-mb-0 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
 					<div class="tw-px-8 tw-py-6">
 						<h3 class="tw-font-medium tw-text-green-dark">Project 85</h3>
 
-						<div class="tw-flex">
-							<div class="tw-w-1/2 tw-mr-8">
+						<div class="tw-flex tw-flex-col md:tw-flex-row">
+							<div class="tw-w-full tw-mb-8 md:tw-w-1/2 md:tw-mr-8 md:tw-mb-0">
 								<p class="tw-text-grey-darker">Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to know:</p>
 
 								<dl class="tw-text-grey-darker tw-mb-4">
@@ -99,10 +100,12 @@
 									<dd class="tw-text-grey-dark">How do you change to be your best?</dd>
 								</dl>
 
-								<p class="tw-text-grey-darker tw-mb-4">If you want the answers to these questions, Project 85 is the program is for you! Don't wait though, only <strong>9 students</strong> will be allowed into this program!</p>
+								<p class="tw-text-grey-darker tw-mb-6">If you want the answers to these questions, Project 85 is the program is for you! Don't wait though, only <strong>9 students</strong> will be allowed into this program!</p>
+
+								<a href="{{ route('book-now') }}" class="btn btn-primary btn-lg">Enroll Today</a>
 							</div>
 
-							<div class="tw-w-1/2 tw-ml-8">
+							<div class="tw-w-full md:tw-w-1/2 md:tw-ml-8">
 								<dl class="tw-text-grey-darker tw-mb-4">
 									<dt>Project 85 Includes:</dt>
 

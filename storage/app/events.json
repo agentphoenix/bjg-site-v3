@@ -1,5 +1,28 @@
 [
 	{
+		"name": "Project 85",
+		"location": "Ridgemont Country Club",
+		"schedule": "Starting May 21st",
+		"start_date": "05/21/2018",
+		"end_date": "06/21/2018",
+		"slug": "project-85-spring-2018",
+		"summary": "Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to know: why you do the things you do, what you can do to fix them, and how to change to be your best. If you want the answers to these questions, Project 85 is the program is for you! Don't wait though, space is limited!",
+		"details": "",
+		"pricing": "$1,000",
+		"featured": true,
+		"featuredSort": 2,
+		"images": {
+			"thumbnail": "teaching4.jpg",
+			"full": "teaching4.jpg"
+		},
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "/instruction#project85",
+			"bookingButtonText": "Enroll Today",
+			"bookingButtonLink": "/book-now"
+		}
+	},
+	{
 		"name": "PGA Junior Golf Camps",
 		"location": "Ridgemont Country Club",
 		"schedule": "Summer 2018",
@@ -78,7 +101,7 @@
 		"summary": "At Brian Jacobs Golf, our goal is to give golfers the consistency they’ve always wanted. Why not let some of the best instructors in the area help you create a new tradition – lower scores and consistent play. We are offering you a limited time opportunity to not only learn how to play and practice, but also have supervised practice as you go!",
 		"details": "<p class=\"lead\">Start a New Tradition</p><p>Finally! Take a major step with your golf game. Add consistency to your game with Golf Channel Academy at Brian Jacobs Golf.</p><p>There are few great traditions in sports like the beginning of major season in golf. It leaves so many viewers with the passion to get back out to the course and play the game. Still, both casual and competitive golfers struggle to find their form when teeing it up after some time away from golf.</p><p>At Brian Jacobs Golf, our goal is to give golfers the consistency they’ve always wanted and that includes you. Why not let some of the best instructors in the area help you create a new tradition – lower scores and consistent play.</p><p>We are offering you a limited time opportunity to not only learn how to play and practice but also have supervised practice as you go!</p><p>Purchase our 10/10 program for only $2,850 and you receive ten 60 minute coaching sessions and ten 30 minute supervised practice sessions.</p><p class=\"lead\"><strong>Decide. Commit. Succeed.</strong></p><p class=\"text-muted text-sm\">*Balance must be used within 6 months of start date<br>**Coaching and supervised practice may conjoin or be separated<br>***Full payment is expected at outset of program</p>",
 		"pricing": "$2,850",
-		"featured": true,
+		"featured": false,
 		"featuredSort": 3,
 		"images": {
 			"thumbnail": "teaching4.jpg",
