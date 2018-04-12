@@ -86,7 +86,7 @@
 
 						<div class="tw-flex">
 							<div class="tw-w-1/2 tw-mr-8">
-								<p class="tw-text-grey-darker">Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to do:</p>
+								<p class="tw-text-grey-darker">Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to know:</p>
 
 								<dl class="tw-text-grey-darker tw-mb-4">
 									<dt>Know the <em class="tw-text-green-dark">why</em></dt>
