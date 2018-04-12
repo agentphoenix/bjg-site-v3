@@ -62,7 +62,7 @@
 			<h2>Performance Coaching</h2>
 
 			<div class="tw-flex tw-flex-col tw-justify-between md:tw-flex-row">
-				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
+				{{-- <div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
 					<div class="tw-px-8 tw-py-6">
 						<h3 class="tw-font-medium tw-text-green-dark">Project 95</h3>
 						<ul class="tw-text-grey-darker">
@@ -78,23 +78,58 @@
 					<div class="tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around">
 						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$390 <small class="tw-text-grey-dark">per month</small></h3>
 					</div>
-				</div>
+				</div> --}}
 
-				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-ml-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
+				<div class="tw-mb-8 tw-flex-1 md:tw-mb-0 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
 					<div class="tw-px-8 tw-py-6">
 						<h3 class="tw-font-medium tw-text-green-dark">Project 85</h3>
-						<ul class="tw-text-grey-darker">
-							<li>Full game assessment</li>
-							<li>2 60-minute private coaching sessions per month (every other week)</li>
-							<li>On-course time with your coach (subject to course availability)</li>
-							<li>Free Shot-by-Shot account for stat tracking</li>
-							<li>1 Foot Joy Brian Jacobs Golf staff golf shirt</li>
-							<li>Weekly gameplan to break 85</li>
-							<li>6 month commitment</li>
-						</ul>
+
+						<div class="tw-flex">
+							<div class="tw-w-1/2 tw-mr-8">
+								<p class="tw-text-grey-darker">Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to do:</p>
+
+								<dl class="tw-text-grey-darker tw-mb-4">
+									<dt>Know the <em class="tw-text-green-dark">why</em></dt>
+									<dd class="tw-text-grey-dark">Why do you do what you do?</dd>
+
+									<dt>Know the <em class="tw-text-green-dark">what</em></dt>
+									<dd class="tw-text-grey-dark">What do you do to change your errors?</dd>
+
+									<dt>Know the <em class="tw-text-green-dark">how</em></dt>
+									<dd class="tw-text-grey-dark">How do you change to be your best?</dd>
+								</dl>
+
+								<p class="tw-text-grey-darker tw-mb-4">If you want the answers to these questions, Project 85 is the program is for you! Don't wait though, only <strong>9 students</strong> will be allowed into this program!</p>
+							</div>
+
+							<div class="tw-w-1/2 tw-ml-8">
+								<dl class="tw-text-grey-darker tw-mb-4">
+									<dt>Project 85 Includes:</dt>
+
+									<dd class="tw-mb-2">A 60-minute one-on-one assessment</dd>
+									<dd class="tw-mb-2">Four 60-minute group coaching sessions</dd>
+									<dd class="tw-mb-2">Four 30-minute group coaching practice sessions</dd>
+									<dd class="tw-mb-2">One 60-minute one-on-one coaching session</dd>
+									<dd class="tw-mb-2">Two accompanied 9 holes with 3 other golfers</dd>
+								</dl>
+
+								<dl class="tw-text-grey-darker tw-mb-4">
+									<dt>Group Coaching</dt>
+									<dd>Mondays from 6-7pm (5/21, 6/4, 6/11, 6/18)</dd>
+
+									<dt>Group Practice</dt>
+									<dd>Thursdays from 6-7pm (5/31, 6/7, 6/14, 6/21)</dd>
+								</dl>
+
+								<p class="tw-text-grey-dark tw-text-xl">
+									Assessment/coaching session/two 9 hole plays - TBD by client schedule<br>
+									Assessment must be completed prior to 5/21 by all students
+								</p>
+							</div>
+						</div>
 					</div>
 					<div class="tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around">
-						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$380 <small class="tw-text-grey-dark">per month</small></h3>
+						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$1,000</h3>
 					</div>
 				</div>
 			</div>
