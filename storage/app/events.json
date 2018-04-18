@@ -1,12 +1,12 @@
 [
 	{
-		"name": "Project 85",
+		"name": "Break 85",
 		"location": "Ridgemont Country Club",
 		"schedule": "Starting May 21st",
 		"start_date": "05/21/2018",
 		"end_date": "06/21/2018",
-		"slug": "project-85-spring-2018",
-		"summary": "Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to know: why you do the things you do, what you can do to fix them, and how to change to be your best. If you want the answers to these questions, Project 85 is the program is for you! Don't wait though, space is limited!",
+		"slug": "break-85-spring-2018",
+		"summary": "Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to know: why you do the things you do, what you can do to fix them, and how to change to be your best. If you want the answers to these questions, Break 85 is the program is for you! Don't wait though, space is limited!",
 		"details": "",
 		"pricing": "$1,000",
 		"featured": true,
@@ -17,7 +17,7 @@
 		},
 		"links": {
 			"infoButtonText":  "More Info",
-			"infoButtonLink": "/instruction#project85",
+			"infoButtonLink": "/instruction#break85",
 			"bookingButtonText": "Enroll Today",
 			"bookingButtonLink": "/book-now"
 		}
