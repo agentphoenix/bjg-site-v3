@@ -1,5 +1,51 @@
 [
 	{
+		"name": "Wedge Wonderful",
+		"location": "Ridgemont Country Club",
+		"schedule": "May 17th, June 7th, June 28th",
+		"start_date": "05/17/2018",
+		"end_date": "06/28/2018",
+		"slug": "wedge-wonderful-2018",
+		"summary": "Want to make solid contact on all chip shots, and all pitch shots? Learn how to control your trajectory? Develop control of your carry distance? Learn to predict your roll out distance? Wedge Wonderful is for you!",
+		"details": "<p>Realize immediate results from these 90 Minute for $99 per person per session, Group Instruction with PGA Golf Channel Lead Instructor Brian Jacobs. You can attend one, two, or all of these great sessions!</p><ul><li><strong>Session 1</strong> &ndash; What wedge and why?</li><li><strong>Session 2</strong> &ndash; Reach new heights!</li><li><strong>Session 3</strong> &ndash; I love land but I also love sand!</li></ul>",
+		"pricing": "$99 <small>per session</small>",
+		"featured": true,
+		"featuredSort": 2,
+		"images": {
+			"thumbnail": "DSC_3958.jpg",
+			"full": "DSC_3958.jpg"
+		},
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "/events/wedge-wonderful-2018",
+			"bookingButtonText": "Enroll Today",
+			"bookingButtonLink": "/book-now"
+		}
+	},
+	{
+		"name": "No More Slice!",
+		"location": "Ridgemont Country Club",
+		"schedule": "May 22nd, June 12th, June 26th",
+		"start_date": "05/22/2018",
+		"end_date": "06/26/2018",
+		"slug": "no-more-slice-2018",
+		"summary": "Want to fix your slice? This is the group series for you! Eliminate your slice, guaranteed! Learn why you slice and the correction. Learn how to control your golf ball and keep control. Hit more fairways and have more fun!",
+		"details": "<p>Realize immediate results from these 90 Minute for $99 per person per session, Group Instruction with PGA Golf Channel Lead Instructor Brian Jacobs. You can attend one, two, or all of these great sessions!</p><ul><li><strong>Session 1</strong> &ndash; The \"OH NO\" zone (the science behind the slice and the slicers mind)</li><li><strong>Session 2</strong> &ndash; From fantasy to fix!</li><li><strong>Session 3</strong> &ndash; Practice like you play! Games for best practice!</li></ul>",
+		"pricing": "$99 <small>per session</small>",
+		"featured": true,
+		"featuredSort": 3,
+		"images": {
+			"thumbnail": "teaching-1.jpg",
+			"full": "teaching-1.jpg"
+		},
+		"links": {
+			"infoButtonText":  "More Info",
+			"infoButtonLink": "/events/no-more-slice-2018",
+			"bookingButtonText": "Enroll Today",
+			"bookingButtonLink": "/book-now"
+		}
+	},
+	{
 		"name": "Break 85",
 		"location": "Ridgemont Country Club",
 		"schedule": "Starting May 21st",
@@ -10,7 +56,7 @@
 		"details": "",
 		"pricing": "$1,000",
 		"featured": true,
-		"featuredSort": 2,
+		"featuredSort": 1,
 		"images": {
 			"thumbnail": "teaching4.jpg",
 			"full": "teaching4.jpg"
@@ -33,7 +79,7 @@
 		"details": "<ul><li><strong>June 25th - 29th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>July 16th - 20th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>August 6th - 10th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li></ul><p>Be sure to act fast, as space is limited!</p>",
 		"pricing": "Starting at $65 <small>per student/day</small>",
 		"featured": true,
-		"featuredSort": 3,
+		"featuredSort": 4,
 		"images": {
 			"thumbnail": "Camps - Putting.jpg",
 			"full": "Camps - Putting.jpg"
@@ -101,7 +147,7 @@
 		"summary": "At Brian Jacobs Golf, our goal is to give golfers the consistency they’ve always wanted. Why not let some of the best instructors in the area help you create a new tradition – lower scores and consistent play. We are offering you a limited time opportunity to not only learn how to play and practice, but also have supervised practice as you go!",
 		"details": "<p class=\"lead\">Start a New Tradition</p><p>Finally! Take a major step with your golf game. Add consistency to your game with Golf Channel Academy at Brian Jacobs Golf.</p><p>There are few great traditions in sports like the beginning of major season in golf. It leaves so many viewers with the passion to get back out to the course and play the game. Still, both casual and competitive golfers struggle to find their form when teeing it up after some time away from golf.</p><p>At Brian Jacobs Golf, our goal is to give golfers the consistency they’ve always wanted and that includes you. Why not let some of the best instructors in the area help you create a new tradition – lower scores and consistent play.</p><p>We are offering you a limited time opportunity to not only learn how to play and practice but also have supervised practice as you go!</p><p>Purchase our 10/10 program for only $2,850 and you receive ten 60 minute coaching sessions and ten 30 minute supervised practice sessions.</p><p class=\"lead\"><strong>Decide. Commit. Succeed.</strong></p><p class=\"text-muted text-sm\">*Balance must be used within 6 months of start date<br>**Coaching and supervised practice may conjoin or be separated<br>***Full payment is expected at outset of program</p>",
 		"pricing": "$2,850",
-		"featured": true,
+		"featured": false,
 		"featuredSort": 3,
 		"images": {
 			"thumbnail": "teaching4.jpg",
