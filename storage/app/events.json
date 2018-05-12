@@ -1,5 +1,28 @@
 [
 	{
+		"name": "Golf Channel Academy Golf Schools",
+		"location": "Ridgemont Country Club",
+		"schedule": "June 27th, 2018 from 9am to 5pm",
+		"start_date": "06/27/2018",
+		"end_date": "06/28/2018",
+		"slug": "gca-golf-schools-2018",
+		"summary": "Bring your friends for a special private golf school at Brian Jacobs Golf! Not only will you get instruction, but you'll get lunch and have the chance to play Ridgemont Country Club with your friends! Don't miss this unique golf instruction opportunity.",
+		"details": "<dl><dt>1-3 students</dt><dd>Arrange your own group</dd><dt>3 hours of instruction</dt><dd>Warm up at 8:30am</dd><dd>Instruction from 9am to 12pm</dd><dd>TrackMan Analysis included</dd><dt>Lunch (Pub menu only)</dt><dt>18 holes at Ridgemont Country Club</dt><dd>Golf cart included</dd><dd>On course instruction with Golf Channel Lead Instructor Brian Jacobs</dd><dd>On course analysis and coaching with Mental Conditioning Coach Dr. Stephen Gonzalez</dd><dt>Custom club fitting (Additional Cost)</dt><dd>$150 for a complete bag fitting</dd><dd>$95 for irons or driver fitting</dd></dl>",
+		"pricing": "$2,500",
+		"featured": true,
+		"featuredSort": 1,
+		"images": {
+			"thumbnail": "5a906a408cbc9.jpg",
+			"full": "5a906a408cbc9.jpg"
+		},
+		"links": {
+			"infoButtonText": "More Info",
+			"infoButtonLink": "/events/gca-golf-schools-2018",
+			"bookingButtonText": "Enroll Today",
+			"bookingButtonLink": "/book-now"
+		}
+	},
+	{
 		"name": "Wedge Wonderful",
 		"location": "Ridgemont Country Club",
 		"schedule": "May 17th, June 7th, June 28th",
@@ -10,7 +33,7 @@
 		"details": "<p>Realize immediate results from these 90 Minute for $99 per person per session, Group Instruction with PGA Golf Channel Lead Instructor Brian Jacobs. You can attend one, two, or all of these great sessions!</p><ul><li><strong>Session 1</strong> &ndash; What wedge and why?</li><li><strong>Session 2</strong> &ndash; Reach new heights!</li><li><strong>Session 3</strong> &ndash; I love land but I also love sand!</li></ul>",
 		"pricing": "$99 <small>per session</small>",
 		"featured": true,
-		"featuredSort": 2,
+		"featuredSort": 3,
 		"images": {
 			"thumbnail": "DSC_3958.jpg",
 			"full": "DSC_3958.jpg"
@@ -33,7 +56,7 @@
 		"details": "<p>Realize immediate results from these 90 Minute for $99 per person per session, Group Instruction with PGA Golf Channel Lead Instructor Brian Jacobs. You can attend one, two, or all of these great sessions!</p><ul><li><strong>Session 1</strong> &ndash; The \"OH NO\" zone (the science behind the slice and the slicers mind)</li><li><strong>Session 2</strong> &ndash; From fantasy to fix!</li><li><strong>Session 3</strong> &ndash; Practice like you play! Games for best practice!</li></ul>",
 		"pricing": "$99 <small>per session</small>",
 		"featured": true,
-		"featuredSort": 3,
+		"featuredSort": 4,
 		"images": {
 			"thumbnail": "teaching-1.jpg",
 			"full": "teaching-1.jpg"
@@ -56,7 +79,7 @@
 		"details": "",
 		"pricing": "$1,000",
 		"featured": true,
-		"featuredSort": 1,
+		"featuredSort": 2,
 		"images": {
 			"thumbnail": "teaching4.jpg",
 			"full": "teaching4.jpg"
@@ -78,7 +101,7 @@
 		"summary": "With the unofficial start the golf season upon us, now is the time to register for a PGA Junior Golf Camp at Ridgemont Country Club, under the supervision of PGA Professional Brian Jacobs.</p><p>The comprehensive curriculum, developed by the PGA of America, teaches the fundamentals, including full swing, short game, rules and etiquette instruction. More importantly, camps emphasize skill development and fun by incorporating both on-course play and off-course games. We help your child fall in love with a game they will enjoy for a lifetime.",
 		"details": "<ul><li><strong>June 25th - 29th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>July 16th - 20th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>August 6th - 10th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li></ul><p>Be sure to act fast, as space is limited!</p>",
 		"pricing": "Starting at $65 <small>per student/day</small>",
-		"featured": true,
+		"featured": false,
 		"featuredSort": 4,
 		"images": {
 			"thumbnail": "Camps - Putting.jpg",
