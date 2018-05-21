@@ -61,25 +61,7 @@
 
 			<h2>Performance Coaching</h2>
 
-			<div class="tw-flex tw-flex-col tw-justify-between md:tw-flex-row">
-				{{-- <div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
-					<div class="tw-px-8 tw-py-6">
-						<h3 class="tw-font-medium tw-text-green-dark">Project 95</h3>
-						<ul class="tw-text-grey-darker">
-							<li>Full game assessment</li>
-							<li>2 60-minute private coaching sessions per month (every other week)</li>
-							<li>On-course time with your coach (subject to course availability)</li>
-							<li>Free Shot-by-Shot account for stat tracking</li>
-							<li>1 Foot Joy Brian Jacobs Golf staff golf shirt</li>
-							<li>Weekly gameplan to break 95</li>
-							<li>3 month commitment</li>
-						</ul>
-					</div>
-					<div class="tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around">
-						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$390 <small class="tw-text-grey-dark">per month</small></h3>
-					</div>
-				</div> --}}
-
+			{{-- <div class="tw-flex tw-flex-col tw-justify-between md:tw-flex-row">
 				<a name="break85"></a>
 				<div class="tw-mb-8 tw-flex-1 md:tw-mb-0 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
 					<div class="tw-px-8 tw-py-6">
@@ -135,7 +117,7 @@
 						<h3 class="tw-mb-0 tw-text-center tw-text-grey-darker">$1,000</h3>
 					</div>
 				</div>
-			</div>
+			</div> --}}
 
 			<div class="tw-flex tw-flex-col tw-justify-between md:tw-flex-row md:tw-mt-12">
 				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">

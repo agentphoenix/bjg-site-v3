@@ -1,5 +1,51 @@
 [
 	{
+		"name": "Pints, Pitches, and Psych",
+		"location": "Ridgemont Country Club",
+		"schedule": "June 22nd, July 13th, July 27th from 7pm to 8:30pm",
+		"start_date": "6/22/2018",
+		"end_date": "07/27/2018",
+		"slug": "pints-pitches-psych",
+		"summary": "In these 90-minute events, we'll be coaching all participants on how to improve their golf games. Industry-leading mental conditioning coach Dr. Stephen Gonzalez will be joining us to help you with the mental aspect of your golf game. Come on out, enjoy a pint of our finest ale, and learn how to improve your game!",
+		"details": "Admission includes one incredible pint of ale, swing coaching by Lead Golf Channel Academy Coach Brian Jacobs and mental conditioning with World Known Sports Psychologist Dr. Stephen Gonzalez. June 22nd's session will focus on wedges, July 13th's session will focus on the driver, and the final session on July 27th will focus on putting.",
+		"pricing": "$50 <small>per session</small>",
+		"featured": true,
+		"featuredSort": 4,
+		"images": {
+			"thumbnail": "draftsanddrives1.jpg",
+			"full": "draftsanddrives1.jpg"
+		},
+		"links": {
+			"infoButtonText": "More Info",
+			"infoButtonLink": "/events/pints-pitches-psych",
+			"bookingButtonText": "Book Now",
+			"bookingButtonLink": "/book-now"
+		}
+	},
+	{
+		"name": "Ladies Academy",
+		"location": "Ridgemont Country Club",
+		"schedule": "Starting June 11th, 2018 from 6pm to 7pm",
+		"start_date": "06/11/2018",
+		"end_date": "07/30/2018",
+		"slug": "ladies-academy-2018",
+		"summary": "At last ladies, we have the program just for you! Learn to play golf the right way from the green back to the tee. Instruction and play in a supportive learning environment with like-minded women!",
+		"details": "<div class=\"tw-flex tw-flex-col tw-justify-between md:tw-flex-row md:tw-my-12\"><div class=\"tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between\"><div class=\"tw-px-8 tw-py-6\"><h4 class=\"tw-font-medium tw-text-green-dark\">Academy Package</h4><ul class=\"tw-text-grey-darker\"><li>8 Academy classes</li></ul></div><div class=\"tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around\"><h3 class=\"tw-mb-0 tw-text-center tw-text-grey-darker\">$240</h3></div></div><div class=\"tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between\"><div class=\"tw-px-8 tw-py-6\"><h4 class=\"tw-font-medium tw-text-green-dark\">Player Package</h4><ul class=\"tw-text-grey-darker\"><li>8 Academy classes</li><li>4 Operation 36 matches</li></ul></div><div class=\"tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around\"><h3 class=\"tw-mb-0 tw-text-center tw-text-grey-darker\">$340</h3></div></div><div class=\"tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between\"><div class=\"tw-px-8 tw-py-6\"><h4 class=\"tw-font-medium tw-text-green-dark\">Mini-Tour Package</h4><ul class=\"tw-text-grey-darker\"><li>8 Academy classes</li><li>4 Operation 36 matches</li><li>8 supervised practices</li></ul></div><div class=\"tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around\"><h3 class=\"tw-mb-0 tw-text-center tw-text-grey-darker\">$500</h3></div></div><div class=\"tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-mr-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between\"><div class=\"tw-px-8 tw-py-6\"><h4 class=\"tw-font-medium tw-text-green-dark\">Tour Package</h4><ul class=\"tw-text-grey-darker\"><li>8 Academy classes</li><li>4 Operation 36 matches</li><li>8 supervised practices</li><li>2 45-minute private lesssons</li></ul></div><div class=\"tw-bg-grey-lighter tw-rounded-b tw-py-6 tw-px-8 tw-text-grey-dark tw-flex tw-justify-around\"><h3 class=\"tw-mb-0 tw-text-center tw-text-grey-darker\">$600</h3></div></div></div><iframe src='https://player.vimeo.com/video/245049319?title=0&byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+		"pricing": "Starting at $240 <small>per semester</small>",
+		"featured": true,
+		"featuredSort": 1,
+		"images": {
+			"thumbnail": "ladies-golfing.jpg",
+			"full": "ladies-golfing.jpg"
+		},
+		"links": {
+			"infoButtonText": "More Info",
+			"infoButtonLink": "/events/ladies-academy-2018",
+			"bookingButtonText": "Enroll Today",
+			"bookingButtonLink": "/book-now"
+		}
+	},
+	{
 		"name": "Golf Channel Academy Golf Schools",
 		"location": "Ridgemont Country Club",
 		"schedule": "June 27th, 2018 from 9am to 5pm",
@@ -10,7 +56,7 @@
 		"details": "<dl><dt>1-3 students</dt><dd>Arrange your own group</dd><dt>3 hours of instruction</dt><dd>Warm up at 8:30am</dd><dd>Instruction from 9am to 12pm</dd><dd>TrackMan Analysis included</dd><dt>Lunch (Pub menu only)</dt><dt>18 holes at Ridgemont Country Club</dt><dd>Golf cart included</dd><dd>On course instruction with Golf Channel Lead Instructor Brian Jacobs</dd><dd>On course analysis and coaching with Mental Conditioning Coach Dr. Stephen Gonzalez</dd><dt>Custom club fitting (Additional Cost)</dt><dd>$150 for a complete bag fitting</dd><dd>$95 for irons or driver fitting</dd></dl>",
 		"pricing": "$2,500",
 		"featured": true,
-		"featuredSort": 1,
+		"featuredSort": 2,
 		"images": {
 			"thumbnail": "5a906a408cbc9.jpg",
 			"full": "5a906a408cbc9.jpg"
@@ -32,7 +78,7 @@
 		"summary": "Want to make solid contact on all chip shots, and all pitch shots? Learn how to control your trajectory? Develop control of your carry distance? Learn to predict your roll out distance? Wedge Wonderful is for you!",
 		"details": "<p>Realize immediate results from these 90 Minute for $99 per person per session, Group Instruction with PGA Golf Channel Lead Instructor Brian Jacobs. You can attend one, two, or all of these great sessions!</p><ul><li><strong>Session 1</strong> &ndash; What wedge and why?</li><li><strong>Session 2</strong> &ndash; Reach new heights!</li><li><strong>Session 3</strong> &ndash; I love land but I also love sand!</li></ul>",
 		"pricing": "$99 <small>per session</small>",
-		"featured": true,
+		"featured": false,
 		"featuredSort": 3,
 		"images": {
 			"thumbnail": "DSC_3958.jpg",
@@ -55,7 +101,7 @@
 		"summary": "Want to fix your slice? This is the group series for you! Eliminate your slice, guaranteed! Learn why you slice and the correction. Learn how to control your golf ball and keep control. Hit more fairways and have more fun!",
 		"details": "<p>Realize immediate results from these 90 Minute for $99 per person per session, Group Instruction with PGA Golf Channel Lead Instructor Brian Jacobs. You can attend one, two, or all of these great sessions!</p><ul><li><strong>Session 1</strong> &ndash; The \"OH NO\" zone (the science behind the slice and the slicers mind)</li><li><strong>Session 2</strong> &ndash; From fantasy to fix!</li><li><strong>Session 3</strong> &ndash; Practice like you play! Games for best practice!</li></ul>",
 		"pricing": "$99 <small>per session</small>",
-		"featured": true,
+		"featured": false,
 		"featuredSort": 4,
 		"images": {
 			"thumbnail": "teaching-1.jpg",
@@ -64,29 +110,6 @@
 		"links": {
 			"infoButtonText":  "More Info",
 			"infoButtonLink": "/events/no-more-slice-2018",
-			"bookingButtonText": "Enroll Today",
-			"bookingButtonLink": "/book-now"
-		}
-	},
-	{
-		"name": "Break 85",
-		"location": "Ridgemont Country Club",
-		"schedule": "Starting May 21st",
-		"start_date": "05/21/2018",
-		"end_date": "06/21/2018",
-		"slug": "break-85-spring-2018",
-		"summary": "Do you want to shoot the best scores of your golf career? Before you can achieve that goal, there are a few things you need to know: why you do the things you do, what you can do to fix them, and how to change to be your best. If you want the answers to these questions, Break 85 is the program is for you! Don't wait though, space is limited!",
-		"details": "",
-		"pricing": "$1,000",
-		"featured": true,
-		"featuredSort": 2,
-		"images": {
-			"thumbnail": "teaching4.jpg",
-			"full": "teaching4.jpg"
-		},
-		"links": {
-			"infoButtonText":  "More Info",
-			"infoButtonLink": "/instruction#break85",
 			"bookingButtonText": "Enroll Today",
 			"bookingButtonLink": "/book-now"
 		}
@@ -101,8 +124,8 @@
 		"summary": "With the unofficial start the golf season upon us, now is the time to register for a PGA Junior Golf Camp at Ridgemont Country Club, under the supervision of PGA Professional Brian Jacobs.</p><p>The comprehensive curriculum, developed by the PGA of America, teaches the fundamentals, including full swing, short game, rules and etiquette instruction. More importantly, camps emphasize skill development and fun by incorporating both on-course play and off-course games. We help your child fall in love with a game they will enjoy for a lifetime.",
 		"details": "<ul><li><strong>June 25th - 29th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>July 16th - 20th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li><li><strong>August 6th - 10th</strong><ul><li>Half-day &ndash; 9am-Noon, ages 7-13</li><li>Full-day &ndash; 9am-4pm, ages 9-16</li></ul></li></ul><p>Be sure to act fast, as space is limited!</p>",
 		"pricing": "Starting at $65 <small>per student/day</small>",
-		"featured": false,
-		"featuredSort": 4,
+		"featured": true,
+		"featuredSort": 3,
 		"images": {
 			"thumbnail": "Camps - Putting.jpg",
 			"full": "Camps - Putting.jpg"
@@ -204,29 +227,6 @@
 			"infoButtonLink": "/events/junior-golf-camps-holiday-2017",
 			"bookingButtonText": "Enroll Now",
 			"bookingButtonLink": "http://pgajuniorgolfcamps.com/"
-		}
-	},
-	{
-		"name": "Pints, Pitches, and Psych",
-		"location": "Avid Indoor Golf & Fitness",
-		"schedule": "Dec. 15th, Jan. 19th, Feb. 16th from 6pm to 8pm",
-		"start_date": "12/15/2017",
-		"end_date": "02/16/2018",
-		"slug": "pints-pitches-psych",
-		"summary": "In these two-hour events, we'll be coaching all participants on how to improve their golf games. Industry-leading mental conditioning coach Dr. Stephen Gonzalez will be joining us to help you with the mental aspect of your golf game. Come on out, enjoy a pint of our finest ale, and learn how to improve your game!",
-		"details": "Admission includes one incredible pint of ale, swing coaching on simulator by Lead Golf Channel Academy Coach Brian Jacobs and mental conditioning with World Known Sports Psychologist Dr. Stephen Gonzalez.",
-		"pricing": "$50 <small>per session</small>",
-		"featured": true,
-		"featuredSort": 1,
-		"images": {
-			"thumbnail": "draftsanddrives1.jpg",
-			"full": "draftsanddrives1.jpg"
-		},
-		"links": {
-			"infoButtonText":  "More Info",
-			"infoButtonLink": "/events/pints-pitches-psych",
-			"bookingButtonText": "Contact Us to RSVP",
-			"bookingButtonLink": "https://brianjacobsgolf.com/contact"
 		}
 	}
 ]
