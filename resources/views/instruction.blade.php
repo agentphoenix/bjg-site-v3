@@ -135,7 +135,7 @@
 
 				<div class="tw-mb-8 md:tw-mb-0 md:tw-w-1/2 md:tw-ml-8 tw-rounded tw-shadow-lg tw-border-t-6 tw-border-green tw-flex tw-flex-col tw-justify-between">
 					<div class="tw-px-8 tw-py-6">
-						<h3 class="tw-font-medium tw-text-green-dark">Golf Channel Academy Club</h3>
+						<h3 class="tw-font-medium tw-text-green-dark">Brian Jacobs Golf Players Club</h3>
 						<ul class="tw-text-grey-darker">
 							<li>Schedule as many private lessons as you want per month</li>
 							<li>12 month commitment required</li>
